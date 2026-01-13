@@ -10,14 +10,17 @@ import google.generativeai as genai
 # --- Setup & Configuration ---
 st.set_page_config(page_title="Gemini Quiz Engine", layout="wide")
 
+# --- SPACY DOWNLOADER (With Loading Bar) ---
 @st.cache_resource
 def load_nlp():
     try:
         return spacy.load("en_core_web_sm")
     except OSError:
-        from spacy.cli import download
-        download("en_core_web_sm")
-        return spacy.load("en_core_web_sm")
+        # If model is missing, download it with a visual spinner
+        with st.spinner("Downloading AI Brain (this takes 1 minute)..."):
+            from spacy.cli import download
+            download("en_core_web_sm")
+            return spacy.load("en_core_web_sm")
 
 nlp = load_nlp()
 DB_FILE = "science_topics.json"
@@ -25,6 +28,7 @@ DB_FILE = "science_topics.json"
 # --- Backend Logic ---
 
 def load_data():
+    # Streamlit Cloud resets files on reboot, so we handle missing files gracefully
     if not os.path.exists(DB_FILE):
         return {"Biology": {}, "Chemistry": {}, "Physics": {}}
     with open(DB_FILE, "r") as f:
@@ -53,103 +57,61 @@ def extract_text(uploaded_file):
 
 # --- SELF-HEALING AI MODEL SELECTOR ---
 def get_working_model_name(api_key):
-    """Asks Google which models are actually available for this Key."""
     genai.configure(api_key=api_key)
     try:
-        # List all models
         models = genai.list_models()
-        # Find the first one that supports 'generateContent'
         for m in models:
             if 'generateContent' in m.supported_generation_methods:
-                # Prefer Flash or Pro if available
-                if 'flash' in m.name:
-                    return m.name
-                if 'pro' in m.name:
-                    return m.name
-        # Fallback if no specific preference found, just take the first valid one
-        for m in models:
-             if 'generateContent' in m.supported_generation_methods:
-                 return m.name
-        return None
-    except Exception as e:
+                if 'flash' in m.name: return m.name
+                if 'pro' in m.name: return m.name
+        return "models/gemini-pro" # Fallback
+    except Exception:
         return None
 
 # --- GENERATION LOGIC ---
 def generate_questions_gemini(text_content, api_key):
-    # 1. Find a working model dynamically
     model_name = get_working_model_name(api_key)
-    
     if not model_name:
-        st.error("❌ Could not find any available Gemini models for this API Key. Check your Key permissions.")
+        st.error("❌ API Key Error. Please check your key.")
         return []
     
-    # 2. Configure and Run
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel(model_name)
     
     prompt = f"""
-    You are a university examiner. Generate a rigorous question bank (30-40 questions).
+    Generate 30-40 rigorous quiz questions (MCQ, True/False, Blanks) from the text below.
+    Return ONLY raw JSON.
     
-    INSTRUCTIONS:
-    1. VARIATION: Test key concepts from multiple angles (Definition, True/False, Application).
-    2. FORMAT: JSON Only.
-    3. TYPES: "mcq", "true_false", "blank".
-    
-    OUTPUT JSON STRUCTURE:
+    JSON FORMAT:
     [
-      {{
-        "type": "mcq",
-        "question": "Question text?",
-        "options": ["A", "B", "C", "D"],
-        "answer": "B"
-      }},
-      {{
-        "type": "true_false",
-        "question": "Statement?",
-        "options": ["True", "False"],
-        "answer": "False"
-      }}
+      {{"type": "mcq", "question": "...", "options": ["A","B"], "answer": "A"}},
+      {{"type": "true_false", "question": "...", "options": ["True","False"], "answer": "True"}}
     ]
 
-    NOTES:
+    TEXT:
     {text_content[:15000]} 
     """
     try:
         response = model.generate_content(prompt)
-        cleaned_text = response.text.strip()
-        if cleaned_text.startswith("```"):
-            cleaned_text = cleaned_text.strip("`").replace("json\n", "").replace("json", "")
-        return json.loads(cleaned_text)
+        cleaned = response.text.strip().replace("```json", "").replace("```", "")
+        return json.loads(cleaned)
     except Exception as e:
-        st.error(f"Gemini Error ({model_name}): {e}")
+        st.error(f"AI Error: {e}")
         return []
 
 def generate_questions_spacy(text_content):
     doc = nlp(text_content)
     questions = []
-    all_nouns = [token.text for token in doc if token.pos_ in ["NOUN", "PROPN"] and len(token.text) > 3]
-    all_nouns = list(set(all_nouns))
-
     for sent in doc.sents:
-        sent_text = sent.text.strip().replace("\n", " ")
-        if len(sent_text) < 15: continue
-        target_tokens = [t for t in sent if t.pos_ in ["NOUN", "PROPN"] and len(t.text) > 3]
-        if not target_tokens: continue
-        target = random.choice(target_tokens)
-        answer = target.text
-        
-        q_type = random.choice(["mcq", "blank"])
-        if q_type == "blank":
-            questions.append({"type": "blank", "question": sent_text.replace(answer, "______"), "answer": answer})
-        elif q_type == "mcq" and len(all_nouns) >= 3:
-            distractors = random.sample([n for n in all_nouns if n != answer], 3)
-            options = distractors + [answer]
-            random.shuffle(options)
-            questions.append({"type": "mcq", "question": sent_text.replace(answer, "______"), "options": options, "answer": answer})
+        if len(sent.text) < 20: continue
+        nouns = [t.text for t in sent if t.pos_ in ["NOUN", "PROPN"] and len(t.text) > 3]
+        if nouns:
+            ans = random.choice(nouns)
+            questions.append({"type": "blank", "question": sent.text.replace(ans, "_____"), "answer": ans})
     return questions
 
 # --- Frontend ---
-st.title("🎓 Smart Quiz Engine (Self-Healing)")
+st.title("🎓 Smart Quiz Engine (Cloud Edition)")
 
 if "quiz_data" not in st.session_state: st.session_state.quiz_data = []
 if "score" not in st.session_state: st.session_state.score = 0
@@ -163,109 +125,62 @@ with st.sidebar:
     mode = st.radio("Mode", ["Take Quiz", "Add New Topic", "Manage Topics"])
     st.divider()
     api_key = st.text_input("Gemini API Key", type="password")
-    
-    if api_key:
-        if st.button("Check Connection"):
-            model_name = get_working_model_name(api_key)
-            if model_name:
-                st.success(f"✅ Connected! Using model: {model_name}")
-            else:
-                st.error("❌ Connection failed. Key might be invalid or no models available.")
+    if api_key and st.button("Check Connection"):
+        st.success("✅ Key Saved!")
 
 # MODE: ADD TOPIC
 if mode == "Add New Topic":
     st.subheader(f"Add {subject} Material")
     name = st.text_input("Topic Name")
-    uploaded_file = st.file_uploader("Upload PDF/PPTX", type=["pdf", "pptx"])
-    text_input = st.text_area("Or Paste Notes", height=150)
+    uploaded_file = st.file_uploader("Upload Notes", type=["pdf", "pptx"])
+    text_input = st.text_area("Or Paste Text", height=150)
     
-    if st.button("Generate Question Bank"):
+    if st.button("Generate Quiz"):
         full_text = ""
-        if uploaded_file:
-            extracted = extract_text(uploaded_file)
-            if extracted: full_text += extracted
-        if text_input:
-            full_text += "\n" + text_input
+        if uploaded_file: full_text += extract_text(uploaded_file)
+        if text_input: full_text += "\n" + text_input
             
-        if not full_text.strip() or not name:
-            st.error("Please provide a name and some text.")
-        else:
-            with st.spinner("🤖 AI is finding the best model & generating questions..."):
-                if api_key:
-                    qs = generate_questions_gemini(full_text, api_key)
-                    method = "Gemini AI"
-                else:
-                    qs = generate_questions_spacy(full_text)
-                    method = "Basic Logic"
-                
+        if full_text.strip():
+            with st.spinner("AI is reading your notes..."):
+                qs = generate_questions_gemini(full_text, api_key) if api_key else generate_questions_spacy(full_text)
                 if qs:
                     data[subject][name] = qs
                     save_data(data)
-                    st.success(f"Success! Saved {len(qs)} questions.")
+                    st.success(f"Generated {len(qs)} questions!")
                 else:
-                    st.error("Failed to generate questions.")
+                    st.error("Could not generate questions.")
 
 # MODE: TAKE QUIZ
 elif mode == "Take Quiz":
     topics = list(data[subject].keys())
-    if not topics:
-        st.info("No topics found.")
-    else:
-        topic = st.selectbox("Choose Topic", topics)
-        total_qs = len(data[subject][topic])
-        num_qs = st.slider("Questions in this quiz:", 1, total_qs, min(10, total_qs))
-        
+    if topics:
+        topic = st.selectbox("Topic", topics)
         if st.button("Start Quiz"):
-            dataset = data[subject][topic]
-            st.session_state.quiz_data = random.sample(dataset, min(num_qs, len(dataset)))
+            st.session_state.quiz_data = random.sample(data[subject][topic], min(10, len(data[subject][topic])))
             st.session_state.score = 0
             
         if st.session_state.quiz_data:
-            with st.form("quiz_form"):
+            with st.form("quiz"):
                 user_answers = {}
                 for i, q in enumerate(st.session_state.quiz_data):
-                    st.markdown(f"**{i+1}. {q['question']}**")
-                    
-                    if q['type'] == 'mcq' or q['type'] == 'true_false':
-                        user_answers[i] = st.radio("Select:", q['options'], key=i, index=None, label_visibility="collapsed")
+                    st.write(f"**{i+1}. {q['question']}**")
+                    if q['type'] in ['mcq', 'true_false']:
+                        user_answers[i] = st.radio("Select:", q['options'], key=i, index=None)
                     else:
-                        user_answers[i] = st.text_input("Answer:", key=i, label_visibility="collapsed")
-                    st.write("") 
-
-                submitted = st.form_submit_button("Submit Answers")
-                if submitted:
-                    score = 0
+                        user_answers[i] = st.text_input("Answer:", key=i)
                     st.divider()
-                    st.subheader("Results")
+                if st.form_submit_button("Submit"):
+                    score = 0
                     for i, q in enumerate(st.session_state.quiz_data):
-                        u_ans = user_answers[i]
-                        c_ans = q['answer']
-                        is_correct = False
-                        
-                        if u_ans is None or u_ans.strip() == "":
-                            is_correct = False
-                        elif q['type'] == 'mcq' or q['type'] == 'true_false':
-                            is_correct = (u_ans == c_ans)
-                        else:
-                            is_correct = (u_ans.strip().lower() in c_ans.lower())
-
-                        if is_correct:
+                        if user_answers[i] == q['answer'] or (q['type']=='blank' and user_answers[i].lower() in q['answer'].lower()):
                             score += 1
-                            st.success(f"Q{i+1}: Correct!")
-                        else:
-                            display_ans = u_ans if u_ans else "[No Answer]"
-                            st.error(f"Q{i+1}: Incorrect.\nYour Answer: {display_ans}\nCorrect Answer: {c_ans}")
-                    
-                    st.metric("Final Score", f"{score} / {len(st.session_state.quiz_data)}")
+                    st.metric("Score", f"{score}/{len(st.session_state.quiz_data)}")
+    else:
+        st.info("No quizzes yet. Go to 'Add New Topic' to create one!")
 
-# MODE: MANAGE
 elif mode == "Manage Topics":
-    st.subheader(f"Delete {subject} Topics")
-    topics = list(data[subject].keys())
-    for t in topics:
-        c1, c2 = st.columns([4,1])
-        c1.write(f"**{t}** ({len(data[subject][t])} qs)")
-        if c2.button("Delete", key=f"del_{t}"):
+    for t in data[subject]:
+        if st.button(f"Delete {t}", key=t):
             del data[subject][t]
             save_data(data)
             st.rerun()
