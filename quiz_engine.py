@@ -12,7 +12,12 @@ st.set_page_config(page_title="Gemini Quiz Engine", layout="wide")
 
 @st.cache_resource
 def load_nlp():
-    return spacy.load("en_core_web_sm")
+    try:
+        return spacy.load("en_core_web_sm")
+    except OSError:
+        from spacy.cli import download
+        download("en_core_web_sm")
+        return spacy.load("en_core_web_sm")
 
 nlp = load_nlp()
 DB_FILE = "science_topics.json"
