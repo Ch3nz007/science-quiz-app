@@ -1,34 +1,18 @@
 import streamlit as st
-import spacy
 import random
 import json
 import os
 from pypdf import PdfReader
 from pptx import Presentation
 import google.generativeai as genai
+import time
 
-# --- Setup & Configuration ---
+# --- Setup ---
 st.set_page_config(page_title="Gemini Quiz Engine", layout="wide")
-
-# --- SPACY DOWNLOADER (With Loading Bar) ---
-@st.cache_resource
-def load_nlp():
-    try:
-        return spacy.load("en_core_web_sm")
-    except OSError:
-        # If model is missing, download it with a visual spinner
-        with st.spinner("Downloading AI Brain (this takes 1 minute)..."):
-            from spacy.cli import download
-            download("en_core_web_sm")
-            return spacy.load("en_core_web_sm")
-
-nlp = load_nlp()
 DB_FILE = "science_topics.json"
 
-# --- Backend Logic ---
-
+# --- Backend ---
 def load_data():
-    # Streamlit Cloud resets files on reboot, so we handle missing files gracefully
     if not os.path.exists(DB_FILE):
         return {"Biology": {}, "Chemistry": {}, "Physics": {}}
     with open(DB_FILE, "r") as f:
@@ -43,80 +27,66 @@ def extract_text(uploaded_file):
     try:
         if uploaded_file.name.endswith('.pdf'):
             reader = PdfReader(uploaded_file)
-            for page in reader.pages:
-                text += page.extract_text() + "\n"
+            for page in reader.pages: text += page.extract_text() + "\n"
         elif uploaded_file.name.endswith('.pptx'):
             prs = Presentation(uploaded_file)
             for slide in prs.slides:
                 for shape in slide.shapes:
-                    if hasattr(shape, "text"):
-                        text += shape.text + "\n"
-    except Exception:
-        return None
+                    if hasattr(shape, "text"): text += shape.text + "\n"
+    except: return None
     return text
 
-# --- SELF-HEALING AI MODEL SELECTOR ---
-def get_working_model_name(api_key):
-    genai.configure(api_key=api_key)
+# --- DYNAMIC MODEL LISTER ---
+def get_available_models(api_key):
+    """Asks Google: 'What models can this user ACTUALLY use?'"""
+    if not api_key: return []
     try:
+        genai.configure(api_key=api_key)
+        # Get all models
         models = genai.list_models()
-        for m in models:
-            if 'generateContent' in m.supported_generation_methods:
-                if 'flash' in m.name: return m.name
-                if 'pro' in m.name: return m.name
-        return "models/gemini-pro" # Fallback
-    except Exception:
-        return None
-
-# --- GENERATION LOGIC ---
-def generate_questions_gemini(text_content, api_key):
-    model_name = get_working_model_name(api_key)
-    if not model_name:
-        st.error("❌ API Key Error. Please check your key.")
+        # Only keep the ones that can write text (generateContent)
+        valid_models = [m.name for m in models if 'generateContent' in m.supported_generation_methods]
+        return valid_models
+    except Exception as e:
         return []
-    
+
+def generate_questions_gemini(text_content, api_key, model_name):
     genai.configure(api_key=api_key)
+    
+    # Use the user-selected model
     model = genai.GenerativeModel(model_name)
     
     prompt = f"""
-    Generate 30-40 rigorous quiz questions (MCQ, True/False, Blanks) from the text below.
-    Return ONLY raw JSON.
+    You are a university examiner. Generate 30 rigorous quiz questions.
     
-    JSON FORMAT:
+    FORMAT: Raw JSON only. No markdown.
+    TYPES: "mcq", "true_false", "blank".
+    
+    JSON STRUCTURE:
     [
       {{"type": "mcq", "question": "...", "options": ["A","B"], "answer": "A"}},
-      {{"type": "true_false", "question": "...", "options": ["True","False"], "answer": "True"}}
+      {{"type": "true_false", "question": "...", "options": ["True","False"], "answer": "True"}},
+      {{"type": "blank", "question": "The capital of France is _____.", "answer": "Paris"}}
     ]
 
     TEXT:
-    {text_content[:15000]} 
+    {text_content[:20000]} 
     """
+
     try:
         response = model.generate_content(prompt)
-        cleaned = response.text.strip().replace("```json", "").replace("```", "")
+        cleaned = response.text.strip().replace("```json", "").replace("```", "").replace("json\n", "")
         return json.loads(cleaned)
     except Exception as e:
-        st.error(f"AI Error: {e}")
-        return []
-
-def generate_questions_spacy(text_content):
-    doc = nlp(text_content)
-    questions = []
-    for sent in doc.sents:
-        if len(sent.text) < 20: continue
-        nouns = [t.text for t in sent if t.pos_ in ["NOUN", "PROPN"] and len(t.text) > 3]
-        if nouns:
-            ans = random.choice(nouns)
-            questions.append({"type": "blank", "question": sent.text.replace(ans, "_____"), "answer": ans})
-    return questions
+        st.error(f"❌ Model '{model_name}' failed: {e}")
+        return None
 
 # --- Frontend ---
-st.title("🎓 Smart Quiz Engine (Cloud Edition)")
+st.title("🎓 Smart Quiz Engine (Full Features)")
+data = load_data()
 
 if "quiz_data" not in st.session_state: st.session_state.quiz_data = []
 if "score" not in st.session_state: st.session_state.score = 0
-
-data = load_data()
 
 # SIDEBAR
 with st.sidebar:
@@ -125,10 +95,20 @@ with st.sidebar:
     mode = st.radio("Mode", ["Take Quiz", "Add New Topic", "Manage Topics"])
     st.divider()
     api_key = st.text_input("Gemini API Key", type="password")
-    if api_key and st.button("Check Connection"):
-        st.success("✅ Key Saved!")
+    
+    # --- THE MAGIC DROPDOWN ---
+    available_models = []
+    if api_key:
+        available_models = get_available_models(api_key)
+    
+    if available_models:
+        st.success(f"Found {len(available_models)} active models!")
+        selected_model = st.selectbox("Choose AI Model", available_models, index=0)
+    else:
+        st.warning("Enter Key to see models")
+        selected_model = "models/gemini-2.0-flash" # Default fallback
 
-# MODE: ADD TOPIC
+# LOGIC
 if mode == "Add New Topic":
     st.subheader(f"Add {subject} Material")
     name = st.text_input("Topic Name")
@@ -140,17 +120,18 @@ if mode == "Add New Topic":
         if uploaded_file: full_text += extract_text(uploaded_file)
         if text_input: full_text += "\n" + text_input
             
-        if full_text.strip():
-            with st.spinner("AI is reading your notes..."):
-                qs = generate_questions_gemini(full_text, api_key) if api_key else generate_questions_spacy(full_text)
+        if full_text.strip() and api_key:
+            with st.spinner(f"🤖 Generating with {selected_model}..."):
+                qs = generate_questions_gemini(full_text, api_key, selected_model)
                 if qs:
                     data[subject][name] = qs
                     save_data(data)
-                    st.success(f"Generated {len(qs)} questions!")
-                else:
-                    st.error("Could not generate questions.")
+                    st.success(f"Success! Generated {len(qs)} questions.")
+        elif not api_key:
+            st.error("Please enter API Key.")
+        else:
+            st.warning("Please provide text content.")
 
-# MODE: TAKE QUIZ
 elif mode == "Take Quiz":
     topics = list(data[subject].keys())
     if topics:
@@ -164,22 +145,48 @@ elif mode == "Take Quiz":
                 user_answers = {}
                 for i, q in enumerate(st.session_state.quiz_data):
                     st.write(f"**{i+1}. {q['question']}**")
-                    if q['type'] in ['mcq', 'true_false']:
+                    if q['type'] == 'mcq':
                         user_answers[i] = st.radio("Select:", q['options'], key=i, index=None)
+                    elif q['type'] == 'true_false':
+                        user_answers[i] = st.radio("True/False:", q['options'], key=i, index=None)
                     else:
                         user_answers[i] = st.text_input("Answer:", key=i)
                     st.divider()
-                if st.form_submit_button("Submit"):
+                
+                submitted = st.form_submit_button("Submit")
+                
+                if submitted:
                     score = 0
+                    st.write("### 📝 Results:")
                     for i, q in enumerate(st.session_state.quiz_data):
-                        if user_answers[i] == q['answer'] or (q['type']=='blank' and user_answers[i].lower() in q['answer'].lower()):
+                        u_ans = user_answers.get(i)
+                        c_ans = q['answer']
+                        is_correct = False
+                        
+                        # Logic to check answers
+                        if u_ans:
+                             if q['type'] == 'blank':
+                                 if u_ans.lower().strip() in c_ans.lower(): is_correct = True
+                             else:
+                                 if u_ans == c_ans: is_correct = True
+                        
+                        if is_correct:
                             score += 1
-                    st.metric("Score", f"{score}/{len(st.session_state.quiz_data)}")
+                            st.success(f"**Question {i+1}: Correct!**")
+                        else:
+                            st.error(f"**Question {i+1}: Incorrect**")
+                            st.write(f"Your Answer: {u_ans}")
+                            st.write(f"✅ Correct Answer: **{c_ans}**")
+                        st.divider()
+                    
+                    st.metric("Final Score", f"{score}/{len(st.session_state.quiz_data)}")
+                    if score == len(st.session_state.quiz_data):
+                        st.balloons()
     else:
-        st.info("No quizzes yet. Go to 'Add New Topic' to create one!")
+        st.info("No quizzes yet.")
 
 elif mode == "Manage Topics":
-    for t in data[subject]:
+    for t in list(data[subject].keys()):
         if st.button(f"Delete {t}", key=t):
             del data[subject][t]
             save_data(data)
