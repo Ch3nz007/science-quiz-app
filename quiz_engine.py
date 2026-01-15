@@ -53,7 +53,6 @@ def get_available_models(api_key):
 def generate_questions_gemini(text_content, api_key, model_name):
     genai.configure(api_key=api_key)
     
-    # Use the user-selected model
     model = genai.GenerativeModel(model_name)
     
     prompt = f"""
@@ -64,13 +63,13 @@ def generate_questions_gemini(text_content, api_key, model_name):
     
     JSON STRUCTURE:
     [
-      {{"type": "mcq", "question": "...", "options": ["A","B"], "answer": "A"}},
+      {{"type": "mcq", "question": "...", "options": ["A) Option 1","B) Option 2"], "answer": "A"}},
       {{"type": "true_false", "question": "...", "options": ["True","False"], "answer": "True"}},
       {{"type": "blank", "question": "The capital of France is _____.", "answer": "Paris"}}
     ]
 
     TEXT:
-    {text_content[:20000]} 
+    {text_content[:30000]} 
     """
 
     try:
@@ -82,7 +81,7 @@ def generate_questions_gemini(text_content, api_key, model_name):
         return None
 
 # --- Frontend ---
-st.title("🎓 Smart Quiz Engine (Full Features)")
+st.title("🎓 Smart Quiz Engine")
 data = load_data()
 
 if "quiz_data" not in st.session_state: st.session_state.quiz_data = []
@@ -96,7 +95,6 @@ with st.sidebar:
     st.divider()
     api_key = st.text_input("Gemini API Key", type="password")
     
-    # --- THE MAGIC DROPDOWN ---
     available_models = []
     if api_key:
         available_models = get_available_models(api_key)
@@ -106,7 +104,7 @@ with st.sidebar:
         selected_model = st.selectbox("Choose AI Model", available_models, index=0)
     else:
         st.warning("Enter Key to see models")
-        selected_model = "models/gemini-2.0-flash" # Default fallback
+        selected_model = "models/gemini-2.0-flash" 
 
 # LOGIC
 if mode == "Add New Topic":
@@ -163,12 +161,16 @@ elif mode == "Take Quiz":
                         c_ans = q['answer']
                         is_correct = False
                         
-                        # Logic to check answers
                         if u_ans:
+                             # --- IMPROVED GRADING LOGIC ---
                              if q['type'] == 'blank':
                                  if u_ans.lower().strip() in c_ans.lower(): is_correct = True
                              else:
-                                 if u_ans == c_ans: is_correct = True
+                                 # Smart check: "B) Option" starts with "B"
+                                 # We split by ')' to get just the letter
+                                 user_letter = u_ans.split(")")[0].strip()
+                                 if u_ans == c_ans or user_letter == c_ans: 
+                                     is_correct = True
                         
                         if is_correct:
                             score += 1
