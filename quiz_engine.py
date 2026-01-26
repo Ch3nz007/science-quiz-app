@@ -56,20 +56,22 @@ def generate_questions_gemini(text_content, api_key, model_name):
     model = genai.GenerativeModel(model_name)
     
     prompt = f"""
-    You are a university examiner. Generate 30 rigorous quiz questions.
+    You are a rigorous university examiner. 
+    GOAL: Create a comprehensive question bank that covers EVERY key fact, definition, and concept in the text.
+    QUANTITY: Generate as many high-quality questions as possible (aim for 50 to 80). Do not stop until the text is fully exhausted or you hit the token limit.
     
     FORMAT: Raw JSON only. No markdown.
-    TYPES: "mcq", "true_false", "blank".
+    TYPES: Mix of "mcq", "true_false", "blank".
     
     JSON STRUCTURE:
     [
-      {{"type": "mcq", "question": "...", "options": ["A) Option 1","B) Option 2"], "answer": "A"}},
+      {{"type": "mcq", "question": "...", "options": ["A) ...","B) ..."], "answer": "A"}},
       {{"type": "true_false", "question": "...", "options": ["True","False"], "answer": "True"}},
       {{"type": "blank", "question": "The capital of France is _____.", "answer": "Paris"}}
     ]
 
-    TEXT:
-    {text_content[:30000]} 
+    TEXT CONTENT:
+    {text_content} 
     """
 
     try:
