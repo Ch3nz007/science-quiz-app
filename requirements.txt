@@ -3,3 +3,4 @@ google-generativeai
 spacy
 pypdf
 python-pptx
+PyGithub
