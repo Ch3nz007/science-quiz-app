@@ -84,6 +84,11 @@ def get_available_models(api_key):
 def generate_questions_gemini(text_content, api_key, model_name):
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel(model_name)
+    
+    # --- SANITIZE INPUT ---
+    # This prevents the "Invalid \escape" crash
+    safe_text = text_content.replace("\\", "/") 
+    
     prompt = f"""
     You are a rigorous university examiner. 
     GOAL: Create a comprehensive question bank covering EVERY key fact.
@@ -91,7 +96,7 @@ def generate_questions_gemini(text_content, api_key, model_name):
     FORMAT: Raw JSON only. No markdown.
     TYPES: "mcq", "true_false", "blank".
     JSON STRUCTURE: [ {{"type": "mcq", "question": "...", "options": ["A) X","B) Y"], "answer": "A"}} ]
-    TEXT: {text_content} 
+    TEXT: {safe_text} 
     """
     try:
         response = model.generate_content(prompt)
