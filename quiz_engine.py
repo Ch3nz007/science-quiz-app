@@ -12,7 +12,6 @@ st.set_page_config(page_title="Gemini Quiz Engine", layout="wide")
 
 # ⚠️ CHANGE THIS TO YOUR EXACT REPO NAME
 REPO_KEY = "Ch3nz007/science-quiz-app"
-REPO_KEY = "YOUR_GITHUB_USERNAME/YOUR_REPO_NAME" 
 FILE_PATH = "science_topics.json"
 
 # --- Cloud Backend (GitHub) ---
