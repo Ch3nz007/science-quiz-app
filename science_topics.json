@@ -1,0 +1,534 @@
+{
+  "Biology": {
+    "Cell to cell communication and Homeostasis": [
+      {
+        "type": "mcq",
+        "question": "Which of the following is NOT one of the fundamental statements of the Cell Theory?",
+        "options": [
+          "A) All living organisms are composed of one or more cells.",
+          "B) Cells are the smallest units of life.",
+          "C) New cells come only from pre-existing cells by cell division.",
+          "D) Cells spontaneously generate from non-living matter under specific conditions."
+        ],
+        "answer": "D"
+      },
+      {
+        "type": "blank",
+        "question": "The entire complement of proteins that is or can be expressed by a cell, genome, or organism is called the _________.",
+        "answer": "proteome"
+      },
+      {
+        "type": "true_false",
+        "question": "Different proteomes allow cells with identical DNA to have distinct structures and functions.",
+        "answer": "true"
+      },
+      {
+        "type": "mcq",
+        "question": "A group of cells having a similar structure or function is defined as a(n):",
+        "options": [
+          "A) Organ",
+          "B) Tissue",
+          "C) Proteome",
+          "D) Genome"
+        ],
+        "answer": "B"
+      },
+      {
+        "type": "blank",
+        "question": "A collection of two or more tissues that perform a specific function or set of functions is called a(n) _________.",
+        "answer": "organ"
+      },
+      {
+        "type": "mcq",
+        "question": "Which of the following components are part of the extracellular fluid?",
+        "options": [
+          "A) Plasma and cytoplasm",
+          "B) Interstitial fluid and nucleus",
+          "C) Plasma and interstitial fluid",
+          "D) Cytoplasm and nucleus"
+        ],
+        "answer": "C"
+      },
+      {
+        "type": "true_false",
+        "question": "Intracellular fluid is the fluid contained inside cells.",
+        "answer": "true"
+      },
+      {
+        "type": "blank",
+        "question": "The process by which cells detect and respond to signals in the extracellular environment is known as _________ _________.",
+        "answer": "cell communication"
+      },
+      {
+        "type": "mcq",
+        "question": "A signaling molecule that binds non-covalently to a receptor with high specificity, causing a conformational change, is called a(n):",
+        "options": [
+          "A) Enzyme",
+          "B) Ligand",
+          "C) Hormone",
+          "D) Nucleotide"
+        ],
+        "answer": "B"
+      },
+      {
+        "type": "blank",
+        "question": "Programmed cell death, which can be triggered intentionally by signaling molecules, is called _________.",
+        "answer": "apoptosis"
+      },
+      {
+        "type": "true_false",
+        "question": "Homeostasis is the process of maintaining a static internal environment despite changes in external surroundings.",
+        "answer": "false"
+      },
+      {
+        "type": "blank",
+        "question": "The normal value for a controlled physiological variable, such as $37^{/circ}C$ for body temperature, is referred to as the _________ _________.",
+        "answer": "set point"
+      },
+      {
+        "type": "mcq",
+        "question": "Which type of cell junction allows direct intercellular signalling by permitting signaling molecules to pass directly from the cytosol of one cell to another?",
+        "options": [
+          "A) Anchoring junctions",
+          "B) Tight junctions",
+          "C) Gap junctions",
+          "D) Desmosomes"
+        ],
+        "answer": "C"
+      },
+      {
+        "type": "true_false",
+        "question": "Anchoring junctions provide structural stability by mechanically attaching cells to each other or to the extracellular matrix.",
+        "answer": "true"
+      },
+      {
+        "type": "blank",
+        "question": "_________ junctions form a seal between adjacent cells, preventing the leakage of material between them, and are common in epithelial layers.",
+        "answer": "Tight"
+      },
+      {
+        "type": "mcq",
+        "question": "How many general categories of animal tissue are there?",
+        "options": [
+          "A) Two",
+          "B) Three",
+          "C) Four",
+          "D) Five"
+        ],
+        "answer": "C"
+      },
+      {
+        "type": "blank",
+        "question": "Sheets of densely packed cells that cover the body, enclose organs, or line body cavities describe _________ tissue.",
+        "answer": "epithelial"
+      },
+      {
+        "type": "true_false",
+        "question": "Epithelial tissue functions in protection, secretion, and absorption.",
+        "answer": "true"
+      },
+      {
+        "type": "mcq",
+        "question": "Which of the following is NOT a common shape for epithelial cells?",
+        "options": [
+          "A) Cuboidal",
+          "B) Squamous",
+          "C) Spherical",
+          "D) Columnar"
+        ],
+        "answer": "C"
+      },
+      {
+        "type": "blank",
+        "question": "Epithelial tissue with multiple layers is described as _________.",
+        "answer": "stratified"
+      },
+      {
+        "type": "mcq",
+        "question": "Which tissue type connects, surrounds, anchors, and supports other tissues, and forms the extracellular matrix (ECM)?",
+        "options": [
+          "A) Epithelial tissue",
+          "B) Muscle tissue",
+          "C) Nervous tissue",
+          "D) Connective tissue"
+        ],
+        "answer": "D"
+      },
+      {
+        "type": "true_false",
+        "question": "Collagen provides flexibility to the extracellular matrix, while elastin provides strength.",
+        "answer": "false"
+      },
+      {
+        "type": "blank",
+        "question": "Blood, adipose, bone, and cartilage are all types of _________ tissue.",
+        "answer": "connective"
+      },
+      {
+        "type": "mcq",
+        "question": "Which type of muscle tissue is attached to bone/exoskeleton and is under voluntary control?",
+        "options": [
+          "A) Smooth muscle",
+          "B) Cardiac muscle",
+          "C) Skeletal muscle",
+          "D) Epithelial muscle"
+        ],
+        "answer": "C"
+      },
+      {
+        "type": "true_false",
+        "question": "Smooth muscle tissue is found only in the heart and is involuntary.",
+        "answer": "false"
+      },
+      {
+        "type": "blank",
+        "question": "_________ tissue consists of complex networks of neurons that initiate and conduct electrical signals.",
+        "answer": "Nervous"
+      },
+      {
+        "type": "mcq",
+        "question": "In which type of cell signaling do signaling molecules pass directly from one cell to another through cell junctions?",
+        "options": [
+          "A) Autocrine signaling",
+          "B) Paracrine signaling",
+          "C) Direct intercellular signaling",
+          "D) Endocrine signaling"
+        ],
+        "answer": "C"
+      },
+      {
+        "type": "true_false",
+        "question": "Autocrine signaling involves cells secreting molecules that bind to receptors on nearby cells but not on their own surface.",
+        "answer": "false"
+      },
+      {
+        "type": "blank",
+        "question": "_________ signaling occurs when signals influence nearby cells but do not affect the originating cell.",
+        "answer": "Paracrine"
+      },
+      {
+        "type": "mcq",
+        "question": "Hormones traveling long distances via the bloodstream to affect target cells describes which type of signaling?",
+        "options": [
+          "A) Direct intercellular signaling",
+          "B) Contact-dependent signaling",
+          "C) Autocrine signaling",
+          "D) Endocrine signaling"
+        ],
+        "answer": "D"
+      },
+      {
+        "type": "blank",
+        "question": "In _________-_________ signaling, membrane-bound molecules on one cell bind to receptors on an adjacent cell surface.",
+        "answer": "contact-dependent"
+      },
+      {
+        "type": "mcq",
+        "question": "A receptor type where ligand binding activates a catalytic domain inside the cell, often leading to phosphorylation of intracellular proteins, is called a(n):",
+        "options": [
+          "A) G-Protein-Coupled Receptor",
+          "B) Ligand-gated Ion Channel",
+          "C) Enzyme-linked Receptor",
+          "D) Intracellular Receptor"
+        ],
+        "answer": "C"
+      },
+      {
+        "type": "true_false",
+        "question": "G-Protein-Coupled Receptors (GPCRs) directly open an ion channel upon ligand binding, allowing ion diffusion across the membrane.",
+        "answer": "false"
+      },
+      {
+        "type": "blank",
+        "question": "Ligand-gated ion channels open when a ligand binds, allowing specific _________ to diffuse across the membrane.",
+        "answer": "ions"
+      },
+      {
+        "type": "mcq",
+        "question": "Which type of receptor is located inside the cell (cytosol or nucleus) and requires its ligand to pass through the plasma membrane?",
+        "options": [
+          "A) Enzyme-linked receptor",
+          "B) G-Protein-Coupled Receptor",
+          "C) Ligand-gated ion channel",
+          "D) Intracellular receptor"
+        ],
+        "answer": "D"
+      },
+      {
+        "type": "true_false",
+        "question": "Estrogen is an example of a ligand that binds to an intracellular receptor.",
+        "answer": "true"
+      },
+      {
+        "type": "blank",
+        "question": "The four components of a homeostatic control system are the set point, sensor, integrator, and _________.",
+        "answer": "effector"
+      },
+      {
+        "type": "mcq",
+        "question": "What is the correct sequence of the three stages of cell signaling?",
+        "options": [
+          "A) Cellular Response, Signal Transduction, Receptor Activation",
+          "B) Receptor Activation, Cellular Response, Signal Transduction",
+          "C) Signal Transduction, Receptor Activation, Cellular Response",
+          "D) Receptor Activation, Signal Transduction, Cellular Response"
+        ],
+        "answer": "D"
+      },
+      {
+        "type": "blank",
+        "question": "In GPCR signal transduction, the G-protein exchanges GDP for _________ to become activated.",
+        "answer": "GTP"
+      },
+      {
+        "type": "true_false",
+        "question": "During GPCR activation, the G-protein dissociates into an active alpha subunit and a beta/gamma dimer.",
+        "answer": "true"
+      },
+      {
+        "type": "mcq",
+        "question": "In the EGF pathway, what event immediately follows the binding of EGF molecules and dimerization of receptor subunits?",
+        "options": [
+          "A) Activation of Ras by Sos",
+          "B) Phosphorylation of the receptors on tyrosines",
+          "C) Entry of Erk into the nucleus",
+          "D) Transcription of cell division genes"
+        ],
+        "answer": "B"
+      },
+      {
+        "type": "blank",
+        "question": "In the EGF pathway, the relay protein Grb binds to the phosphorylated receptor and then binds to _________.",
+        "answer": "Sos"
+      },
+      {
+        "type": "true_false",
+        "question": "The EGF pathway involves a protein kinase cascade where Raf phosphorylates Mek, and Mek phosphorylates Erk.",
+        "answer": "true"
+      },
+      {
+        "type": "mcq",
+        "question": "In the cAMP (Epinephrine) pathway, the alpha subunit of the activated G-protein activates which enzyme to synthesize cAMP?",
+        "options": [
+          "A) Phosphodiesterase",
+          "B) Protein Kinase A",
+          "C) Adenylyl cyclase",
+          "D) GTPase"
+        ],
+        "answer": "C"
+      },
+      {
+        "type": "blank",
+        "question": "cAMP binds to the regulatory subunits of _________ _________ _________ (PKA), releasing and activating its catalytic subunits.",
+        "answer": "Protein Kinase A"
+      },
+      {
+        "type": "true_false",
+        "question": "A cellular response to the Epinephrine-cAMP pathway is glycogen synthesis.",
+        "answer": "false"
+      },
+      {
+        "type": "mcq",
+        "question": "What is the first step for estrogen acting on an intracellular receptor?",
+        "options": [
+          "A) Estrogen binds to DNA",
+          "B) Estrogen causes receptor dimerization",
+          "C) Estrogen diffuses across the plasma membrane",
+          "D) Estrogen activates transcription factors"
+        ],
+        "answer": "C"
+      },
+      {
+        "type": "blank",
+        "question": "After binding estrogen, estrogen receptors form a(n) _________ before binding to specific genes in the DNA.",
+        "answer": "dimer"
+      },
+      {
+        "type": "true_false",
+        "question": "Negative feedback loops are the most common homeostatic mechanism.",
+        "answer": "true"
+      },
+      {
+        "type": "mcq",
+        "question": "Which type of feedback loop reinforces or accelerates the direction of the change and usually has a distinct endpoint?",
+        "options": [
+          "A) Negative feedback loop",
+          "B) Positive feedback loop",
+          "C) Feedforward regulation",
+          "D) Stabilizing feedback"
+        ],
+        "answer": "B"
+      },
+      {
+        "type": "blank",
+        "question": "An example of a positive feedback loop described in the text is _________ _________.",
+        "answer": "blood clotting"
+      },
+      {
+        "type": "true_false",
+        "question": "The human genome contains more than 1000 genes for G-protein-coupled receptors (GPCRs).",
+        "answer": "true"
+      },
+      {
+        "type": "mcq",
+        "question": "What is the typical set point for human body temperature in the brain's integrator?",
+        "options": [
+          "A) $35^{/circ}C$",
+          "B) $37^{/circ}C$",
+          "C) $39^{/circ}C$",
+          "D) $40^{/circ}C$"
+        ],
+        "answer": "B"
+      },
+      {
+        "type": "blank",
+        "question": "Epinephrine, the 'fight-or-flight' hormone, causes relaxation of airways, increased heart rate, and _________ breakdown in skeletal muscle.",
+        "answer": "glycogen"
+      },
+      {
+        "type": "true_false",
+        "question": "Caffeine inhibits phosphodiesterase, leading to increased cAMP levels and an elevated heart rate.",
+        "answer": "true"
+      },
+      {
+        "type": "mcq",
+        "question": "Which of the following is NOT listed as one of the 6 basic cell processes?",
+        "options": [
+          "A) Cell growth",
+          "B) Cell division",
+          "C) Respiration",
+          "D) Apoptosis"
+        ],
+        "answer": "C"
+      },
+      {
+        "type": "blank",
+        "question": "Normal blood glucose levels are restored by _________ changes after a meal or during a fast.",
+        "answer": "endocrine"
+      },
+      {
+        "type": "mcq",
+        "question": "Organisms whose internal body composition matches their environment and require less energy are called:",
+        "options": [
+          "A) Regulators",
+          "B) Conformers",
+          "C) Homeostats",
+          "D) Endotherms"
+        ],
+        "answer": "B"
+      },
+      {
+        "type": "true_false",
+        "question": "Regulators work to maintain internal body composition different from the environment, requiring more energy but allowing exploitation of fluctuating environments.",
+        "answer": "true"
+      },
+      {
+        "type": "blank",
+        "question": "While negative feedback stabilizes variables, positive feedback is contrary to homeostasis and usually has a distinct _________.",
+        "answer": "endpoint"
+      },
+      {
+        "type": "mcq",
+        "question": "Which type of regulation prepares the body for a change before it occurs (anticipatory)?",
+        "options": [
+          "A) Negative feedback",
+          "B) Positive feedback",
+          "C) Feedforward regulation",
+          "D) Corrective feedback"
+        ],
+        "answer": "C"
+      },
+      {
+        "type": "true_false",
+        "question": "Salivation when smelling food is an example of feedforward regulation.",
+        "answer": "true"
+      },
+      {
+        "type": "blank",
+        "question": "Skeletal muscle is under voluntary control, whereas smooth and cardiac muscle are under _________ control.",
+        "answer": "involuntary"
+      },
+      {
+        "type": "mcq",
+        "question": "Which type of muscle tissue surrounds hollow tubes/cavities and controls tube diameter?",
+        "options": [
+          "A) Skeletal muscle",
+          "B) Cardiac muscle",
+          "C) Smooth muscle",
+          "D) Connective muscle"
+        ],
+        "answer": "C"
+      },
+      {
+        "type": "true_false",
+        "question": "Cardiac muscle is involuntary and found only in the heart.",
+        "answer": "true"
+      },
+      {
+        "type": "blank",
+        "question": "Epithelial tissue with one layer that appears as multiple layers due to varying cell heights is described as _________.",
+        "answer": "pseudostratified"
+      },
+      {
+        "type": "mcq",
+        "question": "The cellular response phase of signaling pathway involves alterations to:",
+        "options": [
+          "A) Enzyme activity",
+          "B) Structural protein function",
+          "C) Gene expression",
+          "D) All of the above"
+        ],
+        "answer": "D"
+      },
+      {
+        "type": "true_false",
+        "question": "Apoptosis can be triggered intentionally by signaling molecules.",
+        "answer": "true"
+      },
+      {
+        "type": "blank",
+        "question": "The extracellular fluid is comprised of plasma and _________ fluid.",
+        "answer": "interstitial"
+      },
+      {
+        "type": "mcq",
+        "question": "Which protein provides strength to the Extracellular Matrix (ECM)?",
+        "options": [
+          "A) Elastin",
+          "B) Collagen",
+          "C) Keratin",
+          "D) Actin"
+        ],
+        "answer": "B"
+      },
+      {
+        "type": "true_false",
+        "question": "The primary purpose of cell communication is to coordinate with other cells and respond to changing environments.",
+        "answer": "true"
+      },
+      {
+        "type": "blank",
+        "question": "In the EGF pathway, phosphorylated Erk enters the nucleus and phosphorylates transcription factors Myc and _________.",
+        "answer": "Fos"
+      },
+      {
+        "type": "mcq",
+        "question": "The integrator in a homeostatic control system typically compares sensor input to the:",
+        "options": [
+          "A) Effector response",
+          "B) External environment",
+          "C) Set point",
+          "D) Sensor itself"
+        ],
+        "answer": "C"
+      },
+      {
+        "type": "true_false",
+        "question": "Feedback regulation responds to a change after it has occurred, making it a corrective mechanism.",
+        "answer": "true"
+      }
+    ]
+  },
+  "Chemistry": {},
+  "Physics": {}
+}
