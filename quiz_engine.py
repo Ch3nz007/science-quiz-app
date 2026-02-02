@@ -18,7 +18,6 @@ FILE_PATH = "science_topics.json"
 def get_repo():
     """Connects to your GitHub Repository"""
     try:
-        # Check if secret exists
         if "GITHUB_TOKEN" not in st.secrets:
             st.error("Secrets Error: GITHUB_TOKEN is missing.")
             return None
@@ -88,23 +87,24 @@ def generate_questions_gemini(text_content, api_key, model_name):
     
     prompt = f"""
     You are a rigorous university examiner. 
-    GOAL: Create a comprehensive question bank covering EVERY key fact.
-    QUANTITY: Generate 30-50 questions.
+    GOAL: Create a "Deep Learning" question bank.
     
-    IMPORTANT: You MUST generate a mix of question types. 
-    - At least 30% Multiple Choice (mcq)
-    - At least 30% True/False (true_false)
-    - At least 30% Fill in the Blank (blank)
+    INSTRUCTIONS:
+    1. Identify the key concepts, definitions, and facts in the text.
+    2. For EACH key concept, generate THREE (3) distinct variations of questions to test it from different angles:
+       - Variation A: Multiple Choice (mcq)
+       - Variation B: True/False (true_false)
+       - Variation C: Fill in the Blank (blank)
+    
+    EXAMPLE:
+    Concept: "Mitochondria is the powerhouse of the cell."
+    1. (MCQ) Which organelle is known as the powerhouse? [A) Nucleus, B) Mitochondria...]
+    2. (T/F) The nucleus is the powerhouse of the cell. [False]
+    3. (Blank) The __________ is the powerhouse of the cell. [Mitochondria]
 
+    QUANTITY: Focus on the top 15-20 key concepts (resulting in 45-60 total questions).
+    
     FORMAT: Raw JSON only. No markdown.
-    
-    JSON STRUCTURE EXAMPLES:
-    [
-      {{"type": "mcq", "question": "What is the powerhouse of the cell?", "options": ["A) Nucleus", "B) Mitochondria", "C) Ribosome"], "answer": "B) Mitochondria"}},
-      {{"type": "true_false", "question": "Mitosis results in two identical daughter cells.", "options": ["True", "False"], "answer": "True"}},
-      {{"type": "blank", "question": "The process of cell division is called _____.", "answer": "Mitosis"}}
-    ]
-
     TEXT CONTENT:
     {safe_text} 
     """
@@ -119,16 +119,13 @@ def generate_questions_gemini(text_content, api_key, model_name):
 # --- Frontend ---
 st.title("🎓 Smart Quiz Engine (Cloud Synced)")
 
-# Initialize Session State
 if "quiz_data" not in st.session_state: st.session_state.quiz_data = []
 if "score" not in st.session_state: st.session_state.score = 0
 if "quiz_active" not in st.session_state: st.session_state.quiz_active = False
 
-# Load Data
 with st.spinner("Syncing..."):
     data = load_data()
 
-# SIDEBAR
 with st.sidebar:
     st.header("Settings")
     subject = st.selectbox("Subject", ["Biology", "Chemistry", "Physics"])
@@ -144,7 +141,6 @@ with st.sidebar:
     else:
         selected_model = "models/gemini-2.0-flash"
 
-# LOGIC
 if mode == "Add New Topic":
     st.subheader(f"Add {subject} Material")
     name = st.text_input("Topic Name")
@@ -157,25 +153,22 @@ if mode == "Add New Topic":
         if text_input: full_text += "\n" + text_input
             
         if full_text.strip() and api_key:
-            with st.spinner(f"Generating..."):
+            with st.spinner(f"Generating Variations..."):
                 qs = generate_questions_gemini(full_text, api_key, selected_model)
                 if qs:
-                    # Initialize subject if missing
                     if subject not in data: data[subject] = {}
-                    
                     data[subject][name] = qs
                     save_data(data)
-                    st.success(f"Saved {len(qs)} questions to cloud!")
+                    st.success(f"Saved {len(qs)} questions (3 variations per fact)!")
                     time.sleep(2)
                     st.rerun()
         else:
             st.warning("Missing API Key or Content")
 
 elif mode == "Take Quiz":
-    # Safe check for empty data
     if subject not in data: data[subject] = {}
-    
     topics = list(data[subject].keys())
+    
     if topics:
         topic = st.selectbox("Topic", topics)
         questions = data[subject][topic]
@@ -183,32 +176,28 @@ elif mode == "Take Quiz":
         if len(questions) > 0:
             q_limit = st.slider("Number of Questions", 1, len(questions), min(10, len(questions)))
             
-            # Start Button
             if st.button("Start New Quiz"):
                 st.session_state.quiz_data = random.sample(questions, q_limit)
                 st.session_state.score = 0
                 st.session_state.quiz_active = True
                 st.rerun()
 
-            # The Quiz Form
             if st.session_state.quiz_active and st.session_state.quiz_data:
                 with st.form("my_quiz_form"):
                     user_answers = {}
                     for i, q in enumerate(st.session_state.quiz_data):
                         st.write(f"**{i+1}. {q['question']}**")
-                        
-                        # Unique Keys for every widget
                         widget_key = f"q_{i}"
                         
                         if q['type'] == 'mcq':
                             user_answers[i] = st.radio("Select:", q.get('options', []), key=widget_key, index=None)
                         elif q['type'] == 'true_false':
+                            # Force True/False options even if AI forgot them
                             user_answers[i] = st.radio("True/False:", ["True", "False"], key=widget_key, index=None)
                         else:
                             user_answers[i] = st.text_input("Answer:", key=widget_key)
                         st.divider()
                     
-                    # Submit Button INSIDE form
                     submitted = st.form_submit_button("Submit Quiz")
                     
                     if submitted:
@@ -223,10 +212,8 @@ elif mode == "Take Quiz":
                                 if q['type'] == 'blank':
                                     if str(u_ans).lower().strip() in str(c_ans).lower(): is_correct = True
                                 else:
-                                    # Smart check for "A) Option" vs "A"
                                     user_str = str(u_ans).split(")")[0].strip()
                                     target_str = str(c_ans).split(")")[0].strip()
-                                    
                                     if str(u_ans) == str(c_ans) or user_str == target_str:
                                         is_correct = True
                             
@@ -240,14 +227,13 @@ elif mode == "Take Quiz":
                             st.divider()
                             
                         st.metric("Final Score", f"{score}/{len(st.session_state.quiz_data)}")
-                        # Reset button
                         if st.form_submit_button("Take Another Quiz"):
                             st.session_state.quiz_active = False
                             st.rerun()
         else:
             st.warning("Topic has 0 questions.")
     else:
-        st.info("No topics found. Go to 'Add New Topic' to create one.")
+        st.info("No topics found. Add one!")
 
 elif mode == "Manage Topics":
     if subject in data:
