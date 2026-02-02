@@ -1,5 +1,528 @@
 {
-  "Biology": {},
+  "Biology": {
+    "Cell to cell communication and Homeostasis": [
+      {
+        "concept": "Cell Theory",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "Which of the following statements is NOT a fundamental tenet of Cell Theory?",
+            "options": [
+              "A) All living organisms are composed of one or more cells.",
+              "B) Cells are the smallest units of life.",
+              "C) New cells spontaneously generate from non-living matter.",
+              "D) New cells come only from pre-existing cells by cell division."
+            ],
+            "answer": "C) New cells spontaneously generate from non-living matter."
+          },
+          {
+            "type": "true_false",
+            "question": "One of the fundamental principles of Cell Theory states that all living organisms are composed of one or more cells.",
+            "answer": true
+          },
+          {
+            "type": "blank",
+            "question": "According to Cell Theory, new cells come only from pre-existing cells by __________.",
+            "answer": "cell division"
+          }
+        ]
+      },
+      {
+        "concept": "Proteome",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "What does the term 'proteome' refer to?",
+            "options": [
+              "A) The complete set of genes in an organism.",
+              "B) The entire complement of proteins expressed by a cell, genome, or organism.",
+              "C) The total number of chromosomes in a cell.",
+              "D) The fluid portion of the cytoplasm."
+            ],
+            "answer": "B) The entire complement of proteins expressed by a cell, genome, or organism."
+          },
+          {
+            "type": "true_false",
+            "question": "Different proteomes allow cells with identical DNA to have distinct structures and functions.",
+            "answer": true
+          },
+          {
+            "type": "blank",
+            "question": "The entire complement of proteins that is or can be expressed by a cell, genome, or organism is known as the __________.",
+            "answer": "proteome"
+          }
+        ]
+      },
+      {
+        "concept": "Homeostasis",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "What is the primary goal of homeostasis in biological systems?",
+            "options": [
+              "A) To promote rapid and extreme changes in internal conditions.",
+              "B) To maintain a relatively stable internal environment despite external changes.",
+              "C) To constantly align internal body composition with the external environment.",
+              "D) To completely eliminate all fluctuations in physiological variables."
+            ],
+            "answer": "B) To maintain a relatively stable internal environment despite external changes."
+          },
+          {
+            "type": "true_false",
+            "question": "Homeostasis is the process of maintaining a relatively stable internal environment despite changes in external surroundings.",
+            "answer": true
+          },
+          {
+            "type": "blank",
+            "question": "The process of maintaining a relatively stable internal environment despite changes in external surroundings is called __________.",
+            "answer": "homeostasis"
+          }
+        ]
+      },
+      {
+        "concept": "Extracellular Fluid",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "Which of the following correctly describes the composition of extracellular fluid?",
+            "options": [
+              "A) Fluid contained exclusively inside cells.",
+              "B) Comprises only the plasma portion of blood.",
+              "C) Includes plasma and interstitial fluid.",
+              "D) Consists solely of fluid surrounding the nucleus."
+            ],
+            "answer": "C) Includes plasma and interstitial fluid."
+          },
+          {
+            "type": "true_false",
+            "question": "Extracellular fluid is the fluid contained inside cells.",
+            "answer": false
+          },
+          {
+            "type": "blank",
+            "question": "The fluid outside cells, comprising plasma and interstitial fluid, is known as __________.",
+            "answer": "extracellular fluid"
+          }
+        ]
+      },
+      {
+        "concept": "Ligand",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "A ligand is best described as a signaling molecule that:",
+            "options": [
+              "A) Covalently binds to an enzyme, permanently deactivating it.",
+              "B) Digests foreign particles within the cell.",
+              "C) Binds non-covalently and with high specificity to a receptor, causing a conformational change.",
+              "D) Directly synthesizes proteins without a receptor."
+            ],
+            "answer": "C) Binds non-covalently and with high specificity to a receptor, causing a conformational change."
+          },
+          {
+            "type": "true_false",
+            "question": "A ligand typically binds covalently to a receptor, causing a permanent structural alteration.",
+            "answer": false
+          },
+          {
+            "type": "blank",
+            "question": "A signaling molecule that binds non-covalently to a receptor with high specificity, causing a conformational change, is called a __________.",
+            "answer": "ligand"
+          }
+        ]
+      },
+      {
+        "concept": "Apoptosis",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "What is apoptosis?",
+            "options": [
+              "A) The uncontrolled division of cells, leading to tumor formation.",
+              "B) The process of cells taking in large molecules from their environment.",
+              "C) Programmed cell death, often triggered by signaling molecules.",
+              "D) The fusion of two cells to form a single, larger cell."
+            ],
+            "answer": "C) Programmed cell death, often triggered by signaling molecules."
+          },
+          {
+            "type": "true_false",
+            "question": "Apoptosis is a form of programmed cell death that can be intentionally triggered by signaling molecules.",
+            "answer": true
+          },
+          {
+            "type": "blank",
+            "question": "__________ is programmed cell death, which can be triggered intentionally by signaling molecules.",
+            "answer": "Apoptosis"
+          }
+        ]
+      },
+      {
+        "concept": "Tight Junctions",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "What is the primary function of tight junctions?",
+            "options": [
+              "A) To allow direct passage of signaling molecules between adjacent cells.",
+              "B) To mechanically attach cells to each other or to the extracellular matrix.",
+              "C) To form a seal between adjacent cells, preventing leakage of material.",
+              "D) To facilitate the contraction of muscle cells."
+            ],
+            "answer": "C) To form a seal between adjacent cells, preventing leakage of material."
+          },
+          {
+            "type": "true_false",
+            "question": "Tight junctions are specialized channels that allow direct intercellular signaling by permitting molecules to pass between cytosols.",
+            "answer": false
+          },
+          {
+            "type": "blank",
+            "question": "__________ form a seal between adjacent cells, preventing leakage of material between them.",
+            "answer": "Tight junctions"
+          }
+        ]
+      },
+      {
+        "concept": "Epithelial Tissue",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "Which of the following is a primary function of epithelial tissue?",
+            "options": [
+              "A) Connecting, surrounding, and anchoring other tissues.",
+              "B) Initiating and conducting electrical signals.",
+              "C) Protection, secretion, and absorption.",
+              "D) Specialized for contraction and mechanical force."
+            ],
+            "answer": "C) Protection, secretion, and absorption."
+          },
+          {
+            "type": "true_false",
+            "question": "Epithelial tissue is characterized by sheets of densely packed cells that cover the body, enclose organs, or line body cavities.",
+            "answer": true
+          },
+          {
+            "type": "blank",
+            "question": "Sheets of densely packed cells that function in protection, secretion, and absorption are characteristic of __________.",
+            "answer": "epithelial tissue"
+          }
+        ]
+      },
+      {
+        "concept": "Connective Tissue (ECM Proteins)",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "Which two proteins are primarily responsible for providing strength and flexibility to the Extracellular Matrix (ECM) of connective tissue?",
+            "options": [
+              "A) Actin and Myosin.",
+              "B) Keratin and Vimentin.",
+              "C) Collagen and Elastin.",
+              "D) Hemoglobin and Albumin."
+            ],
+            "answer": "C) Collagen and Elastin."
+          },
+          {
+            "type": "true_false",
+            "question": "Connective tissue forms the Extracellular Matrix (ECM), which contains proteins like collagen for flexibility and elastin for strength.",
+            "answer": false
+          },
+          {
+            "type": "blank",
+            "question": "__________ provides strength, while __________ provides flexibility to the Extracellular Matrix (ECM) of connective tissue.",
+            "answer": "Collagen, Elastin"
+          }
+        ]
+      },
+      {
+        "concept": "Muscle Tissue Types (Control)",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "Which type of muscle tissue is found in the heart and operates under involuntary control?",
+            "options": [
+              "A) Skeletal muscle.",
+              "B) Smooth muscle.",
+              "C) Cardiac muscle.",
+              "D) Tendon muscle."
+            ],
+            "answer": "C) Cardiac muscle."
+          },
+          {
+            "type": "true_false",
+            "question": "Skeletal muscle tissue is primarily responsible for surrounding tubes and cavities (e.g., bronchioles) and is under involuntary control.",
+            "answer": false
+          },
+          {
+            "type": "blank",
+            "question": "Muscle tissue specialized for contraction and mechanical force, found in the heart and operating involuntarily, is called __________.",
+            "answer": "cardiac muscle"
+          }
+        ]
+      },
+      {
+        "concept": "Nervous Tissue",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "What is the primary function of nervous tissue?",
+            "options": [
+              "A) To store energy in the form of fat.",
+              "B) To connect, support, and anchor other tissues.",
+              "C) To initiate and conduct electrical signals to stimulate or inhibit other cells.",
+              "D) To provide protective coverings for organs."
+            ],
+            "answer": "C) To initiate and conduct electrical signals to stimulate or inhibit other cells."
+          },
+          {
+            "type": "true_false",
+            "question": "Nervous tissue forms complex networks of neurons that initiate and conduct electrical signals.",
+            "answer": true
+          },
+          {
+            "type": "blank",
+            "question": "Complex networks of neurons that initiate and conduct electrical signals to stimulate or inhibit other cells form __________.",
+            "answer": "nervous tissue"
+          }
+        ]
+      },
+      {
+        "concept": "Paracrine Signalling",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "In which type of cell signaling do secreted molecules influence nearby cells but do not affect the originating cell?",
+            "options": [
+              "A) Direct Intercellular Signalling.",
+              "B) Autocrine Signalling.",
+              "C) Paracrine Signalling.",
+              "D) Endocrine Signalling."
+            ],
+            "answer": "C) Paracrine Signalling."
+          },
+          {
+            "type": "true_false",
+            "question": "Paracrine signaling involves hormones traveling long distances via the bloodstream to affect target cells.",
+            "answer": false
+          },
+          {
+            "type": "blank",
+            "question": "When signals influence nearby cells but do not affect the originating cell, this is known as __________.",
+            "answer": "paracrine signalling"
+          }
+        ]
+      },
+      {
+        "concept": "G-Protein-Coupled Receptors (GPCRs)",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "Upon ligand binding, what is the immediate action activated by a G-Protein-Coupled Receptor (GPCR)?",
+            "options": [
+              "A) Directly opens an ion channel.",
+              "B) Activates a catalytic domain inside the cell.",
+              "C) Activates a G-protein, which then interacts with ion channels or enzymes.",
+              "D) Diffuses into the nucleus to bind with an intracellular receptor."
+            ],
+            "answer": "C) Activates a G-protein, which then interacts with ion channels or enzymes."
+          },
+          {
+            "type": "true_false",
+            "question": "Ligand binding to a GPCR directly activates an intracellular catalytic domain to phosphorylate proteins.",
+            "answer": false
+          },
+          {
+            "type": "blank",
+            "question": "When a ligand binds to a G-Protein-Coupled Receptor (GPCR), it activates a __________ which then interacts with ion channels or enzymes.",
+            "answer": "G-protein"
+          }
+        ]
+      },
+      {
+        "concept": "Intracellular Receptors",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "For a ligand to bind to an intracellular receptor, it must first:",
+            "options": [
+              "A) Be transported across the cell membrane via active transport.",
+              "B) Bind to a G-protein on the cell surface.",
+              "C) Diffuse through the plasma membrane into the cytosol or nucleus.",
+              "D) Activate a kinase cascade on the cell surface."
+            ],
+            "answer": "C) Diffuse through the plasma membrane into the cytosol or nucleus."
+          },
+          {
+            "type": "true_false",
+            "question": "Intracellular receptors are located on the outer surface of the plasma membrane, requiring hydrophilic ligands.",
+            "answer": false
+          },
+          {
+            "type": "blank",
+            "question": "Ligands for __________ receptors must pass through the plasma membrane to bind inside the cell.",
+            "answer": "intracellular"
+          }
+        ]
+      },
+      {
+        "concept": "Three Stages of Cell Signalling",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "What is the correct order of the three stages of cell signaling?",
+            "options": [
+              "A) Signal Transduction, Cellular Response, Receptor Activation.",
+              "B) Receptor Activation, Cellular Response, Signal Transduction.",
+              "C) Receptor Activation, Signal Transduction, Cellular Response.",
+              "D) Cellular Response, Receptor Activation, Signal Transduction."
+            ],
+            "answer": "C) Receptor Activation, Signal Transduction, Cellular Response."
+          },
+          {
+            "type": "true_false",
+            "question": "The three stages of cell signaling are Receptor Activation, Signal Transduction, and Cellular Response.",
+            "answer": true
+          },
+          {
+            "type": "blank",
+            "question": "The three stages of cell signalling are Receptor Activation, Signal Transduction, and __________.",
+            "answer": "Cellular Response"
+          }
+        ]
+      },
+      {
+        "concept": "Negative Feedback Loop",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "Which characteristic best describes a negative feedback loop in homeostasis?",
+            "options": [
+              "A) It amplifies the initial change, leading to a rapid escalation.",
+              "B) It moves the variable in the opposite direction of the initial change, stabilizing it.",
+              "C) It prepares the body for a change before it actually occurs.",
+              "D) It only functions when the internal environment matches the external environment."
+            ],
+            "answer": "B) It moves the variable in the opposite direction of the initial change, stabilizing it."
+          },
+          {
+            "type": "true_false",
+            "question": "Negative feedback loops are common homeostatic mechanisms that reinforce the direction of a change.",
+            "answer": false
+          },
+          {
+            "type": "blank",
+            "question": "The most common homeostatic mechanism, where the response moves the variable in the opposite direction of the change, is called a __________.",
+            "answer": "negative feedback loop"
+          }
+        ]
+      },
+      {
+        "concept": "Positive Feedback Loop",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "Which of the following is a characteristic of a positive feedback loop?",
+            "options": [
+              "A) It stabilizes physiological variables.",
+              "B) It is the most common homeostatic mechanism.",
+              "C) It reinforces or accelerates the direction of the change.",
+              "D) It moves the variable back towards a set point."
+            ],
+            "answer": "C) It reinforces or accelerates the direction of the change."
+          },
+          {
+            "type": "true_false",
+            "question": "Positive feedback loops are far less common than negative feedback loops and typically have a distinct endpoint.",
+            "answer": true
+          },
+          {
+            "type": "blank",
+            "question": "Blood clotting is an example of a __________ loop, where the response reinforces or accelerates the direction of the change.",
+            "answer": "positive feedback"
+          }
+        ]
+      },
+      {
+        "concept": "Feedforward Regulation",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "How does feedforward regulation primarily differ from feedback regulation?",
+            "options": [
+              "A) Feedforward responds to a change after it has occurred, while feedback prepares for it beforehand.",
+              "B) Feedforward only stabilizes variables, while feedback accelerates changes.",
+              "C) Feedforward prepares the body for a change before it occurs, while feedback responds after.",
+              "D) Feedforward requires more energy than feedback mechanisms."
+            ],
+            "answer": "C) Feedforward prepares the body for a change before it occurs, while feedback responds after."
+          },
+          {
+            "type": "true_false",
+            "question": "Feedforward regulation prepares the body for a change before it occurs, speeding up homeostatic responses.",
+            "answer": true
+          },
+          {
+            "type": "blank",
+            "question": "Salivation when smelling food is an example of __________ regulation, which prepares the body for a change before it occurs.",
+            "answer": "feedforward"
+          }
+        ]
+      },
+      {
+        "concept": "cAMP Pathway (Epinephrine)",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "In the Epinephrine (cAMP) pathway, what is the role of adenylyl cyclase?",
+            "options": [
+              "A) To hydrolyze GTP into GDP.",
+              "B) To synthesize cAMP from ATP.",
+              "C) To phosphorylate target proteins.",
+              "D) To bind directly to epinephrine."
+            ],
+            "answer": "B) To synthesize cAMP from ATP."
+          },
+          {
+            "type": "true_false",
+            "question": "In the epinephrine pathway, cAMP directly phosphorylates target proteins, causing a cellular response.",
+            "answer": false
+          },
+          {
+            "type": "blank",
+            "question": "Upon activation by a G-protein's alpha subunit, __________ synthesizes cAMP from ATP in the epinephrine pathway.",
+            "answer": "adenylyl cyclase"
+          }
+        ]
+      },
+      {
+        "concept": "Caffeine Mechanism",
+        "questions": [
+          {
+            "type": "mcq",
+            "question": "How does caffeine affect heart rate according to the provided text?",
+            "options": [
+              "A) It directly activates G-proteins, increasing heart rate.",
+              "B) It inhibits phosphodiesterase, causing cAMP to persist and keeping heart rate elevated.",
+              "C) It enhances the breakdown of glycogen, leading to increased energy and heart rate.",
+              "D) It binds directly to epinephrine receptors, mimicking its effect."
+            ],
+            "answer": "B) It inhibits phosphodiesterase, causing cAMP to persist and keeping heart rate elevated."
+          },
+          {
+            "type": "true_false",
+            "question": "Caffeine increases heart rate by activating phosphodiesterase, leading to a rapid breakdown of cAMP.",
+            "answer": false
+          },
+          {
+            "type": "blank",
+            "question": "Caffeine inhibits __________, the enzyme responsible for removing cAMP, which causes cAMP to persist and keeps the heart rate elevated.",
+            "answer": "phosphodiesterase"
+          }
+        ]
+      }
+    ]
+  },
   "Chemistry": {},
   "Physics": {}
 }
