@@ -87,22 +87,23 @@ def generate_questions_gemini(text_content, api_key, model_name):
     
     prompt = f"""
     You are a rigorous university examiner. 
-    GOAL: Create a "Deep Learning" question bank.
+    GOAL: Create a massive "Deep Learning" question bank.
     
     INSTRUCTIONS:
-    1. Identify the key concepts, definitions, and facts in the text.
-    2. For EACH key concept, generate THREE (3) distinct variations of questions to test it from different angles:
+    1. Read the text and identify EVERY SINGLE fact, definition, and concept (major or minor).
+    2. For EACH fact found, generate THREE (3) distinct variations of questions:
        - Variation A: Multiple Choice (mcq)
        - Variation B: True/False (true_false)
        - Variation C: Fill in the Blank (blank)
     
     EXAMPLE:
-    Concept: "Mitochondria is the powerhouse of the cell."
-    1. (MCQ) Which organelle is known as the powerhouse? [A) Nucleus, B) Mitochondria...]
-    2. (T/F) The nucleus is the powerhouse of the cell. [False]
-    3. (Blank) The __________ is the powerhouse of the cell. [Mitochondria]
+    Concept: "Mitochondria is the powerhouse."
+    1. (MCQ) Which organelle...? 
+    2. (T/F) The nucleus is the powerhouse...
+    3. (Blank) The __________ is the powerhouse...
 
-    QUANTITY: Focus on the top 15-20 key concepts (resulting in 45-60 total questions).
+    QUANTITY: Do NOT stop at the "main" concepts. Cover minor details too. 
+    Aim for 60 to 90 total questions (20-30 concepts x 3 variations).
     
     FORMAT: Raw JSON only. No markdown.
     TEXT CONTENT:
