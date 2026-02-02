@@ -389,6 +389,418 @@
         ],
         "answer": "C"
       }
+    ],
+    "Immune System": [
+      {
+        "type": "blank",
+        "question": "The ability of an animal to ward off internal threats, specifically microbes, microbial toxins, or cancerous cells, is known as __________.",
+        "answer": "Immunity"
+      },
+      {
+        "type": "blank",
+        "question": "Any molecule that the host does not recognise as 'self' is called an __________.",
+        "answer": "Antigen"
+      },
+      {
+        "type": "mcq",
+        "question": "Pathogen-Associated Molecular Patterns (PAMPs) are general, conserved molecular features recognised by which part of the immune system?",
+        "options": [
+          "A) Acquired immune system only",
+          "B) Innate immune system only",
+          "C) Both innate and acquired immune systems",
+          "D) Lymphatic system"
+        ],
+        "answer": "B) Innate immune system only"
+      },
+      {
+        "type": "blank",
+        "question": "The specific fragment of an antigen that is displayed on an MHC protein after phagocytosis and digestion is called an __________.",
+        "answer": "Epitope"
+      },
+      {
+        "type": "mcq",
+        "question": "Antibodies (Immunoglobulins) are proteins synthesised and secreted by which type of cells?",
+        "options": [
+          "A) Helper T cells",
+          "B) Plasma cells",
+          "C) Macrophages",
+          "D) Natural Killer cells"
+        ],
+        "answer": "B) Plasma cells"
+      },
+      {
+        "type": "mcq",
+        "question": "What is the primary function of cytokines in the immune system?",
+        "options": [
+          "A) Directly destroy bacterial cells",
+          "B) Neutralise viruses in the bloodstream",
+          "C) Regulate the immune response, induce inflammation, and stimulate cell division",
+          "D) Phagocytise cellular debris"
+        ],
+        "answer": "C) Regulate the immune response, induce inflammation, and stimulate cell division"
+      },
+      {
+        "type": "blank",
+        "question": "The process where a pathogen is linked to a non-specific immune cell (via antibodies or complement) to trigger an attack or enhance phagocytosis is called __________.",
+        "answer": "Opsonisation"
+      },
+      {
+        "type": "mcq",
+        "question": "The process where an antigen-stimulated lymphocyte divides and replicates itself, producing progeny that all express the same specific receptor, is known as __________.",
+        "options": [
+          "A) Opsonisation",
+          "B) Sensitisation",
+          "C) Clonal Selection",
+          "D) Complement Activation"
+        ],
+        "answer": "C) Clonal Selection"
+      },
+      {
+        "type": "blank",
+        "question": "The process wherein a genetically predisposed individual is exposed to an allergen, leading to an immune response upon subsequent exposures, is called __________.",
+        "answer": "Sensitisation"
+      },
+      {
+        "type": "true_false",
+        "question": "Innate immunity requires prior exposure to a pathogen to function effectively.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "type": "true_false",
+        "question": "The intact surface of the skin provides a physical barrier and also secretes antimicrobial molecules such as enzymes and mild acids.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "type": "mcq",
+        "question": "Which of the following body surface defences functions by secreting sticky mucus to trap invaders and containing antimicrobial properties?",
+        "options": [
+          "A) Skin",
+          "B) Mucous Membranes",
+          "C) Stomach acid",
+          "D) Tears"
+        ],
+        "answer": "B) Mucous Membranes"
+      },
+      {
+        "type": "true_false",
+        "question": "Stomach acid destroys pathogens, contributing to innate immunity.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "type": "blank",
+        "question": "__________ are leukocytes that primarily phagocytise and kill bacteria and mediate inflammation.",
+        "answer": "Neutrophils"
+      },
+      {
+        "type": "mcq",
+        "question": "Which leukocyte develops into macrophages and, crucially, acts as Antigen-Presenting Cells (APCs) to T cells in acquired immunity?",
+        "options": [
+          "A) Neutrophils",
+          "B) Eosinophils",
+          "C) Monocytes",
+          "D) Basophils"
+        ],
+        "answer": "C) Monocytes"
+      },
+      {
+        "type": "true_false",
+        "question": "Natural Killer (NK) cells specifically target bacterial cells for destruction.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "type": "blank",
+        "question": "__________ is an antimicrobial protein that inhibits viral replication inside host cells and is not specific to a particular virus.",
+        "answer": "Interferon"
+      },
+      {
+        "type": "mcq",
+        "question": "The Complement System kills microbes without phagocytosis by forming a __________ to create channels in the microbial plasma membrane.",
+        "options": [
+          "A) Membrane Attack Complex (MAC)",
+          "B) Major Histocompatibility Complex (MHC)",
+          "C) Pathogen-Associated Molecular Pattern (PAMP)",
+          "D) Toll-Like Receptor (TLR)"
+        ],
+        "answer": "A) Membrane Attack Complex (MAC)"
+      },
+      {
+        "type": "true_false",
+        "question": "Toll-Like Receptors (TLRs) are primarily found on erythrocytes and platelets.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "type": "blank",
+        "question": "Toll-Like Receptors (TLRs) function by recognising and binding to ligands containing __________.",
+        "answer": "PAMPs"
+      },
+      {
+        "type": "mcq",
+        "question": "Which of the following is considered a primary lymphoid organ where lymphocytes differentiate into mature immune cells?",
+        "options": [
+          "A) Lymph Nodes",
+          "B) Spleen",
+          "C) Thymus Gland",
+          "D) Tonsils"
+        ],
+        "answer": "C) Thymus Gland"
+      },
+      {
+        "type": "true_false",
+        "question": "The spleen is a site where lymphocytes multiply and function, classifying it as a primary lymphoid organ.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "type": "blank",
+        "question": "B cells mature in the __________.",
+        "answer": "bone marrow"
+      },
+      {
+        "type": "blank",
+        "question": "T cells mature in the __________ gland.",
+        "answer": "thymus"
+      },
+      {
+        "type": "mcq",
+        "question": "Class I MHC proteins are found on which type of cells?",
+        "options": [
+          "A) Erythrocytes only",
+          "B) All body cells except erythrocytes",
+          "C) Antigen-Presenting Cells (APCs) only",
+          "D) B cells and Dendritic cells only"
+        ],
+        "answer": "B) All body cells except erythrocytes"
+      },
+      {
+        "type": "true_false",
+        "question": "Class II MHC proteins primarily bind to CD8 on Cytotoxic T cells.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "type": "blank",
+        "question": "An antibody molecule consists of four interlinked polypeptides: two long heavy chains and two short __________ chains.",
+        "answer": "light"
+      },
+      {
+        "type": "mcq",
+        "question": "The variable region of an antibody is responsible for what function?",
+        "options": [
+          "A) Binding to immune cells and complement",
+          "B) Providing structural integrity to the antibody",
+          "C) Specifically recognising and binding antigen",
+          "D) Initiating the complement cascade"
+        ],
+        "answer": "C) Specifically recognising and binding antigen"
+      },
+      {
+        "type": "blank",
+        "question": "During the initiation of the inflammatory response, mast cells secrete __________.",
+        "answer": "histamine"
+      },
+      {
+        "type": "mcq",
+        "question": "During the inflammatory response, what is the immediate effect of capillary dilation (vasodilation) and increased permeability?",
+        "options": [
+          "A) Decreased blood flow to the injured site",
+          "B) Reduced entry of plasma proteins into interstitial fluid",
+          "C) Increased blood flow and entry of plasma proteins/fluid into interstitial fluid",
+          "D) Direct destruction of pathogens by nitric oxide"
+        ],
+        "answer": "C) Increased blood flow and entry of plasma proteins/fluid into interstitial fluid"
+      },
+      {
+        "type": "mcq",
+        "question": "Which cytokines are secreted by Antigen-Presenting Cells (APCs) to provide a necessary co-stimulus during Helper T cell activation?",
+        "options": [
+          "A) IL-2 and TNF",
+          "B) IL-1 and TNF",
+          "C) Perforin and proteases",
+          "D) Histamine and heparin"
+        ],
+        "answer": "B) IL-1 and TNF"
+      },
+      {
+        "type": "blank",
+        "question": "Activated Cytotoxic T cells attack __________ and virus-infected cells by recognising unusual antigen fragments complexed with Class I MHC.",
+        "answer": "cancerous"
+      },
+      {
+        "type": "true_false",
+        "question": "Cytotoxic T cells destroy target cells by engulfing them via phagocytosis.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "type": "blank",
+        "question": "In the humoral immune response, after clonal expansion, B cell clones differentiate into plasma cells and __________ cells.",
+        "answer": "Memory B"
+      },
+      {
+        "type": "mcq",
+        "question": "Which component initiates the classical pathway of the Complement Cascade by binding to an Antigen-Antibody (IgG) complex?",
+        "options": [
+          "A) C3 Convertase",
+          "B) C1 Complex",
+          "C) Membrane Attack Complex (MAC)",
+          "D) C5b"
+        ],
+        "answer": "B) C1 Complex"
+      },
+      {
+        "type": "blank",
+        "question": "A body temperature greater than 38\u00b0C (100.4\u00b0F) is defined as a __________.",
+        "answer": "fever"
+      },
+      {
+        "type": "true_false",
+        "question": "A typical person possesses only a few thousand different types of lymphocytes.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "type": "mcq",
+        "question": "The Toll-1 protein, discovered by N\u00fcsslein-Volhard and Wieschaus in 1985, was initially identified in fruit flies concerning which process?",
+        "options": [
+          "A) Immunity against bacterial infections",
+          "B) Development",
+          "C) Allergic responses",
+          "D) Antiviral defence"
+        ],
+        "answer": "B) Development"
+      },
+      {
+        "type": "blank",
+        "question": "The immunoglobulin class that is a pentamer, present in all vertebrates, and provides the bulk of specific immunity is __________.",
+        "answer": "IgM"
+      },
+      {
+        "type": "true_false",
+        "question": "IgA is primarily found in the blood plasma and is responsible for mediating allergic responses.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "type": "mcq",
+        "question": "Which immunoglobulin class is a monomer, involved in defence against multicellular parasites, and mediates allergic responses?",
+        "options": [
+          "A) IgM",
+          "B) IgG",
+          "C) IgA",
+          "D) IgE"
+        ],
+        "answer": "D) IgE"
+      },
+      {
+        "type": "blank",
+        "question": "The stress hormone __________ suppresses inflammation and specific immunity.",
+        "answer": "Cortisol"
+      },
+      {
+        "type": "mcq",
+        "question": "A key distinguishing feature of acquired immunity compared to innate immunity is that acquired immunity possesses __________.",
+        "options": [
+          "A) Non-specific recognition",
+          "B) Memory",
+          "C) Immediate response",
+          "D) Recognition of PAMPs"
+        ],
+        "answer": "B) Memory"
+      },
+      {
+        "type": "true_false",
+        "question": "Humoral immunity primarily involves Cytotoxic T cells, while cell-mediated immunity primarily involves B cells.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "type": "mcq",
+        "question": "Which type of immunity results from the direct transfer of antibodies, does not produce memory cells, and is short-lived?",
+        "options": [
+          "A) Active Immunity",
+          "B) Innate Immunity",
+          "C) Passive Immunity",
+          "D) Cell-Mediated Immunity"
+        ],
+        "answer": "C) Passive Immunity"
+      },
+      {
+        "type": "blank",
+        "question": "The __________ immune response is slower and lower in magnitude compared to the secondary response.",
+        "answer": "primary"
+      },
+      {
+        "type": "true_false",
+        "question": "Class I MHC typically presents extracellular antigens that have been phagocytised, while Class II MHC presents intracellular antigens.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "type": "blank",
+        "question": "In the autoimmune disease Multiple Sclerosis, the __________ of nerve cells is attacked.",
+        "answer": "myelin"
+      },
+      {
+        "type": "mcq",
+        "question": "Which autoimmune disease involves the destruction of insulin-producing cells?",
+        "options": [
+          "A) Rheumatoid Arthritis",
+          "B) Myasthenia Gravis",
+          "C) Type 1 Diabetes Mellitus",
+          "D) Systemic Lupus Erythematosus"
+        ],
+        "answer": "C) Type 1 Diabetes Mellitus"
+      },
+      {
+        "type": "true_false",
+        "question": "Rheumatoid Arthritis is an autoimmune disease where acetylcholine receptors on skeletal muscle are attacked.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      }
     ]
   },
   "Chemistry": {},
