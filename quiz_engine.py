@@ -102,8 +102,8 @@ def generate_questions_gemini(text_content, api_key, model_name):
     2. (T/F) The nucleus is the powerhouse...
     3. (Blank) The __________ is the powerhouse...
 
-    QUANTITY: Do NOT stop at the "main" concepts. Cover minor details too. 
-    Aim for 60 to 90 total questions (20-30 concepts x 3 variations).
+    QUANTITY: Do NOT stop at the "main" concepts. Exhaust the text completely. 
+    Aim for 60 to 90 total questions.
     
     FORMAT: Raw JSON only. No markdown.
     TEXT CONTENT:
@@ -187,62 +187,11 @@ elif mode == "Take Quiz":
                 with st.form("my_quiz_form"):
                     user_answers = {}
                     for i, q in enumerate(st.session_state.quiz_data):
-                        st.write(f"**{i+1}. {q['question']}**")
-                        widget_key = f"q_{i}"
+                        # --- CRASH PROOFING START ---
+                        if not isinstance(q, dict): continue # Skip bad data
                         
-                        if q['type'] == 'mcq':
-                            user_answers[i] = st.radio("Select:", q.get('options', []), key=widget_key, index=None)
-                        elif q['type'] == 'true_false':
-                            # Force True/False options even if AI forgot them
-                            user_answers[i] = st.radio("True/False:", ["True", "False"], key=widget_key, index=None)
-                        else:
-                            user_answers[i] = st.text_input("Answer:", key=widget_key)
-                        st.divider()
-                    
-                    submitted = st.form_submit_button("Submit Quiz")
-                    
-                    if submitted:
-                        score = 0
-                        st.write("### 📝 Results:")
-                        for i, q in enumerate(st.session_state.quiz_data):
-                            u_ans = user_answers.get(i)
-                            c_ans = q['answer']
-                            is_correct = False
-                            
-                            if u_ans:
-                                if q['type'] == 'blank':
-                                    if str(u_ans).lower().strip() in str(c_ans).lower(): is_correct = True
-                                else:
-                                    user_str = str(u_ans).split(")")[0].strip()
-                                    target_str = str(c_ans).split(")")[0].strip()
-                                    if str(u_ans) == str(c_ans) or user_str == target_str:
-                                        is_correct = True
-                            
-                            if is_correct:
-                                score += 1
-                                st.success(f"**Q{i+1}: Correct!**")
-                            else:
-                                st.error(f"**Q{i+1}: Incorrect**")
-                                st.write(f"Your Answer: {u_ans}")
-                                st.write(f"Correct Answer: {c_ans}")
-                            st.divider()
-                            
-                        st.metric("Final Score", f"{score}/{len(st.session_state.quiz_data)}")
-                        if st.form_submit_button("Take Another Quiz"):
-                            st.session_state.quiz_active = False
-                            st.rerun()
-        else:
-            st.warning("Topic has 0 questions.")
-    else:
-        st.info("No topics found. Add one!")
+                        question_text = q.get('question', 'Error: Question missing')
+                        q_type = q.get('type', 'blank')
+                        # ----------------------------
 
-elif mode == "Manage Topics":
-    if subject in data:
-        for t in list(data[subject].keys()):
-            col1, col2 = st.columns([4,1])
-            with col1: st.write(f"**{t}** ({len(data[subject][t])} qs)")
-            with col2:
-                if st.button("Delete", key=f"del_{t}"):
-                    del data[subject][t]
-                    save_data(data)
-                    st.rerun()
+                        st.write
