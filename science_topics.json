@@ -783,6 +783,1043 @@
         "answer": "regulator",
         "options": []
       }
+    ],
+    "Immune System": [
+      {
+        "question": "Which of the following best defines immunity?",
+        "type": "mcq",
+        "options": [
+          "The process by which an organism creates antibodies.",
+          "The ability of an animal to recognize 'self' molecules.",
+          "The ability of an animal to ward off internal threats like microbes or cancerous cells.",
+          "The mechanism for producing memory cells after pathogen exposure."
+        ],
+        "answer": "The ability of an animal to ward off internal threats like microbes or cancerous cells."
+      },
+      {
+        "question": "Immunity refers to an animal's ability to ward off internal threats such as microbes, microbial toxins, or cancerous cells.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "The ability of an animal to ward off internal threats such as microbes, microbial toxins, or cancerous cells is known as __________.",
+        "type": "blank",
+        "answer": "immunity",
+        "options": []
+      },
+      {
+        "question": "An antigen is typically what type of molecule that the host does not recognize as 'self'?",
+        "type": "mcq",
+        "options": [
+          "Small lipids or carbohydrates",
+          "Nucleic acids or ions",
+          "Proteins or large polysaccharides",
+          "Vitamins or minerals"
+        ],
+        "answer": "Proteins or large polysaccharides"
+      },
+      {
+        "question": "Antigens are molecules that the host recognizes as 'self'.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Any molecule that the host does not recognize as 'self', usually proteins or large polysaccharides, is called an __________.",
+        "type": "blank",
+        "answer": "antigen",
+        "options": []
+      },
+      {
+        "question": "PAMPs are recognized by which part of the immune system?",
+        "type": "mcq",
+        "options": [
+          "Acquired immune system",
+          "Specific immunity only",
+          "Adaptive immune system",
+          "Innate immune system"
+        ],
+        "answer": "Innate immune system"
+      },
+      {
+        "question": "PAMPs are specific molecular features unique to a single type of pathogen.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "General, conserved molecular features common to many types of pathogens, such as viral nucleic acids, are known as __________.",
+        "type": "blank",
+        "answer": "PAMPs",
+        "options": []
+      },
+      {
+        "question": "What is an epitope?",
+        "type": "mcq",
+        "options": [
+          "A type of immune cell that attacks pathogens.",
+          "The specific fragment of an antigen displayed on an MHC protein.",
+          "A chemical messenger secreted by immune cells.",
+          "A protein that forms channels in a microbial membrane."
+        ],
+        "answer": "The specific fragment of an antigen displayed on an MHC protein."
+      },
+      {
+        "question": "An epitope is the entire antigen molecule displayed on an MHC protein.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The specific fragment of an antigen that is displayed on an MHC protein after phagocytosis and digestion is called an __________.",
+        "type": "blank",
+        "answer": "epitope",
+        "options": []
+      },
+      {
+        "question": "Which cells are responsible for synthesizing and secreting antibodies?",
+        "type": "mcq",
+        "options": [
+          "Macrophages",
+          "Helper T cells",
+          "Plasma cells",
+          "Natural Killer cells"
+        ],
+        "answer": "Plasma cells"
+      },
+      {
+        "question": "Antibodies are proteins that bind to non-specific antigens to destroy foreign molecules.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Proteins synthesized and secreted by plasma cells that bind to specific antigens to help destroy foreign molecules are called __________.",
+        "type": "blank",
+        "answer": "antibodies",
+        "options": []
+      },
+      {
+        "question": "What is the primary function of cytokines?",
+        "type": "mcq",
+        "options": [
+          "To directly destroy cancerous cells.",
+          "To produce antibodies.",
+          "To regulate the immune response, induce inflammation, and stimulate cell division.",
+          "To form a physical barrier against pathogens."
+        ],
+        "answer": "To regulate the immune response, induce inflammation, and stimulate cell division."
+      },
+      {
+        "question": "Interleukins and TNF are examples of cytokines.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "Chemical messengers secreted by immune cells to regulate the immune response, induce inflammation, and stimulate cell division are known as __________.",
+        "type": "blank",
+        "answer": "cytokines",
+        "options": []
+      },
+      {
+        "question": "Opsonization enhances phagocytosis by:",
+        "type": "mcq",
+        "options": [
+          "Directly digesting the pathogen.",
+          "Creating channels in the pathogen's membrane.",
+          "Linking a pathogen to a non-specific immune cell via antibodies or complement.",
+          "Inhibiting viral replication inside host cells."
+        ],
+        "answer": "Linking a pathogen to a non-specific immune cell via antibodies or complement."
+      },
+      {
+        "question": "Opsonization specifically involves linking a pathogen directly to a T cell.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The process where a pathogen is linked to a non-specific immune cell (via antibodies or complement) to trigger an attack or enhance phagocytosis is called __________.",
+        "type": "blank",
+        "answer": "opsonization",
+        "options": []
+      },
+      {
+        "question": "Clonal selection involves an antigen-stimulated lymphocyte doing what?",
+        "type": "mcq",
+        "options": [
+          "Changing its specific receptor type.",
+          "Undergoing programmed cell death.",
+          "Dividing and replicating itself to produce progeny with the same receptor.",
+          "Migrating to a primary lymphoid organ for maturation."
+        ],
+        "answer": "Dividing and replicating itself to produce progeny with the same receptor."
+      },
+      {
+        "question": "Clonal selection results in progeny lymphocytes expressing different specific receptors.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The process where an antigen-stimulated lymphocyte divides and replicates itself, producing progeny that all express the same specific receptor, is known as __________.",
+        "type": "blank",
+        "answer": "clonal selection",
+        "options": []
+      },
+      {
+        "question": "Sensitization occurs when a genetically predisposed individual is exposed to what?",
+        "type": "mcq",
+        "options": [
+          "A vaccine for the first time.",
+          "An allergen, leading to an immune response upon subsequent exposures.",
+          "A common bacterium, resulting in immediate immunity.",
+          "A cancerous cell, activating NK cells."
+        ],
+        "answer": "An allergen, leading to an immune response upon subsequent exposures."
+      },
+      {
+        "question": "Sensitization is a process that provides immediate, lifelong immunity.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The process wherein a genetically predisposed individual is exposed to an allergen, leading to an immune response upon subsequent exposures, is called __________.",
+        "type": "blank",
+        "answer": "sensitization",
+        "options": []
+      },
+      {
+        "question": "Which characteristic defines innate immunity?",
+        "type": "mcq",
+        "options": [
+          "It develops after exposure to specific invaders.",
+          "It requires prior exposure to a pathogen.",
+          "It is an inherited defense mechanism present at birth and functions consistently.",
+          "It generates memory cells for faster future responses."
+        ],
+        "answer": "It is an inherited defense mechanism present at birth and functions consistently."
+      },
+      {
+        "question": "Innate immunity requires prior exposure to a pathogen to be effective.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "__________ is the inherited defense mechanism present at birth that functions consistently regardless of the invader and does not require prior exposure.",
+        "type": "blank",
+        "answer": "Innate immunity",
+        "options": []
+      },
+      {
+        "question": "How does the skin contribute to innate immunity?",
+        "type": "mcq",
+        "options": [
+          "By producing specific antibodies.",
+          "By acting as a physical barrier and secreting antimicrobial enzymes and mild acids.",
+          "By presenting antigens to T cells.",
+          "By storing memory cells for future infections."
+        ],
+        "answer": "By acting as a physical barrier and secreting antimicrobial enzymes and mild acids."
+      },
+      {
+        "question": "The skin provides a physical barrier and secretes mild bases to neutralize pathogens.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The skin acts as a physical barrier and secretes antimicrobial enzymes and mild acids as part of __________ immunity.",
+        "type": "blank",
+        "answer": "innate",
+        "options": []
+      },
+      {
+        "question": "Which type of leukocyte primarily phagocytizes and kills bacteria and mediates inflammation?",
+        "type": "mcq",
+        "options": [
+          "Macrophages",
+          "Natural Killer cells",
+          "Neutrophils",
+          "Mast cells"
+        ],
+        "answer": "Neutrophils"
+      },
+      {
+        "question": "Neutrophils are primarily responsible for antibody production.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "__________ are leukocytes that phagocytize and kill bacteria, and also mediate inflammation.",
+        "type": "blank",
+        "answer": "Neutrophils",
+        "options": []
+      },
+      {
+        "question": "What is a key role of macrophages in the immune system?",
+        "type": "mcq",
+        "options": [
+          "Producing histamine during allergic responses.",
+          "Acting as Antigen-Presenting Cells (APCs).",
+          "Forming Membrane Attack Complexes (MACs).",
+          "Inhibiting viral replication inside host cells."
+        ],
+        "answer": "Acting as Antigen-Presenting Cells (APCs)."
+      },
+      {
+        "question": "Macrophages do not participate in mediating inflammation.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Macrophages phagocytize microbes, mediate inflammation, and act as __________.",
+        "type": "blank",
+        "answer": "Antigen-Presenting Cells (APCs)",
+        "options": []
+      },
+      {
+        "question": "Natural Killer (NK) cells primarily attack which type of cells?",
+        "type": "mcq",
+        "options": [
+          "Healthy red blood cells.",
+          "B cells presenting antigens.",
+          "Cancerous and virus-infected cells.",
+          "Bacteria in the extracellular fluid."
+        ],
+        "answer": "Cancerous and virus-infected cells."
+      },
+      {
+        "question": "Natural Killer cells recognize specific antigens presented on MHC proteins.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "__________ cells attack cancerous and virus-infected cells by recognizing general features.",
+        "type": "blank",
+        "answer": "Natural Killer (NK)",
+        "options": []
+      },
+      {
+        "question": "Which antimicrobial protein inhibits viral replication inside host cells?",
+        "type": "mcq",
+        "options": [
+          "Histamine",
+          "Perforin",
+          "Interferon",
+          "Complement"
+        ],
+        "answer": "Interferon"
+      },
+      {
+        "question": "Interferon's main role is to enhance bacterial growth.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "__________ is an antimicrobial protein that inhibits viral replication inside host cells.",
+        "type": "blank",
+        "answer": "Interferon",
+        "options": []
+      },
+      {
+        "question": "What is the function of the Complement System?",
+        "type": "mcq",
+        "options": [
+          "To produce antibodies against specific pathogens.",
+          "To trap invaders with sticky mucus.",
+          "To form a Membrane Attack Complex (MAC) that creates channels in microbial plasma membranes.",
+          "To secrete mild acids on body surfaces."
+        ],
+        "answer": "To form a Membrane Attack Complex (MAC) that creates channels in microbial plasma membranes."
+      },
+      {
+        "question": "The Complement System primarily functions by directly stimulating B cell division.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The __________ is a cascade that kills microbes using a Membrane Attack Complex (MAC) to create channels in the microbial plasma membrane.",
+        "type": "blank",
+        "answer": "Complement System",
+        "options": []
+      },
+      {
+        "question": "Acquired immunity is characterized by:",
+        "type": "mcq",
+        "options": [
+          "Being present at birth and functioning non-specifically.",
+          "Developing after exposure and targeting specific invaders.",
+          "Having no memory of previous exposures.",
+          "Relying solely on physical barriers."
+        ],
+        "answer": "Developing after exposure and targeting specific invaders."
+      },
+      {
+        "question": "Acquired immunity is developed at birth and provides non-specific defense.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "__________ develops after exposure and targets specific invaders, with repeated exposure eliciting a greater defense response.",
+        "type": "blank",
+        "answer": "Acquired immunity",
+        "options": []
+      },
+      {
+        "question": "Which of the following is a primary lymphoid organ where B cells mature?",
+        "type": "mcq",
+        "options": [
+          "Lymph Nodes",
+          "Spleen",
+          "Bone Marrow",
+          "Tonsils"
+        ],
+        "answer": "Bone Marrow"
+      },
+      {
+        "question": "The Thymus Gland is where B cells primarily mature.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "B cell maturation occurs in the __________.",
+        "type": "blank",
+        "answer": "Bone Marrow",
+        "options": []
+      },
+      {
+        "question": "Class I MHC proteins are found on which cells?",
+        "type": "mcq",
+        "options": [
+          "Only B cells.",
+          "Only Macrophages.",
+          "All body cells except erythrocytes.",
+          "Only Helper T cells."
+        ],
+        "answer": "All body cells except erythrocytes."
+      },
+      {
+        "question": "Class I MHC proteins bind to CD4 on Helper T cells.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Class I MHC proteins are found on all body cells except __________.",
+        "type": "blank",
+        "answer": "erythrocytes",
+        "options": []
+      },
+      {
+        "question": "Class II MHC proteins are primarily found on which cells?",
+        "type": "mcq",
+        "options": [
+          "Cytotoxic T cells.",
+          "Antigen-Presenting Cells (Macrophages, B cells).",
+          "Erythrocytes.",
+          "Natural Killer cells."
+        ],
+        "answer": "Antigen-Presenting Cells (Macrophages, B cells)."
+      },
+      {
+        "question": "Class II MHC proteins bind to CD8 on Cytotoxic T cells.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Class II MHC proteins are found primarily on __________ such as Macrophages and B cells.",
+        "type": "blank",
+        "answer": "Antigen-Presenting Cells (APCs)",
+        "options": []
+      },
+      {
+        "question": "What is the structure of an antibody (immunoglobulin)?",
+        "type": "mcq",
+        "options": [
+          "Two heavy chains and one light chain.",
+          "A single polypeptide chain.",
+          "Four interlinked polypeptides (2 long heavy chains, 2 short light chains).",
+          "A lipid bilayer with embedded proteins."
+        ],
+        "answer": "Four interlinked polypeptides (2 long heavy chains, 2 short light chains)."
+      },
+      {
+        "question": "Antibodies consist of three interlinked polypeptide chains.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Antibodies are composed of four interlinked polypeptides, specifically two long heavy chains and two short __________ chains.",
+        "type": "blank",
+        "answer": "light",
+        "options": []
+      },
+      {
+        "question": "Which region of an antibody specifically recognizes and binds antigen?",
+        "type": "mcq",
+        "options": [
+          "The constant region.",
+          "The hinge region.",
+          "The variable region.",
+          "The Fc region."
+        ],
+        "answer": "The variable region."
+      },
+      {
+        "question": "The constant region of an antibody varies among B cells and specifically recognizes antigen.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The __________ region of an antibody varies among B cells and specifically recognizes and binds antigen.",
+        "type": "blank",
+        "answer": "variable",
+        "options": []
+      },
+      {
+        "question": "What happens during the 'Vascular Changes' step of the inflammatory response?",
+        "type": "mcq",
+        "options": [
+          "Neutrophils begin destroying bacteria immediately.",
+          "Capillaries dilate and permeability increases, allowing plasma proteins/fluid to enter the tissue.",
+          "Macrophages secrete cytokines for tissue repair.",
+          "Antibodies start binding to foreign material."
+        ],
+        "answer": "Capillaries dilate and permeability increases, allowing plasma proteins/fluid to enter the tissue."
+      },
+      {
+        "question": "During vascular changes in inflammation, capillaries constrict to prevent fluid loss.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "During the inflammatory response, capillaries dilate and permeability increases, allowing plasma proteins/fluid to enter the tissue during the __________ stage.",
+        "type": "blank",
+        "answer": "Vascular Changes",
+        "options": []
+      },
+      {
+        "question": "Which cells secrete histamine during the initiation of the inflammatory response?",
+        "type": "mcq",
+        "options": [
+          "Neutrophils",
+          "Macrophages",
+          "Mast cells",
+          "Endothelial cells"
+        ],
+        "answer": "Mast cells"
+      },
+      {
+        "question": "Endothelial cells secrete histamine at the initiation of the inflammatory response.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "During the initiation of the inflammatory response, injury introduces bacteria, and __________ cells secrete histamine.",
+        "type": "blank",
+        "answer": "Mast",
+        "options": []
+      },
+      {
+        "question": "In Helper T cell activation, what protein does the Helper T cell use to bind to the Class II MHC complex?",
+        "type": "mcq",
+        "options": [
+          "CD8",
+          "CD4",
+          "MHC I",
+          "Perforin"
+        ],
+        "answer": "CD4"
+      },
+      {
+        "question": "Helper T cells bind to Class II MHC proteins using their CD8 protein.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "A Helper T cell binds to the epitope-Class II MHC complex using its receptor and the __________ protein.",
+        "type": "blank",
+        "answer": "CD4",
+        "options": []
+      },
+      {
+        "question": "What is secreted by the activated Helper T cell to stimulate its own division during Helper T cell activation?",
+        "type": "mcq",
+        "options": [
+          "IL-1",
+          "TNF",
+          "IL-2",
+          "Histamine"
+        ],
+        "answer": "IL-2"
+      },
+      {
+        "question": "During Helper T cell activation, the APC secretes IL-2 to stimulate the Helper T cell's division.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "During Helper T cell activation, the Helper T cell secretes __________ to stimulate its own division.",
+        "type": "blank",
+        "answer": "IL-2",
+        "options": []
+      },
+      {
+        "question": "In Cytotoxic T cell activation, what does the Cytotoxic T cell secrete to form channels in the target cell's membrane?",
+        "type": "mcq",
+        "options": [
+          "Cytokines",
+          "Antibodies",
+          "Perforin",
+          "Interferon"
+        ],
+        "answer": "Perforin"
+      },
+      {
+        "question": "Cytotoxic T cells use proteases to help form channels in the target cell's membrane.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "A Cytotoxic T cell secretes __________ to form channels in the target cell's membrane, causing it to burst.",
+        "type": "blank",
+        "answer": "perforin",
+        "options": []
+      },
+      {
+        "question": "During Cytotoxic T cell activation, which protein on the Cytotoxic T cell binds to Class I MHC?",
+        "type": "mcq",
+        "options": [
+          "CD4",
+          "CD8",
+          "B cell receptor",
+          "MHC II"
+        ],
+        "answer": "CD8"
+      },
+      {
+        "question": "Cytotoxic T cells recognize antigen fragments complexed with Class II MHC.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "During Cytotoxic T cell activation, the Cytotoxic T cell binds to the Class I MHC complex using its receptor and the __________ protein.",
+        "type": "blank",
+        "answer": "CD8",
+        "options": []
+      },
+      {
+        "question": "In the Humoral Immune Response, activated B cell clones differentiate into what two types of cells?",
+        "type": "mcq",
+        "options": [
+          "Helper T cells and Cytotoxic T cells.",
+          "Macrophages and Neutrophils.",
+          "Plasma Cells and Memory B Cells.",
+          "Mast cells and Natural Killer cells."
+        ],
+        "answer": "Plasma Cells and Memory B Cells."
+      },
+      {
+        "question": "During the humoral immune response, B cell clones differentiate only into plasma cells.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "In the Humoral Immune Response, activated B cell clones differentiate into Plasma Cells and __________.",
+        "type": "blank",
+        "answer": "Memory B Cells",
+        "options": []
+      },
+      {
+        "question": "What is the primary role of antibodies after B cell activation in the humoral response?",
+        "type": "mcq",
+        "options": [
+          "To directly activate Helper T cells.",
+          "To phagocytize pathogens.",
+          "To neutralize pathogens or trigger complement activation.",
+          "To secrete perforin to destroy infected cells."
+        ],
+        "answer": "To neutralize pathogens or trigger complement activation."
+      },
+      {
+        "question": "Antibodies directly phagocytize pathogens in the humoral immune response.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "After B cell activation, __________ neutralize pathogens or trigger complement activation.",
+        "type": "blank",
+        "answer": "antibodies",
+        "options": []
+      },
+      {
+        "question": "In the Classical Complement Cascade, what components combine to form the Membrane Attack Complex (MAC)?",
+        "type": "mcq",
+        "options": [
+          "C1 complex and C2a.",
+          "C3a and C5a.",
+          "C5b, C6, C7, C8, and C9.",
+          "Antibodies and antigens only."
+        ],
+        "answer": "C5b, C6, C7, C8, and C9."
+      },
+      {
+        "question": "The C1 complex directly forms the Membrane Attack Complex (MAC) in the Classical Complement Cascade.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "In the Classical Complement Cascade, C5b, C6, C7, C8, and C9 combine to form the __________.",
+        "type": "blank",
+        "answer": "Membran Attack Complex (MAC)",
+        "options": []
+      },
+      {
+        "question": "What body temperature is defined as a fever?",
+        "type": "mcq",
+        "options": [
+          "Greater than 37\u00b0C (98.6\u00b0F).",
+          "Greater than 38\u00b0C (100.4\u00b0F).",
+          "Greater than 39\u00b0C (102.2\u00b0F).",
+          "Greater than 40\u00b0C (104\u00b0F)."
+        ],
+        "answer": "Greater than 38\u00b0C (100.4\u00b0F)."
+      },
+      {
+        "question": "Fever is defined as a body temperature greater than 37.5\u00b0C (99.5\u00b0F).",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "A body temperature greater than __________ (100.4\u00b0F) is defined as a fever.",
+        "type": "blank",
+        "answer": "38\u00b0C",
+        "options": []
+      },
+      {
+        "question": "Approximately how many different lymphocytes does a typical person possess?",
+        "type": "mcq",
+        "options": [
+          "Tens of thousands.",
+          "Hundreds of thousands.",
+          "Over 100 million.",
+          "A few thousand."
+        ],
+        "answer": "Over 100 million."
+      },
+      {
+        "question": "A typical person possesses only a few thousand different lymphocytes.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "A typical person possesses over __________ different lymphocytes.",
+        "type": "blank",
+        "answer": "100 million",
+        "options": []
+      },
+      {
+        "question": "Which immunoglobulin class is a pentamer and is the first to appear during an immune response?",
+        "type": "mcq",
+        "options": [
+          "IgG",
+          "IgA",
+          "IgM",
+          "IgE"
+        ],
+        "answer": "IgM"
+      },
+      {
+        "question": "IgG is the first immunoglobulin class to appear during an immune response.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The immunoglobulin class that is a pentamer and the first to appear is __________.",
+        "type": "blank",
+        "answer": "IgM",
+        "options": []
+      },
+      {
+        "question": "Which immunoglobulin class is the most abundant in the blood and provides the bulk of specific immunity?",
+        "type": "mcq",
+        "options": [
+          "IgA",
+          "IgM",
+          "IgE",
+          "IgG"
+        ],
+        "answer": "IgG"
+      },
+      {
+        "question": "IgA is the most abundant immunoglobulin in the blood.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "__________ is the monomeric immunoglobulin class most abundant in blood, providing the bulk of specific immunity.",
+        "type": "blank",
+        "answer": "IgG",
+        "options": []
+      },
+      {
+        "question": "Which immunoglobulin class is secreted in the linings of the GI and respiratory tracts?",
+        "type": "mcq",
+        "options": [
+          "IgG",
+          "IgM",
+          "IgE",
+          "IgA"
+        ],
+        "answer": "IgA"
+      },
+      {
+        "question": "IgM is primarily secreted in the linings of the GI/respiratory tracts.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The dimeric immunoglobulin class secreted in the linings of the GI and respiratory tracts is __________.",
+        "type": "blank",
+        "answer": "IgA",
+        "options": []
+      },
+      {
+        "question": "Which immunoglobulin class defends against parasites and mediates allergies?",
+        "type": "mcq",
+        "options": [
+          "IgG",
+          "IgM",
+          "IgE",
+          "IgA"
+        ],
+        "answer": "IgE"
+      },
+      {
+        "question": "IgE is primarily involved in providing the bulk of specific immunity.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The monomeric immunoglobulin class that defends against parasites and mediates allergies is __________.",
+        "type": "blank",
+        "answer": "IgE",
+        "options": []
+      },
+      {
+        "question": "What is identified as the single greatest contributor to decreased resistance globally?",
+        "type": "mcq",
+        "options": [
+          "Lack of vaccination.",
+          "Protein-calorie malnutrition.",
+          "Excessive exercise.",
+          "Exposure to common allergens."
+        ],
+        "answer": "Protein-calorie malnutrition."
+      },
+      {
+        "question": "Protein-calorie malnutrition is a minor factor in decreased global immune resistance.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "__________ is the single greatest contributor to decreased resistance globally.",
+        "type": "blank",
+        "answer": "Protein-calorie malnutrition",
+        "options": []
+      },
+      {
+        "question": "Which stress hormone is known to suppress inflammation?",
+        "type": "mcq",
+        "options": [
+          "Adrenaline",
+          "Insulin",
+          "Cortisol",
+          "Estrogen"
+        ],
+        "answer": "Cortisol"
+      },
+      {
+        "question": "Cortisol is a stress hormone that enhances inflammation.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The stress hormone __________ suppresses inflammation.",
+        "type": "blank",
+        "answer": "Cortisol",
+        "options": []
+      },
+      {
+        "question": "How does acquired immunity differ from innate immunity in terms of specificity?",
+        "type": "mcq",
+        "options": [
+          "Acquired immunity is non-specific, while innate immunity targets unique antigens.",
+          "Acquired immunity targets specific unique antigens, while innate immunity is non-specific, recognizing generic PAMPs.",
+          "Both are highly specific, but innate immunity acts faster.",
+          "Neither has true specificity, but acquired immunity is more adaptable."
+        ],
+        "answer": "Acquired immunity targets specific unique antigens, while innate immunity is non-specific, recognizing generic PAMPs."
+      },
+      {
+        "question": "Innate immunity is specific to unique antigens, whereas acquired immunity recognizes generic PAMPs.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Innate immunity is non-specific, recognizing generic PAMPs, while acquired immunity is __________.",
+        "type": "blank",
+        "answer": "specific",
+        "options": []
+      },
+      {
+        "question": "What is a key difference in memory between innate and acquired immunity?",
+        "type": "mcq",
+        "options": [
+          "Both have strong memory capabilities.",
+          "Innate immunity has memory, but acquired immunity does not.",
+          "Innate immunity has no memory, while acquired immunity has memory, leading to a faster response upon re-exposure.",
+          "Memory in both systems is short-lived."
+        ],
+        "answer": "Innate immunity has no memory, while acquired immunity has memory, leading to a faster response upon re-exposure."
+      },
+      {
+        "question": "Innate immunity has immunological memory.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Innate immunity has no memory, whereas acquired immunity __________ memory.",
+        "type": "blank",
+        "answer": "has",
+        "options": []
+      },
+      {
+        "question": "Which cells are primarily involved in Humoral Immunity?",
+        "type": "mcq",
+        "options": [
+          "Cytotoxic T cells.",
+          "Natural Killer cells.",
+          "B cells (Plasma cells).",
+          "Macrophages."
+        ],
+        "answer": "B cells (Plasma cells)."
+      },
+      {
+        "question": "Cell-Mediated Immunity primarily involves B cells.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Humoral Immunity involves __________ cells, while Cell-Mediated Immunity involves Cytotoxic T cells.",
+        "type": "blank",
+        "answer": "B",
+        "options": []
+      },
+      {
+        "question": "What do antibodies primarily target in Humoral Immunity?",
+        "type": "mcq",
+        "options": [
+          "Infected body cells.",
+          "Cancer cells.",
+          "Pathogens in extracellular fluid.",
+          "Cells displaying Class I MHC."
+        ],
+        "answer": "Pathogens in extracellular fluid."
+      },
+      {
+        "question": "Cell-Mediated Immunity targets pathogens in extracellular fluid.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Humoral Immunity targets pathogens in __________ fluid, whereas Cell-Mediated Immunity targets infected body cells or cancer cells.",
+        "type": "blank",
+        "answer": "extracellular",
+        "options": []
+      },
+      {
+        "question": "What is the source of active immunity?",
+        "type": "mcq",
+        "options": [
+          "Transfer of antibodies from breast milk.",
+          "Transfer of antibodies across the placenta.",
+          "Infection or vaccination.",
+          "Injection of pre-formed antibodies."
+        ],
+        "answer": "Infection or vaccination."
+      },
+      {
+        "question": "Passive immunity involves the production of memory cells and long-term protection.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Active immunity is derived from infection or vaccination, while __________ immunity is derived from the transfer of antibodies.",
+        "type": "blank",
+        "answer": "passive",
+        "options": []
+      },
+      {
+        "question": "Which type of immune response is initiated by Memory B cells?",
+        "type": "mcq",
+        "options": [
+          "Primary immune response.",
+          "Innate immune response.",
+          "Secondary immune response.",
+          "Initial inflammatory response."
+        ],
+        "answer": "Secondary immune response."
+      },
+      {
+        "question": "The primary immune response is typically faster and produces more antibodies than the secondary immune response.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The __________ immune response is initiated by Memory B cells, leading to a faster and more massive antibody production.",
+        "type": "blank",
+        "answer": "secondary",
+        "options": []
+      }
     ]
   },
   "Chemistry": {},
