@@ -19,13 +19,11 @@ def get_repo():
     """Connects to your GitHub Repository"""
     try:
         if "GITHUB_TOKEN" not in st.secrets:
-            st.error("Secrets Error: GITHUB_TOKEN is missing.")
             return None
         token = st.secrets["GITHUB_TOKEN"]
         g = Github(token)
         return g.get_repo(REPO_KEY)
     except Exception as e:
-        st.error(f"GitHub Connection Error: {e}")
         return None
 
 def load_data():
@@ -124,9 +122,10 @@ if "quiz_data" not in st.session_state: st.session_state.quiz_data = []
 if "score" not in st.session_state: st.session_state.score = 0
 if "quiz_active" not in st.session_state: st.session_state.quiz_active = False
 
-with st.spinner("Syncing..."):
-    data = load_data()
+# Load Data
+data = load_data()
 
+# SIDEBAR
 with st.sidebar:
     st.header("Settings")
     subject = st.selectbox("Subject", ["Biology", "Chemistry", "Physics"])
@@ -142,6 +141,7 @@ with st.sidebar:
     else:
         selected_model = "models/gemini-2.0-flash"
 
+# LOGIC
 if mode == "Add New Topic":
     st.subheader(f"Add {subject} Material")
     name = st.text_input("Topic Name")
@@ -168,8 +168,8 @@ if mode == "Add New Topic":
 
 elif mode == "Take Quiz":
     if subject not in data: data[subject] = {}
-    topics = list(data[subject].keys())
     
+    topics = list(data[subject].keys())
     if topics:
         topic = st.selectbox("Topic", topics)
         questions = data[subject][topic]
@@ -186,12 +186,78 @@ elif mode == "Take Quiz":
             if st.session_state.quiz_active and st.session_state.quiz_data:
                 with st.form("my_quiz_form"):
                     user_answers = {}
+                    valid_question_count = 0
+                    
                     for i, q in enumerate(st.session_state.quiz_data):
-                        # --- CRASH PROOFING START ---
-                        if not isinstance(q, dict): continue # Skip bad data
+                        # --- CRASH PROTECTION ---
+                        # This skips any broken data so the app stays alive
+                        if not isinstance(q, dict) or 'question' not in q:
+                            continue
                         
-                        question_text = q.get('question', 'Error: Question missing')
+                        valid_question_count += 1
+                        st.write(f"**{valid_question_count}. {q['question']}**")
+                        widget_key = f"q_{i}"
+                        
                         q_type = q.get('type', 'blank')
-                        # ----------------------------
+                        if q_type == 'mcq':
+                            user_answers[i] = st.radio("Select:", q.get('options', []), key=widget_key, index=None)
+                        elif q_type == 'true_false':
+                            user_answers[i] = st.radio("True/False:", ["True", "False"], key=widget_key, index=None)
+                        else:
+                            user_answers[i] = st.text_input("Answer:", key=widget_key)
+                        st.divider()
+                    
+                    submitted = st.form_submit_button("Submit Quiz")
+                    
+                    if submitted:
+                        score = 0
+                        st.write("### 📝 Results:")
+                        for i, q in enumerate(st.session_state.quiz_data):
+                            # Skip broken questions during grading too
+                            if not isinstance(q, dict) or 'question' not in q:
+                                continue
 
-                        st.write
+                            u_ans = user_answers.get(i)
+                            c_ans = q.get('answer', '')
+                            is_correct = False
+                            q_type = q.get('type', 'blank')
+                            
+                            if u_ans:
+                                if q_type == 'blank':
+                                    if str(u_ans).lower().strip() in str(c_ans).lower(): is_correct = True
+                                else:
+                                    user_str = str(u_ans).split(")")[0].strip()
+                                    target_str = str(c_ans).split(")")[0].strip()
+                                    if str(u_ans) == str(c_ans) or user_str == target_str:
+                                        is_correct = True
+                            
+                            if is_correct:
+                                score += 1
+                                st.success(f"**Correct!**")
+                            else:
+                                st.error(f"**Incorrect**")
+                                st.write(f"Your Answer: {u_ans}")
+                                st.write(f"Correct Answer: {c_ans}")
+                            st.divider()
+                            
+                        if valid_question_count > 0:
+                            st.metric("Final Score", f"{score}/{valid_question_count}")
+                        
+                        if st.form_submit_button("Take Another Quiz"):
+                            st.session_state.quiz_active = False
+                            st.rerun()
+        else:
+            st.warning("Topic has 0 questions.")
+    else:
+        st.info("No topics found.")
+
+elif mode == "Manage Topics":
+    if subject in data:
+        for t in list(data[subject].keys()):
+            col1, col2 = st.columns([4,1])
+            with col1: st.write(f"**{t}** ({len(data[subject][t])} qs)")
+            with col2:
+                if st.button("Delete", key=f"del_{t}"):
+                    del data[subject][t]
+                    save_data(data)
+                    st.rerun()
