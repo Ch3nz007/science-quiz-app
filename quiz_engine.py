@@ -18,8 +18,7 @@ FILE_PATH = "science_topics.json"
 def get_repo():
     """Connects to your GitHub Repository"""
     try:
-        if "GITHUB_TOKEN" not in st.secrets:
-            return None
+        if "GITHUB_TOKEN" not in st.secrets: return None
         token = st.secrets["GITHUB_TOKEN"]
         g = Github(token)
         return g.get_repo(REPO_KEY)
@@ -31,7 +30,6 @@ def load_data():
     try:
         repo = get_repo()
         if not repo: return {"Biology": {}, "Chemistry": {}, "Physics": {}}
-        
         contents = repo.get_contents(FILE_PATH)
         json_content = contents.decoded_content.decode()
         return json.loads(json_content)
@@ -43,7 +41,6 @@ def save_data(data):
     try:
         repo = get_repo()
         if not repo: return
-        
         json_str = json.dumps(data, indent=2)
         try:
             contents = repo.get_contents(FILE_PATH)
@@ -76,11 +73,38 @@ def get_available_models(api_key):
         return [m.name for m in models if 'generateContent' in m.supported_generation_methods]
     except: return []
 
+# --- CRITICAL FIX: DATA CLEANER ---
+def clean_quiz_data(raw_questions):
+    """Fixes bad capitalization (Question -> question) and missing keys"""
+    if not isinstance(raw_questions, list): return []
+    
+    cleaned = []
+    for q in raw_questions:
+        if not isinstance(q, dict): continue
+        
+        # 1. Normalize Keys (Convert 'Question' to 'question', etc.)
+        new_q = {}
+        for k, v in q.items():
+            new_q[k.lower().strip()] = v
+            
+        # 2. Ensure Essential Keys Exist
+        # If 'question' is missing, try to find a key that looks like it
+        if 'question' not in new_q:
+            # Fallback: Is there a key named 'prompt' or 'q'?
+            if 'prompt' in new_q: new_q['question'] = new_q['prompt']
+            else: continue # Skip if truly no question text
+            
+        # Defaults
+        if 'type' not in new_q: new_q['type'] = 'blank'
+        if 'options' not in new_q: new_q['options'] = []
+        if 'answer' not in new_q: new_q['answer'] = ''
+        
+        cleaned.append(new_q)
+    return cleaned
+
 def generate_questions_gemini(text_content, api_key, model_name):
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel(model_name)
-    
-    # Sanitizer
     safe_text = text_content.replace("\\", "/") 
     
     prompt = f"""
@@ -88,29 +112,28 @@ def generate_questions_gemini(text_content, api_key, model_name):
     GOAL: Create a massive "Deep Learning" question bank.
     
     INSTRUCTIONS:
-    1. Read the text and identify EVERY SINGLE fact, definition, and concept (major or minor).
-    2. For EACH fact found, generate THREE (3) distinct variations of questions:
+    1. Read the text and identify EVERY SINGLE fact, definition, and concept.
+    2. For EACH fact found, generate THREE (3) distinct variations:
        - Variation A: Multiple Choice (mcq)
        - Variation B: True/False (true_false)
        - Variation C: Fill in the Blank (blank)
-    
-    EXAMPLE:
-    Concept: "Mitochondria is the powerhouse."
-    1. (MCQ) Which organelle...? 
-    2. (T/F) The nucleus is the powerhouse...
-    3. (Blank) The __________ is the powerhouse...
 
-    QUANTITY: Do NOT stop at the "main" concepts. Exhaust the text completely. 
-    Aim for 60 to 90 total questions.
-    
-    FORMAT: Raw JSON only. No markdown.
+    CRITICAL: 
+    - You must generate AT LEAST 60 questions. Do not stop early.
+    - JSON Keys must be lowercase: "question", "type", "options", "answer".
+
+    FORMAT: Raw JSON only.
     TEXT CONTENT:
     {safe_text} 
     """
     try:
         response = model.generate_content(prompt)
-        cleaned = response.text.strip().replace("```json", "").replace("```", "").replace("json\n", "")
-        return json.loads(cleaned)
+        cleaned_text = response.text.strip().replace("```json", "").replace("```", "").replace("json\n", "")
+        raw_json = json.loads(cleaned_text)
+        
+        # Run the cleaner before returning
+        return clean_quiz_data(raw_json)
+        
     except Exception as e:
         st.error(f"AI Generation Error: {e}")
         return None
@@ -122,7 +145,6 @@ if "quiz_data" not in st.session_state: st.session_state.quiz_data = []
 if "score" not in st.session_state: st.session_state.score = 0
 if "quiz_active" not in st.session_state: st.session_state.quiz_active = False
 
-# Load Data
 data = load_data()
 
 # SIDEBAR
@@ -154,13 +176,13 @@ if mode == "Add New Topic":
         if text_input: full_text += "\n" + text_input
             
         if full_text.strip() and api_key:
-            with st.spinner(f"Generating Variations..."):
+            with st.spinner(f"Generating 60+ Questions..."):
                 qs = generate_questions_gemini(full_text, api_key, selected_model)
                 if qs:
                     if subject not in data: data[subject] = {}
                     data[subject][name] = qs
                     save_data(data)
-                    st.success(f"Saved {len(qs)} questions (3 variations per fact)!")
+                    st.success(f"Success! Saved {len(qs)} questions.")
                     time.sleep(2)
                     st.rerun()
         else:
@@ -178,24 +200,22 @@ elif mode == "Take Quiz":
             q_limit = st.slider("Number of Questions", 1, len(questions), min(10, len(questions)))
             
             if st.button("Start New Quiz"):
-                st.session_state.quiz_data = random.sample(questions, q_limit)
-                st.session_state.score = 0
-                st.session_state.quiz_active = True
-                st.rerun()
+                # Ensure we have valid data before sampling
+                clean_qs = clean_quiz_data(questions)
+                if len(clean_qs) == 0:
+                    st.error("Error: This topic has corrupted data. Please delete and regenerate it.")
+                else:
+                    st.session_state.quiz_data = random.sample(clean_qs, q_limit)
+                    st.session_state.score = 0
+                    st.session_state.quiz_active = True
+                    st.rerun()
 
             if st.session_state.quiz_active and st.session_state.quiz_data:
                 with st.form("my_quiz_form"):
                     user_answers = {}
-                    valid_question_count = 0
                     
                     for i, q in enumerate(st.session_state.quiz_data):
-                        # --- CRASH PROTECTION ---
-                        # This skips any broken data so the app stays alive
-                        if not isinstance(q, dict) or 'question' not in q:
-                            continue
-                        
-                        valid_question_count += 1
-                        st.write(f"**{valid_question_count}. {q['question']}**")
+                        st.write(f"**{i+1}. {q['question']}**")
                         widget_key = f"q_{i}"
                         
                         q_type = q.get('type', 'blank')
@@ -213,10 +233,6 @@ elif mode == "Take Quiz":
                         score = 0
                         st.write("### 📝 Results:")
                         for i, q in enumerate(st.session_state.quiz_data):
-                            # Skip broken questions during grading too
-                            if not isinstance(q, dict) or 'question' not in q:
-                                continue
-
                             u_ans = user_answers.get(i)
                             c_ans = q.get('answer', '')
                             is_correct = False
@@ -240,9 +256,7 @@ elif mode == "Take Quiz":
                                 st.write(f"Correct Answer: {c_ans}")
                             st.divider()
                             
-                        if valid_question_count > 0:
-                            st.metric("Final Score", f"{score}/{valid_question_count}")
-                        
+                        st.metric("Final Score", f"{score}/{len(st.session_state.quiz_data)}")
                         if st.form_submit_button("Take Another Quiz"):
                             st.session_state.quiz_active = False
                             st.rerun()
