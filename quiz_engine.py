@@ -139,7 +139,7 @@ def generate_questions_gemini(text_content, api_key, model_name):
         return None
 
 # --- Frontend ---
-st.title("🎓 Smart Quiz Engine (Cloud Synced)")
+st.title("Quiz Engine")
 
 if "quiz_data" not in st.session_state: st.session_state.quiz_data = []
 if "score" not in st.session_state: st.session_state.score = 0
