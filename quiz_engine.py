@@ -8,7 +8,7 @@ from pypdf import PdfReader
 from pptx import Presentation
 
 # --- Setup ---
-st.set_page_config(page_title="Gemini Quiz Engine", layout="wide")
+st.set_page_config(page_title="Quiz Engine", layout="wide")
 
 # ⚠️ CHANGE THIS TO YOUR EXACT REPO NAME
 REPO_KEY = "Ch3nz007/science-quiz-app"
