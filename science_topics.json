@@ -4085,6 +4085,1204 @@
         "answer": "Myoglobin",
         "options": []
       }
+    ],
+    "Endocrine system": [
+      {
+        "question": "What is the primary function of the endocrine system?",
+        "type": "mcq",
+        "options": [
+          "Transporting nutrients",
+          "Synthesizing and secreting hormones",
+          "Filtering blood",
+          "Protecting the body from pathogens"
+        ],
+        "answer": "Synthesizing and secreting hormones"
+      },
+      {
+        "question": "The endocrine system is defined as a collection of specialized glands and organs that synthesize and secrete hormones.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "The ___________ is a collection of specialized glands and organs that synthesize and secrete hormones.",
+        "type": "blank",
+        "answer": "endocrine system",
+        "options": []
+      },
+      {
+        "question": "Which of the following best describes a hormone?",
+        "type": "mcq",
+        "options": [
+          "A type of enzyme that speeds up reactions",
+          "A chemical signal circulating in the bloodstream to alter target tissue functions",
+          "A nutrient absorbed from food",
+          "A structural component of cells"
+        ],
+        "answer": "A chemical signal circulating in the bloodstream to alter target tissue functions"
+      },
+      {
+        "question": "Hormones are chemical signals that circulate in the lymphatic system and primarily act on the cells that produced them.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "A ___________ is a chemical signal produced by cells that circulates in the bloodstream and acts on one or more target tissues to alter their functions.",
+        "type": "blank",
+        "answer": "hormone",
+        "options": []
+      },
+      {
+        "question": "Which characteristic defines an endocrine gland?",
+        "type": "mcq",
+        "options": [
+          "Secreting substances onto an epithelial surface via a duct",
+          "Functioning in hormone synthesis and secretion",
+          "Filtering waste from the blood",
+          "Producing digestive enzymes"
+        ],
+        "answer": "Functioning in hormone synthesis and secretion"
+      },
+      {
+        "question": "The pituitary and thyroid are examples of endocrine glands.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "Specialized glands such as the pituitary and thyroid that function in hormone synthesis and secretion are called ___________ glands.",
+        "type": "blank",
+        "answer": "endocrine",
+        "options": []
+      },
+      {
+        "question": "What is a neurohormone?",
+        "type": "mcq",
+        "options": [
+          "A hormone that acts on the nervous system",
+          "A hormone produced and secreted by neurons",
+          "A neurotransmitter that also acts as a hormone",
+          "A hormone found only in the brain"
+        ],
+        "answer": "A hormone produced and secreted by neurons"
+      },
+      {
+        "question": "Neurohormones are hormones produced and secreted by glia cells.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "A hormone produced and secreted by neurons, such as those in the hypothalamus, is known as a ___________.",
+        "type": "blank",
+        "answer": "neurohormone",
+        "options": []
+      },
+      {
+        "question": "How do exocrine glands typically secrete their substances?",
+        "type": "mcq",
+        "options": [
+          "Directly into the bloodstream",
+          "Via ducts onto an epithelial surface",
+          "By diffusing across cell membranes",
+          "Through synaptic clefts"
+        ],
+        "answer": "Via ducts onto an epithelial surface"
+      },
+      {
+        "question": "Sweat glands are an example of endocrine glands because they secrete substances directly into the bloodstream.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "A gland that secretes substances via a duct onto an epithelial surface, rather than into the bloodstream, is called an ___________ gland.",
+        "type": "blank",
+        "answer": "exocrine",
+        "options": []
+      },
+      {
+        "question": "Which brain region serves as the master controller of the endocrine system and links it with the nervous system?",
+        "type": "mcq",
+        "options": [
+          "Thalamus",
+          "Cerebellum",
+          "Hypothalamus",
+          "Brainstem"
+        ],
+        "answer": "Hypothalamus"
+      },
+      {
+        "question": "The hypothalamus is a region of the brain that links the nervous and endocrine systems.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "The ___________ is a region of the brain that acts as the master controller of the endocrine system, linking it to the nervous system.",
+        "type": "blank",
+        "answer": "hypothalamus",
+        "options": []
+      },
+      {
+        "question": "The pituitary gland is physically attached to which brain structure?",
+        "type": "mcq",
+        "options": [
+          "Thalamus",
+          "Hypothalamus",
+          "Pineal gland",
+          "Amygdala"
+        ],
+        "answer": "Hypothalamus"
+      },
+      {
+        "question": "The pituitary gland is a large, kidney-shaped gland divided into superior and inferior lobes.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The pea-sized gland attached to the hypothalamus and divided into anterior and posterior lobes is the ___________.",
+        "type": "blank",
+        "answer": "pituitary gland",
+        "options": []
+      },
+      {
+        "question": "From which type of organic molecule are amine hormones derived?",
+        "type": "mcq",
+        "options": [
+          "Carbohydrates",
+          "Lipids",
+          "Nucleic acids",
+          "Amino acids"
+        ],
+        "answer": "Amino acids"
+      },
+      {
+        "question": "Amine hormones are synthesized from cholesterol.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Amine hormones are derived from amino acids such as ___________ or ___________. ",
+        "type": "blank",
+        "answer": "Tyrosine, Tryptophan",
+        "options": []
+      },
+      {
+        "question": "Which of the following is an example of an amine hormone?",
+        "type": "mcq",
+        "options": [
+          "Insulin",
+          "Cortisol",
+          "Epinephrine",
+          "Estrogen"
+        ],
+        "answer": "Epinephrine"
+      },
+      {
+        "question": "Thyroid hormones and Melatonin are examples of amine hormones.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "Epinephrine, Norepinephrine, and Melatonin are all examples of ___________ hormones.",
+        "type": "blank",
+        "answer": "amine",
+        "options": []
+      },
+      {
+        "question": "What is a key characteristic of protein/peptide hormones regarding their solubility?",
+        "type": "mcq",
+        "options": [
+          "Lipid-soluble",
+          "Water-soluble",
+          "Partially lipid-soluble",
+          "Insoluble in both water and lipids"
+        ],
+        "answer": "Water-soluble"
+      },
+      {
+        "question": "Protein/peptide hormones are lipid-soluble due to their long chains of amino acids.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Protein/peptide hormones are characterized as chains of amino acids and are typically ___________-soluble.",
+        "type": "blank",
+        "answer": "water",
+        "options": []
+      },
+      {
+        "question": "Which hormone is an example of a protein/peptide hormone?",
+        "type": "mcq",
+        "options": [
+          "Cortisol",
+          "Testosterone",
+          "Insulin",
+          "Dopamine"
+        ],
+        "answer": "Insulin"
+      },
+      {
+        "question": "Leptin and Glucagon are classified as protein/peptide hormones.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "Insulin, Glucagon, and Leptin are examples of ___________ hormones.",
+        "type": "blank",
+        "answer": "protein/peptide",
+        "options": []
+      },
+      {
+        "question": "Steroid hormones are derived from which precursor molecule?",
+        "type": "mcq",
+        "options": [
+          "Glucose",
+          "Amino acids",
+          "Cholesterol",
+          "Fatty acids"
+        ],
+        "answer": "Cholesterol"
+      },
+      {
+        "question": "Steroid hormones are water-soluble, which allows them to easily pass through cell membranes.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Steroid hormones are derived from ___________ and are ___________-soluble, allowing them to pass through cell membranes.",
+        "type": "blank",
+        "answer": "cholesterol, lipid",
+        "options": []
+      },
+      {
+        "question": "Which of the following is a steroid hormone?",
+        "type": "mcq",
+        "options": [
+          "Epinephrine",
+          "Glucagon",
+          "Estrogen",
+          "Melatonin"
+        ],
+        "answer": "Estrogen"
+      },
+      {
+        "question": "Cortisol and Testosterone are examples of steroid hormones.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "Cortisol, Aldosterone, and Testosterone are all examples of ___________ hormones.",
+        "type": "blank",
+        "answer": "steroid",
+        "options": []
+      },
+      {
+        "question": "What type of hormones does the hypothalamus synthesize?",
+        "type": "mcq",
+        "options": [
+          "Protein hormones",
+          "Steroid hormones",
+          "Neurohormones",
+          "Amine hormones"
+        ],
+        "answer": "Neurohormones"
+      },
+      {
+        "question": "The hypothalamus is responsible for synthesizing protein hormones that are then stored in the posterior pituitary.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The hypothalamus synthesizes ___________. ",
+        "type": "blank",
+        "answer": "neurohormones",
+        "options": []
+      },
+      {
+        "question": "How does the hypothalamus control the anterior pituitary?",
+        "type": "mcq",
+        "options": [
+          "Directly via nerve impulses",
+          "Through releasing/inhibiting hormones via the portal vein system",
+          "By secreting insulin",
+          "By stimulating the thyroid gland"
+        ],
+        "answer": "Through releasing/inhibiting hormones via the portal vein system"
+      },
+      {
+        "question": "The hypothalamus controls the anterior pituitary by secreting hormones that travel through the general circulatory system.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The hypothalamus controls the anterior pituitary by releasing or inhibiting hormones that travel through the ___________ system.",
+        "type": "blank",
+        "answer": "portal vein",
+        "options": []
+      },
+      {
+        "question": "Which two hormones are synthesized by the hypothalamus and subsequently stored in the posterior pituitary?",
+        "type": "mcq",
+        "options": [
+          "ACTH and TSH",
+          "Insulin and Glucagon",
+          "Oxytocin and ADH",
+          "Estrogen and Testosterone"
+        ],
+        "answer": "Oxytocin and ADH"
+      },
+      {
+        "question": "The hypothalamus synthesizes Oxytocin and ADH, which are then stored in the posterior pituitary.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "Oxytocin and ___________ are synthesized by the hypothalamus and stored in the posterior pituitary.",
+        "type": "blank",
+        "answer": "ADH",
+        "options": []
+      },
+      {
+        "question": "How many major hormones does the anterior pituitary produce?",
+        "type": "mcq",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "The anterior pituitary produces hormones such as ACTH, FSH, and TSH.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "The anterior pituitary produces six major hormones, including ACTH, FSH, LH, GH, PRL, and ___________. ",
+        "type": "blank",
+        "answer": "TSH",
+        "options": []
+      },
+      {
+        "question": "What is the general role of the hormones produced by the anterior pituitary?",
+        "type": "mcq",
+        "options": [
+          "To directly regulate blood glucose",
+          "To control muscle contraction",
+          "To regulate other endocrine glands or tissues",
+          "To initiate immune responses"
+        ],
+        "answer": "To regulate other endocrine glands or tissues"
+      },
+      {
+        "question": "Hormones produced by the anterior pituitary primarily regulate specific nervous system functions.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Hormones produced by the anterior pituitary primarily function to regulate other ___________ or ___________. ",
+        "type": "blank",
+        "answer": "endocrine glands, tissues",
+        "options": []
+      },
+      {
+        "question": "Which statement about the posterior pituitary is true?",
+        "type": "mcq",
+        "options": [
+          "It synthesizes its own hormones",
+          "It stores and secretes hormones made by the hypothalamus",
+          "It produces releasing hormones for the anterior pituitary",
+          "It is the master gland of the endocrine system"
+        ],
+        "answer": "It stores and secretes hormones made by the hypothalamus"
+      },
+      {
+        "question": "The posterior pituitary is responsible for synthesizing Oxytocin and ADH.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The posterior pituitary does not make its own hormones but rather ___________ and ___________ hormones made by the hypothalamus.",
+        "type": "blank",
+        "answer": "stores, secretes",
+        "options": []
+      },
+      {
+        "question": "Which hormones are stored and secreted by the posterior pituitary?",
+        "type": "mcq",
+        "options": [
+          "T3 and T4",
+          "Insulin and Glucagon",
+          "Oxytocin and ADH",
+          "Cortisol and Aldosterone"
+        ],
+        "answer": "Oxytocin and ADH"
+      },
+      {
+        "question": "The posterior pituitary stores and secretes Antidiuretic Hormone (ADH).",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "The two hormones stored and secreted by the posterior pituitary are Oxytocin and ___________. ",
+        "type": "blank",
+        "answer": "ADH",
+        "options": []
+      },
+      {
+        "question": "Where are the hormones secreted by the posterior pituitary originally produced?",
+        "type": "mcq",
+        "options": [
+          "Anterior pituitary",
+          "Thyroid gland",
+          "Hypothalamus",
+          "Adrenal gland"
+        ],
+        "answer": "Hypothalamus"
+      },
+      {
+        "question": "Hormones secreted by the posterior pituitary are synthesized within the posterior pituitary itself.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The hormones secreted by the posterior pituitary are originally made by the ___________. ",
+        "type": "blank",
+        "answer": "hypothalamus",
+        "options": []
+      },
+      {
+        "question": "What specialized clusters of cells within the pancreas are responsible for regulating blood glucose?",
+        "type": "mcq",
+        "options": [
+          "Acinar cells",
+          "Islets of Langerhans",
+          "Adrenal medulla",
+          "Thyroid follicles"
+        ],
+        "answer": "Islets of Langerhans"
+      },
+      {
+        "question": "The pancreas contains Islets of Langerhans, which are involved in endocrine function.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "The pancreas contains specialized cell clusters called ___________ of Langerhans.",
+        "type": "blank",
+        "answer": "Islets",
+        "options": []
+      },
+      {
+        "question": "What are the two key cell types found within the Islets of Langerhans?",
+        "type": "mcq",
+        "options": [
+          "Alpha and Delta cells",
+          "Alpha and Beta cells",
+          "Beta and Gamma cells",
+          "Delta and Epsilon cells"
+        ],
+        "answer": "Alpha and Beta cells"
+      },
+      {
+        "question": "Alpha cells and Beta cells are the primary cell types in the Islets of Langerhans involved in blood glucose regulation.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "The two key cell types within the Islets of Langerhans are ___________ Cells and ___________ Cells.",
+        "type": "blank",
+        "answer": "Alpha, Beta",
+        "options": []
+      },
+      {
+        "question": "Which hormone is secreted by the alpha cells of the pancreas?",
+        "type": "mcq",
+        "options": [
+          "Insulin",
+          "Glucagon",
+          "Somatostatin",
+          "Pancreatic polypeptide"
+        ],
+        "answer": "Glucagon"
+      },
+      {
+        "question": "Alpha cells in the pancreas are responsible for secreting insulin.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Pancreatic alpha cells secrete the hormone ___________. ",
+        "type": "blank",
+        "answer": "Glucagon",
+        "options": []
+      },
+      {
+        "question": "What is the primary effect of glucagon on blood glucose levels?",
+        "type": "mcq",
+        "options": [
+          "Lowers blood glucose",
+          "Raises blood glucose",
+          "Has no effect on blood glucose",
+          "Regulates glucose absorption from the gut"
+        ],
+        "answer": "Raises blood glucose"
+      },
+      {
+        "question": "Glucagon acts to lower blood glucose by promoting glucose uptake into cells.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Glucagon primarily acts to ___________ blood glucose levels.",
+        "type": "blank",
+        "answer": "raise",
+        "options": []
+      },
+      {
+        "question": "One way glucagon raises blood glucose is by stimulating which process?",
+        "type": "mcq",
+        "options": [
+          "Glycogen synthesis",
+          "Glucose uptake by cells",
+          "Glycogen breakdown",
+          "Lipid synthesis"
+        ],
+        "answer": "Glycogen breakdown"
+      },
+      {
+        "question": "Glycogenolysis is the process of new glucose formation stimulated by glucagon.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Glucagon stimulates the breakdown of glycogen, a process known as ___________. ",
+        "type": "blank",
+        "answer": "glycogenolysis",
+        "options": []
+      },
+      {
+        "question": "In addition to glycogenolysis, glucagon raises blood glucose by stimulating which process?",
+        "type": "mcq",
+        "options": [
+          "Lipogenesis",
+          "Protein synthesis",
+          "Gluconeogenesis",
+          "Glycolysis"
+        ],
+        "answer": "Gluconeogenesis"
+      },
+      {
+        "question": "Gluconeogenesis is the synthesis of new glycogen, stimulated by glucagon.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Glucagon stimulates ___________, which is the formation of new glucose.",
+        "type": "blank",
+        "answer": "gluconeogenesis",
+        "options": []
+      },
+      {
+        "question": "Which hormone is secreted by the beta cells of the pancreas?",
+        "type": "mcq",
+        "options": [
+          "Glucagon",
+          "Somatostatin",
+          "Insulin",
+          "Epinephrine"
+        ],
+        "answer": "Insulin"
+      },
+      {
+        "question": "Pancreatic beta cells secrete glucagon.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Beta cells in the Islets of Langerhans secrete ___________. ",
+        "type": "blank",
+        "answer": "Insulin",
+        "options": []
+      },
+      {
+        "question": "What is the primary effect of insulin on blood glucose levels?",
+        "type": "mcq",
+        "options": [
+          "Raises blood glucose",
+          "Lowers blood glucose",
+          "Has no direct effect",
+          "Stabilizes blood pH"
+        ],
+        "answer": "Lowers blood glucose"
+      },
+      {
+        "question": "Insulin works to increase blood glucose levels after a meal.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Insulin primarily acts to ___________ blood glucose levels.",
+        "type": "blank",
+        "answer": "lower",
+        "options": []
+      },
+      {
+        "question": "One of the primary ways insulin lowers blood glucose is by promoting what?",
+        "type": "mcq",
+        "options": [
+          "Glycogen breakdown",
+          "New glucose formation",
+          "Glucose uptake into cells",
+          "Fat digestion"
+        ],
+        "answer": "Glucose uptake into cells"
+      },
+      {
+        "question": "Insulin promotes the uptake of glucose into cells, thereby increasing blood glucose.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Insulin lowers blood glucose by promoting glucose ___________ into cells.",
+        "type": "blank",
+        "answer": "uptake",
+        "options": []
+      },
+      {
+        "question": "Besides glucose uptake, how else does insulin lower blood glucose?",
+        "type": "mcq",
+        "options": [
+          "By stimulating gluconeogenesis",
+          "By promoting glycogen synthesis",
+          "By increasing glycogenolysis",
+          "By accelerating fat breakdown"
+        ],
+        "answer": "By promoting glycogen synthesis"
+      },
+      {
+        "question": "Insulin promotes glycogen synthesis, which helps to increase blood glucose.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Insulin promotes the synthesis of glycogen, thereby storing excess glucose and lowering blood glucose levels. This process is called glycogen ___________. ",
+        "type": "blank",
+        "answer": "synthesis",
+        "options": []
+      },
+      {
+        "question": "What is the primary trigger for insulin secretion?",
+        "type": "mcq",
+        "options": [
+          "Low blood glucose",
+          "High blood glucose",
+          "Stress",
+          "Exercise"
+        ],
+        "answer": "High blood glucose"
+      },
+      {
+        "question": "High blood glucose levels trigger the secretion of insulin.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "Insulin secretion is triggered by ___________ blood glucose.",
+        "type": "blank",
+        "answer": "high",
+        "options": []
+      },
+      {
+        "question": "What is the primary trigger for glucagon secretion?",
+        "type": "mcq",
+        "options": [
+          "High blood glucose",
+          "Low blood glucose",
+          "High blood pressure",
+          "Inflammation"
+        ],
+        "answer": "Low blood glucose"
+      },
+      {
+        "question": "Low blood glucose levels trigger the secretion of glucagon.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "Glucagon secretion is triggered by ___________ blood glucose.",
+        "type": "blank",
+        "answer": "low",
+        "options": []
+      },
+      {
+        "question": "The lowering of blood glucose by insulin is primarily due to promoting glucose _______. ",
+        "type": "mcq",
+        "options": [
+          "Release",
+          "Storage",
+          "Production",
+          "Breakdown"
+        ],
+        "answer": "Storage"
+      },
+      {
+        "question": "Insulin's primary effect on blood glucose is to promote its release from storage.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Insulin lowers blood glucose by promoting glucose ___________. ",
+        "type": "blank",
+        "answer": "storage",
+        "options": []
+      },
+      {
+        "question": "Glucagon raises blood glucose primarily by promoting glucose _______. ",
+        "type": "mcq",
+        "options": [
+          "Uptake",
+          "Storage",
+          "Release",
+          "Synthesis"
+        ],
+        "answer": "Release"
+      },
+      {
+        "question": "Glucagon raises blood glucose by promoting glucose release from stores.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "Glucagon raises blood glucose by stimulating glucose ___________. ",
+        "type": "blank",
+        "answer": "release",
+        "options": []
+      },
+      {
+        "question": "Which two hormones are produced by the thyroid gland?",
+        "type": "mcq",
+        "options": [
+          "Insulin and Glucagon",
+          "Oxytocin and ADH",
+          "T3 and T4",
+          "Cortisol and Aldosterone"
+        ],
+        "answer": "T3 and T4"
+      },
+      {
+        "question": "T3 and T4 are the primary hormones produced by the thyroid gland.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "The thyroid gland produces two main hormones: T3, also known as Triiodothyronine, and T4, also known as ___________. ",
+        "type": "blank",
+        "answer": "Thyroxine",
+        "options": []
+      },
+      {
+        "question": "What hormone stimulates the thyroid gland to produce T3 and T4?",
+        "type": "mcq",
+        "options": [
+          "ACTH",
+          "LH",
+          "TSH",
+          "GH"
+        ],
+        "answer": "TSH"
+      },
+      {
+        "question": "TSH (Thyroid-Stimulating Hormone) is secreted by the posterior pituitary to stimulate the thyroid gland.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The anterior pituitary secretes ___________, which stimulates the thyroid gland to produce T3 and T4.",
+        "type": "blank",
+        "answer": "TSH",
+        "options": []
+      },
+      {
+        "question": "What is a primary action of thyroid hormones (T3/T4) in the body?",
+        "type": "mcq",
+        "options": [
+          "Lowering blood pressure",
+          "Decreasing metabolic rate",
+          "Increasing metabolic rate",
+          "Regulating calcium levels"
+        ],
+        "answer": "Increasing metabolic rate"
+      },
+      {
+        "question": "Thyroid hormones decrease the body's metabolic rate.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Thyroid hormones (T3 and T4) increase the body's ___________ rate and energy expenditure.",
+        "type": "blank",
+        "answer": "metabolic",
+        "options": []
+      },
+      {
+        "question": "An increase in thyroid hormone levels leads to an increase in which physiological process?",
+        "type": "mcq",
+        "options": [
+          "Muscle relaxation",
+          "Heat production",
+          "Glycogen storage",
+          "Water retention"
+        ],
+        "answer": "Heat production"
+      },
+      {
+        "question": "Thyroid hormones are known to increase heat production in the body.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "In addition to increasing metabolic rate, thyroid hormones also increase ___________ production.",
+        "type": "blank",
+        "answer": "heat",
+        "options": []
+      },
+      {
+        "question": "Thyroid hormones are essential for which of the following?",
+        "type": "mcq",
+        "options": [
+          "Blood clotting",
+          "Normal growth and development",
+          "Short-term stress response",
+          "Immune cell maturation"
+        ],
+        "answer": "Normal growth and development"
+      },
+      {
+        "question": "Normal growth and development are dependent on adequate thyroid hormone function.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "Thyroid hormones are essential for normal ___________ and ___________. ",
+        "type": "blank",
+        "answer": "growth, development",
+        "options": []
+      },
+      {
+        "question": "What trace element is required for the synthesis of thyroid hormones?",
+        "type": "mcq",
+        "options": [
+          "Calcium",
+          "Iron",
+          "Sodium",
+          "Iodine"
+        ],
+        "answer": "Iodine"
+      },
+      {
+        "question": "Iron is a critical component required for thyroid hormone synthesis.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "___________ is an essential element required for thyroid hormone synthesis.",
+        "type": "blank",
+        "answer": "Iodine",
+        "options": []
+      },
+      {
+        "question": "What condition can result from an iodine deficiency?",
+        "type": "mcq",
+        "options": [
+          "Diabetes",
+          "Anemia",
+          "Goiter",
+          "Osteoporosis"
+        ],
+        "answer": "Goiter"
+      },
+      {
+        "question": "A deficiency in iodine can lead to the development of goiter.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "A deficiency in iodine, necessary for thyroid hormone synthesis, can lead to a condition known as ___________. ",
+        "type": "blank",
+        "answer": "goiter",
+        "options": []
+      },
+      {
+        "question": "Which type of hormones typically uses a water-soluble mechanism of action?",
+        "type": "mcq",
+        "options": [
+          "Steroid hormones",
+          "Thyroid hormones",
+          "Amine and Protein/Peptide hormones",
+          "All lipid-soluble hormones"
+        ],
+        "answer": "Amine and Protein/Peptide hormones"
+      },
+      {
+        "question": "Thyroid hormones, being amine hormones, act via the water-soluble mechanism of hormone action.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The mechanism of action for water-soluble hormones applies to Amine and ___________/___________ hormones, with the exception of thyroid hormones.",
+        "type": "blank",
+        "answer": "Protein/Peptide",
+        "options": []
+      },
+      {
+        "question": "What is the first step in the mechanism of action for water-soluble hormones?",
+        "type": "mcq",
+        "options": [
+          "Diffusing across the plasma membrane",
+          "Binding to an intracellular receptor",
+          "Binding to a receptor on the plasma membrane",
+          "Activating gene transcription directly"
+        ],
+        "answer": "Binding to a receptor on the plasma membrane"
+      },
+      {
+        "question": "Water-soluble hormones begin their action by binding to receptors located inside the cell.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The initial step in water-soluble hormone action involves the hormone binding to a receptor on the ___________. ",
+        "type": "blank",
+        "answer": "plasma membrane",
+        "options": []
+      },
+      {
+        "question": "After binding to its plasma membrane receptor, a water-soluble hormone typically activates what?",
+        "type": "mcq",
+        "options": [
+          "A DNA-binding protein",
+          "A second messenger system",
+          "A direct nuclear response",
+          "A transport protein for entry"
+        ],
+        "answer": "A second messenger system"
+      },
+      {
+        "question": "Water-soluble hormones often activate a second messenger system, such as the cAMP pathway, after binding to their receptors.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "Following receptor binding, water-soluble hormones activate a ___________ messenger system, such as the cAMP pathway.",
+        "type": "blank",
+        "answer": "second",
+        "options": []
+      },
+      {
+        "question": "What kind of cellular response is typically triggered by the second messenger system activated by water-soluble hormones?",
+        "type": "mcq",
+        "options": [
+          "A slow, long-term change in cell structure",
+          "A fast cellular response like enzyme activation",
+          "Direct alteration of DNA",
+          "Immediate cell division"
+        ],
+        "answer": "A fast cellular response like enzyme activation"
+      },
+      {
+        "question": "The action of water-soluble hormones typically results in a slow cellular response due to gene transcription.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The activation of a second messenger system by water-soluble hormones triggers a ___________ cellular response, such as enzyme activation.",
+        "type": "blank",
+        "answer": "fast",
+        "options": []
+      },
+      {
+        "question": "Which type of hormones utilizes the lipid-soluble mechanism of action?",
+        "type": "mcq",
+        "options": [
+          "Protein hormones",
+          "Peptide hormones",
+          "Steroid and Thyroid hormones",
+          "All amine hormones"
+        ],
+        "answer": "Steroid and Thyroid hormones"
+      },
+      {
+        "question": "The mechanism of action for lipid-soluble hormones applies only to steroid hormones.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The mechanism of hormone action for lipid-soluble hormones applies to ___________ and ___________ hormones.",
+        "type": "blank",
+        "answer": "Steroid, Thyroid",
+        "options": []
+      },
+      {
+        "question": "What is the initial step for a lipid-soluble hormone to act on a cell?",
+        "type": "mcq",
+        "options": [
+          "Binding to a surface receptor",
+          "Diffusing across the plasma membrane",
+          "Being actively transported into the cell",
+          "Activating a G-protein"
+        ],
+        "answer": "Diffusing across the plasma membrane"
+      },
+      {
+        "question": "Lipid-soluble hormones diffuse across the plasma membrane to enter the cell.",
+        "type": "true_false",
+        "answer": true,
+        "options": []
+      },
+      {
+        "question": "Lipid-soluble hormones begin their action by ___________ across the plasma membrane.",
+        "type": "blank",
+        "answer": "diffusing",
+        "options": []
+      },
+      {
+        "question": "Where do lipid-soluble hormones typically bind to their receptors?",
+        "type": "mcq",
+        "options": [
+          "On the outer surface of the plasma membrane",
+          "In the extracellular fluid",
+          "To an intracellular receptor",
+          "Within the mitochondria"
+        ],
+        "answer": "To an intracellular receptor"
+      },
+      {
+        "question": "Lipid-soluble hormones bind to receptors located on the plasma membrane.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "After diffusing into the cell, lipid-soluble hormones bind to an ___________ receptor, which can be found in the cytosol or nucleus.",
+        "type": "blank",
+        "answer": "intracellular",
+        "options": []
+      },
+      {
+        "question": "What does the hormone-receptor complex of a lipid-soluble hormone typically bind to within the cell?",
+        "type": "mcq",
+        "options": [
+          "The plasma membrane",
+          "Ribosomes",
+          "DNA",
+          "The endoplasmic reticulum"
+        ],
+        "answer": "DNA"
+      },
+      {
+        "question": "The hormone-receptor complex formed by lipid-soluble hormones binds directly to mRNA.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "Once formed, the hormone-receptor complex of lipid-soluble hormones binds to ___________ to initiate a cellular response.",
+        "type": "blank",
+        "answer": "DNA",
+        "options": []
+      },
+      {
+        "question": "What is the direct outcome of the lipid-soluble hormone-receptor complex binding to DNA?",
+        "type": "mcq",
+        "options": [
+          "Activation of a second messenger",
+          "Stimulation of specific gene transcription into mRNA",
+          "Rapid enzyme activation",
+          "Inhibition of protein synthesis"
+        ],
+        "answer": "Stimulation of specific gene transcription into mRNA"
+      },
+      {
+        "question": "The binding of the lipid-soluble hormone-receptor complex to DNA directly stimulates the translation of proteins.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The hormone-receptor complex stimulates the ___________ of specific genes into mRNA.",
+        "type": "blank",
+        "answer": "transcription",
+        "options": []
+      },
+      {
+        "question": "What is the ultimate outcome of the lipid-soluble hormone action, and what is its characteristic speed?",
+        "type": "mcq",
+        "options": [
+          "Fast enzyme activation",
+          "Slow alteration of cell function via new protein synthesis",
+          "Rapid change in membrane permeability",
+          "Immediate release of stored chemicals"
+        ],
+        "answer": "Slow alteration of cell function via new protein synthesis"
+      },
+      {
+        "question": "The cellular response to lipid-soluble hormones is typically faster than that of water-soluble hormones.",
+        "type": "true_false",
+        "answer": false,
+        "options": []
+      },
+      {
+        "question": "The mRNA stimulated by lipid-soluble hormones is translated into new proteins that alter cell function, resulting in a ___________ response.",
+        "type": "blank",
+        "answer": "slower",
+        "options": []
+      }
     ]
   },
   "Chemistry": {},
