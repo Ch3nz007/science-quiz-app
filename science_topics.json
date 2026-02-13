@@ -5283,6 +5283,974 @@
         "answer": "slower",
         "options": []
       }
+    ],
+    "Excretory System": [
+      {
+        "question": "Which of the following best describes the primary role of the excretory system?",
+        "type": "mcq",
+        "options": [
+          "Digesting food and absorbing nutrients",
+          "Transporting oxygen and carbon dioxide",
+          "Removing waste from body fluids and maintaining homeostasis",
+          "Producing hormones for growth and development"
+        ],
+        "answer": "Removing waste from body fluids and maintaining homeostasis"
+      },
+      {
+        "question": "The excretory system is primarily responsible for removing waste from body fluids and maintaining homeostasis, specifically salt and water balance.",
+        "type": "true_false",
+        "options": [],
+        "answer": true
+      },
+      {
+        "question": "The ______ system is critical for removing waste from body fluids and maintaining homeostasis, particularly salt and water balance.",
+        "type": "blank",
+        "options": [],
+        "answer": "excretory"
+      },
+      {
+        "question": "What is osmolarity defined as?",
+        "type": "mcq",
+        "options": [
+          "The pH level of a solution",
+          "The temperature of a solution",
+          "The solute concentration of a solution, determined by the number of dissolved solute particles",
+          "The viscosity of a solution"
+        ],
+        "answer": "The solute concentration of a solution, determined by the number of dissolved solute particles"
+      },
+      {
+        "question": "Osmolarity is the measure of the solvent concentration of a solution.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The solute concentration of a solution, determined by the number of dissolved solute particles, is known as ______.",
+        "type": "blank",
+        "options": [],
+        "answer": "osmolarity"
+      },
+      {
+        "question": "Which of the following describes animals that maintain stable internal salt concentrations and osmolarities regardless of the external environment?",
+        "type": "mcq",
+        "options": [
+          "Osmoconformers",
+          "Thermoconformers",
+          "Osmoregulators",
+          "Baroreceptors"
+        ],
+        "answer": "Osmoregulators"
+      },
+      {
+        "question": "Osmoregulators are animals that maintain stable internal salt concentrations and osmolarities, regardless of the external environment, which requires energy.",
+        "type": "true_false",
+        "options": [],
+        "answer": true
+      },
+      {
+        "question": "Animals that maintain stable internal salt concentrations and osmolarities, regardless of the external environment, are called ______.",
+        "type": "blank",
+        "options": [],
+        "answer": "osmoregulators"
+      },
+      {
+        "question": "Which process involves the passive movement of small solutes and water from body fluids into the lumen of an excretory tubule?",
+        "type": "mcq",
+        "options": [
+          "Reabsorption",
+          "Secretion",
+          "Filtration",
+          "Excretion"
+        ],
+        "answer": "Filtration"
+      },
+      {
+        "question": "Filtration is an active process that moves large proteins from body fluids into the excretory tubule.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The passive process where small solutes and water are filtered from body fluids into the lumen of an excretory tubule is called ______.",
+        "type": "blank",
+        "options": [],
+        "answer": "filtration"
+      },
+      {
+        "question": "What is the process of moving useful solutes and water across the epithelial cell layer of the tubule and returning them to the body fluids?",
+        "type": "mcq",
+        "options": [
+          "Filtration",
+          "Secretion",
+          "Reabsorption",
+          "Excretion"
+        ],
+        "answer": "Reabsorption"
+      },
+      {
+        "question": "Reabsorption involves moving unwanted solutes from the body fluids into the tubule lumen.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The process of moving useful solutes and water from the excretory tubule back into the body fluids is known as ______.",
+        "type": "blank",
+        "options": [],
+        "answer": "reabsorption"
+      },
+      {
+        "question": "Which process describes the active removal of unwanted solutes from body fluids into the lumen of the excretory tubule?",
+        "type": "mcq",
+        "options": [
+          "Filtration",
+          "Reabsorption",
+          "Secretion",
+          "Diffusion"
+        ],
+        "answer": "Secretion"
+      },
+      {
+        "question": "Secretion is a passive process where useful solutes are returned to the blood.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The active removal of unwanted solutes (toxins, excess ions) from body fluids into the lumen of the excretory tubule is termed ______.",
+        "type": "blank",
+        "options": [],
+        "answer": "secretion"
+      },
+      {
+        "question": "What is the functional unit of the kidney responsible for forming urine?",
+        "type": "mcq",
+        "options": [
+          "Adrenal gland",
+          "Ureter",
+          "Nephron",
+          "Renal artery"
+        ],
+        "answer": "Nephron"
+      },
+      {
+        "question": "The nephron is the structural unit of the kidney responsible for filtering blood but not forming urine.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The functional unit of the kidney responsible for forming urine is the ______.",
+        "type": "blank",
+        "options": [],
+        "answer": "nephron"
+      },
+      {
+        "question": "Which nitrogenous waste product is highly toxic and requires a lot of water to excrete, but requires no energy to produce?",
+        "type": "mcq",
+        "options": [
+          "Urea",
+          "Uric Acid",
+          "Ammonia",
+          "Creatinine"
+        ],
+        "answer": "Ammonia"
+      },
+      {
+        "question": "Ammonia is a non-toxic nitrogenous waste product excreted by birds and insects.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "Most aquatic animals excrete ______ as their primary nitrogenous waste, which is highly toxic.",
+        "type": "blank",
+        "options": [],
+        "answer": "ammonia"
+      },
+      {
+        "question": "Mammals, amphibians, and some marine fish excrete which nitrogenous waste product that has low toxicity and requires moderate energy and water?",
+        "type": "mcq",
+        "options": [
+          "Ammonia",
+          "Urea",
+          "Uric Acid",
+          "Nitrate"
+        ],
+        "answer": "Urea"
+      },
+      {
+        "question": "Urea is the most energy-intensive nitrogenous waste to produce.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "______ is a nitrogenous waste product excreted by mammals, amphibians, and some marine fish, known for its low toxicity and moderate water requirements.",
+        "type": "blank",
+        "options": [],
+        "answer": "urea"
+      },
+      {
+        "question": "Which nitrogenous waste product is excreted by birds, insects, and reptiles, is non-toxic, requires very little water, but is chemically complex and requires high energy to produce?",
+        "type": "mcq",
+        "options": [
+          "Ammonia",
+          "Urea",
+          "Uric Acid",
+          "Creatine"
+        ],
+        "answer": "Uric Acid"
+      },
+      {
+        "question": "Uric acid is excreted as a liquid and requires a significant amount of water.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "Birds, insects, and reptiles excrete ______ as a non-toxic, paste-like nitrogenous waste, which requires high energy to produce.",
+        "type": "blank",
+        "options": [],
+        "answer": "uric acid"
+      },
+      {
+        "question": "In which region of the kidney does filtration primarily occur?",
+        "type": "mcq",
+        "options": [
+          "Renal Medulla",
+          "Renal Cortex",
+          "Renal Pelvis",
+          "Ureter"
+        ],
+        "answer": "Renal Cortex"
+      },
+      {
+        "question": "The renal medulla is the outer region of the kidney where filtration takes place.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The outer region of the kidney where filtration occurs, containing the Glomerulus and Bowman's capsule, is the ______.",
+        "type": "blank",
+        "options": [],
+        "answer": "renal cortex"
+      },
+      {
+        "question": "Which region of the kidney is responsible for concentrating the filtrate?",
+        "type": "mcq",
+        "options": [
+          "Renal Cortex",
+          "Renal Pelvis",
+          "Renal Medulla",
+          "Adrenal Gland"
+        ],
+        "answer": "Renal Medulla"
+      },
+      {
+        "question": "The Loop of Henle is found in the renal cortex.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The inner region of the kidney where the filtrate is concentrated, containing the Loop of Henle, is the ______.",
+        "type": "blank",
+        "options": [],
+        "answer": "renal medulla"
+      },
+      {
+        "question": "The Renal Corpuscle is a combination of which two structures?",
+        "type": "mcq",
+        "options": [
+          "Proximal Tubule and Loop of Henle",
+          "Distal Tubule and Collecting Duct",
+          "Glomerulus and Bowman's Capsule",
+          "Renal Cortex and Renal Medulla"
+        ],
+        "answer": "Glomerulus and Bowman's Capsule"
+      },
+      {
+        "question": "The Renal Corpuscle is the primary site of reabsorption in the nephron.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The combination of the Glomerulus and Bowman's Capsule forms the ______, which is the site of filtration.",
+        "type": "blank",
+        "options": [],
+        "answer": "renal corpuscle"
+      },
+      {
+        "question": "What are the specialized cells that wrap around the glomerular capillaries and have 'filtration slits'?",
+        "type": "mcq",
+        "options": [
+          "Nephrocytes",
+          "Podocytes",
+          "Endothelial cells",
+          "Macula densa cells"
+        ],
+        "answer": "Podocytes"
+      },
+      {
+        "question": "Podocytes are responsible for actively transporting large proteins across the glomerular capillaries.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "Specialized cells called ______ wrap around the glomerular capillaries and have 'filtration slits'.",
+        "type": "blank",
+        "options": [],
+        "answer": "podocytes"
+      },
+      {
+        "question": "What is the function of the filtration slits formed by podocytes?",
+        "type": "mcq",
+        "options": [
+          "To block small solutes and water",
+          "To allow large proteins and blood cells to pass",
+          "To allow small solutes to pass but block large proteins and blood cells",
+          "To actively transport glucose"
+        ],
+        "answer": "To allow small solutes to pass but block large proteins and blood cells"
+      },
+      {
+        "question": "Filtration slits primarily prevent the passage of water into Bowman's capsule.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The 'filtration slits' of podocytes allow small solutes to pass but block ______ and blood cells.",
+        "type": "blank",
+        "options": [],
+        "answer": "large proteins"
+      },
+      {
+        "question": "How can the Glomerular Filtration Rate (GFR) be controlled?",
+        "type": "mcq",
+        "options": [
+          "By altering the permeability of the collecting duct",
+          "By changing the osmolarity of the renal medulla",
+          "By constricting or dilating the afferent arteriole",
+          "By increasing active transport in the ascending limb"
+        ],
+        "answer": "By constricting or dilating the afferent arteriole"
+      },
+      {
+        "question": "The Glomerular Filtration Rate (GFR) is controlled by the activity of the efferent arteriole only.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The Glomerular Filtration Rate (GFR) can be controlled by constricting or dilating the ______.",
+        "type": "blank",
+        "options": [],
+        "answer": "afferent arteriole"
+      },
+      {
+        "question": "What is the primary purpose of the Countercurrent Multiplication System in the kidney?",
+        "type": "mcq",
+        "options": [
+          "To regulate blood pressure",
+          "To filter blood at the glomerulus",
+          "To create an osmotic gradient in the medulla to allow urine concentration",
+          "To reabsorb all glucose and amino acids"
+        ],
+        "answer": "To create an osmotic gradient in the medulla to allow urine concentration"
+      },
+      {
+        "question": "The Countercurrent Multiplication System is primarily located in the renal cortex.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The ______ system creates an osmotic gradient in the medulla to allow urine concentration.",
+        "type": "blank",
+        "options": [],
+        "answer": "countercurrent multiplication"
+      },
+      {
+        "question": "Which part of the Loop of Henle is permeable to water but not solutes, causing the filtrate to become more concentrated?",
+        "type": "mcq",
+        "options": [
+          "Distal Tubule",
+          "Ascending Limb",
+          "Proximal Tubule",
+          "Descending Limb"
+        ],
+        "answer": "Descending Limb"
+      },
+      {
+        "question": "The descending limb of the Loop of Henle is permeable to salts, leading to filtrate dilution.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The ______ limb of the Loop of Henle is permeable to water but not solutes, making the filtrate more concentrated.",
+        "type": "blank",
+        "options": [],
+        "answer": "descending"
+      },
+      {
+        "question": "Which part of the Loop of Henle is permeable to salts (Na+, Cl-) but not water, and actively transports ions out?",
+        "type": "mcq",
+        "options": [
+          "Descending Limb",
+          "Proximal Tubule",
+          "Collecting Duct",
+          "Ascending Limb"
+        ],
+        "answer": "Ascending Limb"
+      },
+      {
+        "question": "The ascending limb of the Loop of Henle actively transports water out, making the filtrate more concentrated.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The ______ limb of the Loop of Henle is permeable to salts but not water, and actively transports ions out.",
+        "type": "blank",
+        "options": [],
+        "answer": "ascending"
+      },
+      {
+        "question": "What is the first step in urine formation?",
+        "type": "mcq",
+        "options": [
+          "Reabsorption",
+          "Secretion",
+          "Excretion",
+          "Filtration"
+        ],
+        "answer": "Filtration"
+      },
+      {
+        "question": "The first step in urine formation involves the active transport of large proteins into Bowman's capsule.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The initial step of urine formation, where blood enters the Glomerulus and pressure forces water and small solutes into Bowman's capsule, is called ______.",
+        "type": "blank",
+        "options": [],
+        "answer": "filtration"
+      },
+      {
+        "question": "In which part of the nephron does the majority of useful solute (glucose, amino acids) and water reabsorption occur?",
+        "type": "mcq",
+        "options": [
+          "Loop of Henle",
+          "Collecting Duct",
+          "Proximal Tubule",
+          "Distal Tubule"
+        ],
+        "answer": "Proximal Tubule"
+      },
+      {
+        "question": "The Proximal Tubule reabsorbs only a small fraction of useful solutes and water.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "Up to 100% of useful solutes and 2/3 of water and ions are reabsorbed in the ______.",
+        "type": "blank",
+        "options": [],
+        "answer": "proximal tubule"
+      },
+      {
+        "question": "What structures increase the surface area in the Proximal Tubule to aid in reabsorption?",
+        "type": "mcq",
+        "options": [
+          "Glomeruli",
+          "Podocytes",
+          "Microvilli (brush border)",
+          "Filtration slits"
+        ],
+        "answer": "Microvilli (brush border)"
+      },
+      {
+        "question": "Microvilli in the Proximal Tubule are primarily involved in secretion, not reabsorption.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The surface area of the Proximal Tubule is increased by ______ to enhance reabsorption.",
+        "type": "blank",
+        "options": [],
+        "answer": "microvilli (brush border)"
+      },
+      {
+        "question": "Which step in urine formation involves the active removal of toxins (e.g., penicillin) and excess ions (K+, H+) from the blood into the urine in the tubules?",
+        "type": "mcq",
+        "options": [
+          "Filtration",
+          "Reabsorption",
+          "Secretion",
+          "Excretion"
+        ],
+        "answer": "Secretion"
+      },
+      {
+        "question": "Secretion is a passive process that occurs exclusively in Bowman's capsule.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "In the tubules, toxins and excess ions are actively transferred from the blood into the urine through the process of ______.",
+        "type": "blank",
+        "options": [],
+        "answer": "secretion"
+      },
+      {
+        "question": "What is the stimulus for the release of Antidiuretic Hormone (ADH)?",
+        "type": "mcq",
+        "options": [
+          "Low blood osmolarity",
+          "High blood pressure",
+          "Dehydration or high blood osmolarity",
+          "High blood glucose"
+        ],
+        "answer": "Dehydration or high blood osmolarity"
+      },
+      {
+        "question": "ADH is released in response to low blood osmolarity.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The release of Antidiuretic Hormone (ADH) is stimulated by dehydration or ______.",
+        "type": "blank",
+        "options": [],
+        "answer": "high blood osmolarity"
+      },
+      {
+        "question": "From which gland is Antidiuretic Hormone (ADH) released?",
+        "type": "mcq",
+        "options": [
+          "Adrenal glands",
+          "Anterior pituitary",
+          "Posterior pituitary",
+          "Thyroid gland"
+        ],
+        "answer": "Posterior pituitary"
+      },
+      {
+        "question": "The adrenal glands are responsible for releasing ADH.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "Antidiuretic Hormone (ADH) is released from the ______.",
+        "type": "blank",
+        "options": [],
+        "answer": "posterior pituitary"
+      },
+      {
+        "question": "ADH binds to receptors on which cells to trigger the insertion of aquaporins?",
+        "type": "mcq",
+        "options": [
+          "Proximal tubule cells",
+          "Glomerular cells",
+          "Bowman's capsule cells",
+          "Collecting Duct cells"
+        ],
+        "answer": "Collecting Duct cells"
+      },
+      {
+        "question": "ADH primarily affects the cells of the Loop of Henle.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "ADH binds to receptors on ______ cells, leading to the insertion of aquaporins.",
+        "type": "blank",
+        "options": [],
+        "answer": "collecting duct"
+      },
+      {
+        "question": "What are aquaporins?",
+        "type": "mcq",
+        "options": [
+          "Ion channels",
+          "Glucose transporters",
+          "Water channels",
+          "Protein pumps"
+        ],
+        "answer": "Water channels"
+      },
+      {
+        "question": "Aquaporins are responsible for actively transporting salts.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "ADH triggers the insertion of ______ into the membrane of collecting duct cells.",
+        "type": "blank",
+        "options": [],
+        "answer": "aquaporins"
+      },
+      {
+        "question": "What is the result of ADH action on the collecting duct?",
+        "type": "mcq",
+        "options": [
+          "Less water reabsorbed, dilute urine",
+          "More water reabsorbed, concentrated urine",
+          "Increased sodium secretion",
+          "Decreased potassium reabsorption"
+        ],
+        "answer": "More water reabsorbed, concentrated urine"
+      },
+      {
+        "question": "The action of ADH results in the production of a large volume of dilute urine.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "When ADH is present, more water is reabsorbed back into the blood, resulting in ______ and low volume urine.",
+        "type": "blank",
+        "options": [],
+        "answer": "concentrated"
+      },
+      {
+        "question": "What is the stimulus for the release of Aldosterone?",
+        "type": "mcq",
+        "options": [
+          "High blood glucose",
+          "High blood pressure",
+          "Low Sodium (Na+) in the blood",
+          "Excess water in the blood"
+        ],
+        "answer": "Low Sodium (Na+) in the blood"
+      },
+      {
+        "question": "Aldosterone is released in response to high blood sodium levels.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The release of Aldosterone is stimulated by ______ in the blood.",
+        "type": "blank",
+        "options": [],
+        "answer": "low sodium (Na+)"
+      },
+      {
+        "question": "Which glands release Aldosterone?",
+        "type": "mcq",
+        "options": [
+          "Posterior pituitary",
+          "Thyroid glands",
+          "Adrenal glands",
+          "Pancreas"
+        ],
+        "answer": "Adrenal glands"
+      },
+      {
+        "question": "Aldosterone is produced by the kidneys.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "Aldosterone is released from the ______.",
+        "type": "blank",
+        "options": [],
+        "answer": "adrenal glands"
+      },
+      {
+        "question": "Aldosterone stimulates which specific pumps in the distal tubule cells?",
+        "type": "mcq",
+        "options": [
+          "Water channels",
+          "Glucose symporters",
+          "Na+/K+-ATPase pumps",
+          "H+ pumps"
+        ],
+        "answer": "Na+/K+-ATPase pumps"
+      },
+      {
+        "question": "Aldosterone inhibits Na+/K+-ATPase pumps.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "Aldosterone stimulates ______ pumps in the distal tubule cells.",
+        "type": "blank",
+        "options": [],
+        "answer": "Na+/K+-ATPase"
+      },
+      {
+        "question": "What is the result of Aldosterone's action in the kidney?",
+        "type": "mcq",
+        "options": [
+          "Sodium is secreted, potassium is reabsorbed",
+          "More water is secreted, less sodium is reabsorbed",
+          "Sodium is actively reabsorbed, potassium is secreted, and water follows sodium",
+          "Increased production of dilute urine"
+        ],
+        "answer": "Sodium is actively reabsorbed, potassium is secreted, and water follows sodium"
+      },
+      {
+        "question": "Aldosterone's primary effect is to decrease sodium reabsorption.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "Aldosterone leads to active ______ reabsorption and potassium secretion, with water following by osmosis.",
+        "type": "blank",
+        "options": [],
+        "answer": "sodium"
+      },
+      {
+        "question": "What percentage of nephrons is required for kidneys to function effectively?",
+        "type": "mcq",
+        "options": [
+          "5%",
+          "20%",
+          "50%",
+          "80%"
+        ],
+        "answer": "20%"
+      },
+      {
+        "question": "Kidneys require at least 50% of nephrons to be functional for effective operation.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "Kidneys can function effectively with only ______% of nephrons working.",
+        "type": "blank",
+        "options": [],
+        "answer": "20"
+      },
+      {
+        "question": "What condition is caused by renal failure, leading to the accumulation of urea and toxic wastes in the blood?",
+        "type": "mcq",
+        "options": [
+          "Diabetes",
+          "Hypertension",
+          "Uremia",
+          "Gout"
+        ],
+        "answer": "Uremia"
+      },
+      {
+        "question": "Uremia is a condition caused by excessive protein intake, not renal failure.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "A condition caused by renal failure where urea and toxic wastes accumulate in the blood is known as ______.",
+        "type": "blank",
+        "options": [],
+        "answer": "uremia"
+      },
+      {
+        "question": "Hemodialysis uses an artificial version of which system to maximize waste diffusion from patient blood?",
+        "type": "mcq",
+        "options": [
+          "Active transport system",
+          "Filtration system",
+          "Countercurrent exchange system",
+          "Osmotic regulation system"
+        ],
+        "answer": "Countercurrent exchange system"
+      },
+      {
+        "question": "Hemodialysis primarily relies on active secretion to remove wastes from the blood.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "Hemodialysis is a medical treatment for kidney failure that uses an artificial ______ system to maximize waste diffusion.",
+        "type": "blank",
+        "options": [],
+        "answer": "countercurrent exchange"
+      },
+      {
+        "question": "Which two public health issues are identified as major causes of kidney disease?",
+        "type": "mcq",
+        "options": [
+          "Malnutrition and obesity",
+          "Smoking and alcohol consumption",
+          "Diabetes and high blood pressure",
+          "Infections and genetic disorders"
+        ],
+        "answer": "Diabetes and high blood pressure"
+      },
+      {
+        "question": "Obesity and lack of exercise are the sole causes of kidney disease.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "______ and high blood pressure are major causes of kidney disease.",
+        "type": "blank",
+        "options": [],
+        "answer": "diabetes"
+      },
+      {
+        "question": "Which characteristic distinguishes osmoregulators from osmoconformers?",
+        "type": "mcq",
+        "options": [
+          "Osmoregulators save energy by matching internal osmolarity to the environment.",
+          "Osmoconformers actively maintain internal osmolarity different from the environment.",
+          "Osmoregulators maintain internal osmolarity different from the environment, requiring energy.",
+          "Osmoconformers are exclusively terrestrial animals."
+        ],
+        "answer": "Osmoregulators maintain internal osmolarity different from the environment, requiring energy."
+      },
+      {
+        "question": "Osmoregulators match their internal osmolarity to their external environment to save energy.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "Unlike osmoconformers, ______ maintain internal osmolarity different from the environment, a process that requires energy.",
+        "type": "blank",
+        "options": [],
+        "answer": "osmoregulators"
+      },
+      {
+        "question": "How do osmoconformers manage their internal osmolarity relative to their environment?",
+        "type": "mcq",
+        "options": [
+          "They actively transport solutes to keep it different.",
+          "Their internal osmolarity matches the environment, saving energy.",
+          "They only live in environments with stable osmolarity.",
+          "They constantly adjust their water intake to change internal osmolarity."
+        ],
+        "answer": "Their internal osmolarity matches the environment, saving energy."
+      },
+      {
+        "question": "Osmoconformers are typically found in freshwater environments.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The internal osmolarity of ______ matches the environment, which saves energy.",
+        "type": "blank",
+        "options": [],
+        "answer": "osmoconformers"
+      },
+      {
+        "question": "The descending limb of the Loop of Henle is permeable to which substance?",
+        "type": "mcq",
+        "options": [
+          "Salts",
+          "Water",
+          "Proteins",
+          "Glucose"
+        ],
+        "answer": "Water"
+      },
+      {
+        "question": "The descending limb of the Loop of Henle is permeable to salts but not water.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The filtrate becomes concentrated as water leaves the ______ limb of the Loop of Henle, which is permeable to water but impermeable to salts.",
+        "type": "blank",
+        "options": [],
+        "answer": "descending"
+      },
+      {
+        "question": "What is the permeability characteristic of the ascending limb of the Loop of Henle?",
+        "type": "mcq",
+        "options": [
+          "Permeable to water, impermeable to salts",
+          "Permeable to salts (active transport), impermeable to water",
+          "Permeable to both water and salts",
+          "Impermeable to both water and salts"
+        ],
+        "answer": "Permeable to salts (active transport), impermeable to water"
+      },
+      {
+        "question": "The ascending limb of the Loop of Henle is permeable to water.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "The ascending limb of the Loop of Henle is permeable to ______ (Na+, Cl-) but impermeable to water.",
+        "type": "blank",
+        "options": [],
+        "answer": "salts"
+      },
+      {
+        "question": "Which of the following describes the nature of filtration in the kidney?",
+        "type": "mcq",
+        "options": [
+          "Selective, occurs along the tubules",
+          "Non-selective (based on size), occurs only at the Renal Corpuscle",
+          "Active transport of specific toxins",
+          "Only allows passage of large proteins"
+        ],
+        "answer": "Non-selective (based on size), occurs only at the Renal Corpuscle"
+      },
+      {
+        "question": "Filtration is a selective process that removes specific toxins along the tubules.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "______ is a non-selective process based on size that occurs only at the Renal Corpuscle.",
+        "type": "blank",
+        "options": [],
+        "answer": "filtration"
+      },
+      {
+        "question": "How does secretion differ from filtration?",
+        "type": "mcq",
+        "options": [
+          "Secretion is non-selective, while filtration is selective.",
+          "Filtration occurs along the tubules, while secretion only occurs at the renal corpuscle.",
+          "Secretion is selective (specific transport) and occurs along the tubules, while filtration is non-selective and occurs only at the Renal Corpuscle.",
+          "Both are passive processes that remove waste from the blood."
+        ],
+        "answer": "Secretion is selective (specific transport) and occurs along the tubules, while filtration is non-selective and occurs only at the Renal Corpuscle."
+      },
+      {
+        "question": "Secretion is a non-selective process that happens exclusively in the Renal Corpuscle.",
+        "type": "true_false",
+        "options": [],
+        "answer": false
+      },
+      {
+        "question": "Unlike filtration, ______ is a selective process involving specific transport that occurs along the tubules to remove specific toxins and ions.",
+        "type": "blank",
+        "options": [],
+        "answer": "secretion"
+      }
     ]
   },
   "Chemistry": {},
