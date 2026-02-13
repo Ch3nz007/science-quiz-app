@@ -10,6 +10,36 @@ from pptx import Presentation
 # --- Setup ---
 st.set_page_config(page_title="Quiz Engine", layout="wide")
 
+# --- 🔒 PASSWORD PROTECTION START ---
+def check_password():
+    """Returns `True` if the user had the correct password."""
+
+    def password_entered():
+        """Checks whether a password entered by the user is correct."""
+        if st.session_state["password"] == st.secrets["APP_PASSWORD"]:
+            st.session_state["password_correct"] = True
+            del st.session_state["password"]  # don't store password
+        else:
+            st.session_state["password_correct"] = False
+
+    if "password_correct" not in st.session_state:
+        # First run, show input for password.
+        st.text_input("Enter Password to Access Quiz Engine:", type="password", on_change=password_entered, key="password")
+        return False
+    elif not st.session_state["password_correct"]:
+        # Password incorrect, show input + error.
+        st.text_input("Enter Password to Access Quiz Engine:", type="password", on_change=password_entered, key="password")
+        st.error("😕 Password incorrect")
+        return False
+    else:
+        # Password correct.
+        return True
+
+if not check_password():
+    st.stop()  # Do not run any code below this line if password is wrong
+# --- 🔒 PASSWORD PROTECTION END ---
+
+
 # ⚠️ CHANGE THIS TO YOUR EXACT REPO NAME
 REPO_KEY = "Ch3nz007/science-quiz-app"
 FILE_PATH = "science_topics.json"
@@ -88,11 +118,9 @@ def clean_quiz_data(raw_questions):
             new_q[k.lower().strip()] = v
             
         # 2. Ensure Essential Keys Exist
-        # If 'question' is missing, try to find a key that looks like it
         if 'question' not in new_q:
-            # Fallback: Is there a key named 'prompt' or 'q'?
             if 'prompt' in new_q: new_q['question'] = new_q['prompt']
-            else: continue # Skip if truly no question text
+            else: continue 
             
         # Defaults
         if 'type' not in new_q: new_q['type'] = 'blank'
@@ -130,8 +158,6 @@ def generate_questions_gemini(text_content, api_key, model_name):
         response = model.generate_content(prompt)
         cleaned_text = response.text.strip().replace("```json", "").replace("```", "").replace("json\n", "")
         raw_json = json.loads(cleaned_text)
-        
-        # Run the cleaner before returning
         return clean_quiz_data(raw_json)
         
     except Exception as e:
@@ -139,7 +165,7 @@ def generate_questions_gemini(text_content, api_key, model_name):
         return None
 
 # --- Frontend ---
-st.title("Quiz Engine")
+st.title("🎓 Quiz Engine")
 
 if "quiz_data" not in st.session_state: st.session_state.quiz_data = []
 if "score" not in st.session_state: st.session_state.score = 0
@@ -200,7 +226,6 @@ elif mode == "Take Quiz":
             q_limit = st.slider("Number of Questions", 1, len(questions), min(10, len(questions)))
             
             if st.button("Start New Quiz"):
-                # Ensure we have valid data before sampling
                 clean_qs = clean_quiz_data(questions)
                 if len(clean_qs) == 0:
                     st.error("Error: This topic has corrupted data. Please delete and regenerate it.")
