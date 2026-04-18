@@ -7334,6 +7334,710 @@
         "answer": "large",
         "options": []
       }
+    ],
+    "Cell to cell communication and Homeostasis improved": [
+      {
+        "question": "What is a fundamental component of the cell theory?",
+        "type": "mcq",
+        "options": [
+          "All living organisms are composed of one or more cells",
+          "Cells can spontaneously generate from non-living matter",
+          "DNA is entirely different in every cell of the body",
+          "Tissues are considered the smallest units of life"
+        ],
+        "answer": "All living organisms are composed of one or more cells"
+      },
+      {
+        "question": "New cells can only come from pre-existing cells by cell division.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "The fundamental biological concept stating that all living organisms are composed of one or more cells is known as the cell _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "theory"
+      },
+      {
+        "question": "What allows cells with identical DNA to have completely distinct structures and functions?",
+        "type": "mcq",
+        "options": [
+          "Different proteomes",
+          "Different genomes",
+          "Spontaneous generation",
+          "The extracellular matrix"
+        ],
+        "answer": "Different proteomes"
+      },
+      {
+        "question": "The DNA is completely different in each cell of a single multicellular organism, causing them to look different.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The entire complement of proteins that is or can be expressed by a specific cell is called the _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "proteome"
+      },
+      {
+        "question": "A group of specialized cells of a specific type that grow and orient together with a similar structure or function is known as a:",
+        "type": "mcq",
+        "options": [
+          "Tissue",
+          "Organ",
+          "Organ system",
+          "Organelle"
+        ],
+        "answer": "Tissue"
+      },
+      {
+        "question": "A tissue is defined as a collection of two or more organs working together.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Humans have over 200 different cell types that are grouped into functional categories known as _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "tissues"
+      },
+      {
+        "question": "A structure composed of layers of cells of multiple types arranged in various patterns to perform a specific function is an:",
+        "type": "mcq",
+        "options": [
+          "Organ",
+          "Organelle",
+          "Extracellular matrix",
+          "Organism"
+        ],
+        "answer": "Organ"
+      },
+      {
+        "question": "An organ is a collection of two or more tissues that perform a specific function.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "Different tissue structures working together to perform a common function are recognized as an _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "organ"
+      },
+      {
+        "question": "Which of the following fluids is located outside of the cells?",
+        "type": "mcq",
+        "options": [
+          "Extracellular fluid",
+          "Intracellular fluid",
+          "Cytosolic fluid",
+          "Nucleoplasm"
+        ],
+        "answer": "Extracellular fluid"
+      },
+      {
+        "question": "Interstitial fluid is a type of intracellular fluid.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The fluid contained entirely inside the cells is known as _______ fluid.",
+        "type": "blank",
+        "options": [],
+        "answer": "intracellular"
+      },
+      {
+        "question": "Which type of cell junction allows signaling molecules to pass directly from the cytosol of one cell to another?",
+        "type": "mcq",
+        "options": [
+          "Gap junctions",
+          "Tight junctions",
+          "Desmosomes",
+          "Anchoring junctions"
+        ],
+        "answer": "Gap junctions"
+      },
+      {
+        "question": "In direct intercellular signaling, gap junctions permit signaling molecules to pass directly between adjacent cells.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "Direct intercellular signaling relies on specialized channels called _______ junctions to share molecules.",
+        "type": "blank",
+        "options": [],
+        "answer": "gap"
+      },
+      {
+        "question": "Which tissue type consisting of sheet-like layers of cells can both exchange oxygen and act as a barrier to bacteria?",
+        "type": "mcq",
+        "options": [
+          "Epithelial",
+          "Connective",
+          "Nervous",
+          "Muscle"
+        ],
+        "answer": "Epithelial"
+      },
+      {
+        "question": "Epithelial tissue primarily functions to connect, surround, and anchor other tissues.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Sheets of densely-packed cells that cover the body, enclose organs, and line walls of body cavities are called _______ tissues.",
+        "type": "blank",
+        "options": [],
+        "answer": "epithelial"
+      },
+      {
+        "question": "Which two proteins are major fibrous components of the extracellular matrix in connective tissue?",
+        "type": "mcq",
+        "options": [
+          "Collagen and elastin",
+          "Actin and myosin",
+          "Keratin and tubulin",
+          "Hemoglobin and myoglobin"
+        ],
+        "answer": "Collagen and elastin"
+      },
+      {
+        "question": "Blood, adipose, bone, and cartilage are all examples of connective tissue.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "Connective tissues secrete and form the extracellular _______ around cells to provide a structural scaffold.",
+        "type": "blank",
+        "options": [],
+        "answer": "matrix"
+      },
+      {
+        "question": "Which type of muscle tissue is under voluntary control and provides the force needed for locomotion?",
+        "type": "mcq",
+        "options": [
+          "Skeletal muscle",
+          "Smooth muscle",
+          "Cardiac muscle",
+          "Interlinked muscle"
+        ],
+        "answer": "Skeletal muscle"
+      },
+      {
+        "question": "Smooth muscle often surrounds hollow tubes like bronchioles and its contraction is involuntary.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "Cardiac muscle is found exclusively in the _______, where it provides the force needed for a heartbeat.",
+        "type": "blank",
+        "options": [],
+        "answer": "heart"
+      },
+      {
+        "question": "Which tissue type initiates and conducts electrical signals from one part of the animal's body to another?",
+        "type": "mcq",
+        "options": [
+          "Nervous tissue",
+          "Muscle tissue",
+          "Connective tissue",
+          "Epithelial tissue"
+        ],
+        "answer": "Nervous tissue"
+      },
+      {
+        "question": "Electrical signals produced in one neuron can stimulate a muscle cell to contract or a glandular cell to release chemicals.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "Nervous tissue is composed of complex networks of cells called _______ that initiate and conduct electrical signals.",
+        "type": "blank",
+        "options": [],
+        "answer": "neurons"
+      },
+      {
+        "question": "When molecules bound to the surface of one cell serve as signals to cells that physically touch them, this is known as:",
+        "type": "mcq",
+        "options": [
+          "Contact-dependent signaling",
+          "Endocrine signaling",
+          "Autocrine signaling",
+          "Paracrine signaling"
+        ],
+        "answer": "Contact-dependent signaling"
+      },
+      {
+        "question": "Contact-dependent signaling requires hormones to travel long distances through the bloodstream.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Membrane-bound molecules on one cell binding to receptors on an adjacent touching cell surface is an example of _______-dependent signaling.",
+        "type": "blank",
+        "options": [],
+        "answer": "contact"
+      },
+      {
+        "question": "In which type of signaling do cells secrete molecules that bind to receptors on their own surface or on similar neighboring cells?",
+        "type": "mcq",
+        "options": [
+          "Autocrine signaling",
+          "Paracrine signaling",
+          "Endocrine signaling",
+          "Direct intercellular signaling"
+        ],
+        "answer": "Autocrine signaling"
+      },
+      {
+        "question": "Autocrine signaling molecules only affect cells of a completely different type located far away in the body.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "When a cell secretes a signaling molecule that binds back to its own cell surface receptors, it is termed _______ signaling.",
+        "type": "blank",
+        "options": [],
+        "answer": "autocrine"
+      },
+      {
+        "question": "What type of signaling influences nearby target cells but does not affect the originating cell that secreted the signal?",
+        "type": "mcq",
+        "options": [
+          "Paracrine signaling",
+          "Autocrine signaling",
+          "Endocrine signaling",
+          "Contact-dependent signaling"
+        ],
+        "answer": "Paracrine signaling"
+      },
+      {
+        "question": "In paracrine signaling, the secreted signal affects the originating cell.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The signaling type where the signal does not affect the originating cell but influences nearby cells in the immediate environment is known as _______ signaling.",
+        "type": "blank",
+        "options": [],
+        "answer": "paracrine"
+      },
+      {
+        "question": "Hormones that travel long distances via the bloodstream utilize which type of signaling?",
+        "type": "mcq",
+        "options": [
+          "Endocrine signaling",
+          "Paracrine signaling",
+          "Direct intercellular signaling",
+          "Autocrine signaling"
+        ],
+        "answer": "Endocrine signaling"
+      },
+      {
+        "question": "Endocrine signaling typically travels long distances and has a longer-lasting effect compared to paracrine signaling.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "Chemical signals called _______ travel long distances through the bloodstream to target cells in endocrine signaling.",
+        "type": "blank",
+        "options": [],
+        "answer": "hormones"
+      },
+      {
+        "question": "What is the correct sequential order of the three stages of cell signaling?",
+        "type": "mcq",
+        "options": [
+          "Receptor activation, signal transduction, cellular response",
+          "Signal transduction, cellular response, receptor activation",
+          "Cellular response, receptor activation, signal transduction",
+          "Receptor activation, cellular response, signal transduction"
+        ],
+        "answer": "Receptor activation, signal transduction, cellular response"
+      },
+      {
+        "question": "The second stage of cell signaling, which occurs right after receptor activation, is signal transduction.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "The three stages of cell signaling are receptor activation, signal _______, and cellular response.",
+        "type": "blank",
+        "options": [],
+        "answer": "transduction"
+      },
+      {
+        "question": "Which type of receptor involves an intracellular catalytic domain that becomes active when an extracellular signaling molecule is bound?",
+        "type": "mcq",
+        "options": [
+          "Enzyme-linked receptors",
+          "G-protein-coupled receptors",
+          "Ligand-gated ion channels",
+          "Intracellular receptors"
+        ],
+        "answer": "Enzyme-linked receptors"
+      },
+      {
+        "question": "Most types of enzyme-linked receptors function as protein kinases that phosphorylate intracellular proteins.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "When a ligand binds to an _______-linked receptor, its intracellular catalytic domain becomes active.",
+        "type": "blank",
+        "options": [],
+        "answer": "enzyme"
+      },
+      {
+        "question": "When a signaling molecule binds to a GPCR, what does the associated G protein exchange its GDP for?",
+        "type": "mcq",
+        "options": [
+          "GTP",
+          "ATP",
+          "cAMP",
+          "ADP"
+        ],
+        "answer": "GTP"
+      },
+      {
+        "question": "The human genome contains more than 1000 genes dedicated to G-protein-coupled receptors (GPCRs).",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "After exchanging GDP for GTP, the G protein dissociates into an active alpha subunit and a _______/gamma dimer.",
+        "type": "blank",
+        "options": [],
+        "answer": "beta"
+      },
+      {
+        "question": "What do ligand-gated ion channels allow to pass through the cell membrane when they are opened by a signaling molecule?",
+        "type": "mcq",
+        "options": [
+          "Ions",
+          "Large proteins",
+          "DNA strands",
+          "Whole organelles"
+        ],
+        "answer": "Ions"
+      },
+      {
+        "question": "Ligand-gated ion channels play crucial roles in neurotransmission between neurons.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "The binding of extracellular signaling molecules opens a ligand-gated _______ channel, permitting specific atoms to diffuse across the membrane.",
+        "type": "blank",
+        "options": [],
+        "answer": "ion"
+      },
+      {
+        "question": "In mammals, receptors for which type of hormone are typically found inside the cell (intracellular) and bind to DNA?",
+        "type": "mcq",
+        "options": [
+          "Steroid hormones (e.g., estrogen)",
+          "Protein hormones",
+          "Enzyme hormones",
+          "Peptide hormones"
+        ],
+        "answer": "Steroid hormones (e.g., estrogen)"
+      },
+      {
+        "question": "Estrogen receptors are located exclusively on the outer extracellular surface of the plasma membrane.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Intracellular receptors for steroid hormones like estrogen form a dimer and activate the _______ of specific genes in the nucleus.",
+        "type": "blank",
+        "options": [],
+        "answer": "transcription"
+      },
+      {
+        "question": "In the Epidermal Growth Factor (EGF) signal transduction pathway, what initiates the protein kinase cascade?",
+        "type": "mcq",
+        "options": [
+          "Ras activates Raf",
+          "cAMP binds to PKA",
+          "Adenylyl cyclase synthesizes ATP",
+          "G-protein binds GDP"
+        ],
+        "answer": "Ras activates Raf"
+      },
+      {
+        "question": "In the EGF pathway, phosphorylated Erk enters the nucleus and phosphorylates the transcription factors Myc and Fos.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "Two EGF molecules cause their receptor subunits to dimerize and phosphorylate each other on _______ residues.",
+        "type": "blank",
+        "options": [],
+        "answer": "tyrosine"
+      },
+      {
+        "question": "In the epinephrine signaling pathway, which enzyme is activated by the alpha subunit to synthesize cAMP from ATP?",
+        "type": "mcq",
+        "options": [
+          "Adenylyl cyclase",
+          "Phosphodiesterase",
+          "Protein kinase A",
+          "Phosphorylase kinase"
+        ],
+        "answer": "Adenylyl cyclase"
+      },
+      {
+        "question": "cAMP binds to the regulatory subunits of Protein Kinase A (PKA), releasing and activating its catalytic subunits.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "If you wanted to block the epinephrine pathway by stopping the breakdown of cAMP, you would inhibit the enzyme _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "phosphodiesterase"
+      },
+      {
+        "question": "In homeostatic control systems, what is the normal, target value for a controlled variable called?",
+        "type": "mcq",
+        "options": [
+          "Set point",
+          "Sensor limit",
+          "Effector range",
+          "Integrator value"
+        ],
+        "answer": "Set point"
+      },
+      {
+        "question": "Homeostasis is a strictly static process where physiological variables remain absolutely constant without any fluctuation.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The biological process of maintaining a relatively stable internal environment despite external changes is called _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "homeostasis"
+      },
+      {
+        "question": "Animals that maintain an internal body composition matching their environment, requiring less energy, are known as:",
+        "type": "mcq",
+        "options": [
+          "Conformers",
+          "Regulators",
+          "Integrators",
+          "Effectors"
+        ],
+        "answer": "Conformers"
+      },
+      {
+        "question": "Regulators typically require more energy than conformers because they work to maintain their internal environment differently from the external environment.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "Animals that expend energy to maintain a body composition that is different from their external environment are called _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "regulators"
+      },
+      {
+        "question": "In a homeostatic control system, which component compares signals from the sensor to the set point?",
+        "type": "mcq",
+        "options": [
+          "Integrator",
+          "Sensor",
+          "Effector",
+          "Receptor"
+        ],
+        "answer": "Integrator"
+      },
+      {
+        "question": "The effector is the component that produces a physiological response to compensate for deviations from the set point.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "In body temperature regulation, the brain acts as the _______ by comparing input from temperature sensors to the 37-degree set point.",
+        "type": "blank",
+        "options": [],
+        "answer": "integrator"
+      },
+      {
+        "question": "Which mechanism prevents homeostatic responses from overcompensating by moving a variable in the opposite direction of the initial change?",
+        "type": "mcq",
+        "options": [
+          "Negative feedback",
+          "Positive feedback",
+          "Feedforward regulation",
+          "Action potential"
+        ],
+        "answer": "Negative feedback"
+      },
+      {
+        "question": "Shivering in response to a drop in body temperature is a classic example of a negative feedback loop.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "The key feature of homeostasis where a change brings about physiological responses that move the variable in the opposite direction is called _______ feedback.",
+        "type": "blank",
+        "options": [],
+        "answer": "negative"
+      },
+      {
+        "question": "Which of the following processes is a recognized example of positive feedback in animals?",
+        "type": "mcq",
+        "options": [
+          "Blood clotting",
+          "Body temperature regulation",
+          "Blood sugar regulation",
+          "Osmoregulation"
+        ],
+        "answer": "Blood clotting"
+      },
+      {
+        "question": "Positive feedback loops are designed to reinforce and accelerate the direction of a physiological change.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "Childbirth contractions and fruit ripening are distinct examples of _______ feedback loops.",
+        "type": "blank",
+        "options": [],
+        "answer": "positive"
+      },
+      {
+        "question": "What is the process called where an animal's body begins preparing for a change in a variable before it actually occurs (e.g., salivating when smelling food)?",
+        "type": "mcq",
+        "options": [
+          "Feedforward regulation",
+          "Negative feedback",
+          "Positive feedback",
+          "Contact-dependent signaling"
+        ],
+        "answer": "Feedforward regulation"
+      },
+      {
+        "question": "Feedforward regulation generally slows down homeostatic responses and increases deviations from the set point.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Anticipatory changes that minimize deviations from the set point are characteristic of _______ regulation.",
+        "type": "blank",
+        "options": [],
+        "answer": "feedforward"
+      }
     ]
   },
   "Chemistry": {},
