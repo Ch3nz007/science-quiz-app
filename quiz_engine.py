@@ -147,7 +147,10 @@ data = load_data()
 with st.sidebar:
     st.header("Settings")
     subject = st.selectbox("Subject", ["Biology", "Chemistry", "Physics"])
-    mode = st.radio("Mode", ["Take Quiz", "Add New Topic", "Manage Topics"])
+    
+    # ADDED "Upload JSON" to the menu
+    mode = st.radio("Mode", ["Take Quiz", "Add New Topic", "Upload JSON", "Manage Topics"])
+    
     st.divider()
     api_key = st.text_input("Gemini API Key", type="password")
     
@@ -161,7 +164,7 @@ with st.sidebar:
 
 # LOGIC
 if mode == "Add New Topic":
-    st.subheader(f"Add {subject} Material")
+    st.subheader(f"Add {subject} Material via API")
     name = st.text_input("Topic Name")
     uploaded_file = st.file_uploader("Upload Notes", type=["pdf", "pptx"])
     text_input = st.text_area("Paste Text", height=150)
@@ -172,7 +175,7 @@ if mode == "Add New Topic":
         if text_input: full_text += "\n" + text_input
             
         if full_text.strip() and api_key:
-            with st.spinner(f"Generating 60+ Questions..."):
+            with st.spinner(f"Generating Questions..."):
                 qs = generate_questions_gemini(full_text, api_key, selected_model)
                 if qs:
                     if subject not in data: data[subject] = {}
@@ -183,6 +186,34 @@ if mode == "Add New Topic":
                     st.rerun()
         else:
             st.warning("Missing API Key or Content")
+
+# --- NEW: UPLOAD JSON MODE ---
+elif mode == "Upload JSON":
+    st.subheader(f"Upload Raw JSON for {subject}")
+    name = st.text_input("Topic Name")
+    json_input = st.text_area("Paste JSON here", height=300)
+    
+    if st.button("Save to Database"):
+        if name.strip() and json_input.strip():
+            try:
+                # Remove markdown formatting if accidentally pasted
+                cleaned_input = json_input.strip().replace("```json", "").replace("```", "").replace("json\n", "")
+                raw_data = json.loads(cleaned_input)
+                clean_qs = clean_quiz_data(raw_data)
+                
+                if len(clean_qs) > 0:
+                    if subject not in data: data[subject] = {}
+                    data[subject][name] = clean_qs
+                    save_data(data)
+                    st.success(f"Successfully saved {len(clean_qs)} questions to the cloud.")
+                    time.sleep(2)
+                    st.rerun()
+                else:
+                    st.error("The JSON did not contain valid questions.")
+            except json.JSONDecodeError:
+                st.error("Invalid JSON format. Please ensure you pasted raw, valid JSON.")
+        else:
+            st.warning("Please provide a topic name and JSON content.")
 
 elif mode == "Take Quiz":
     if subject not in data: data[subject] = {}
