@@ -7523,6 +7523,528 @@
         "options": [],
         "answer": "feedforward"
       }
+    ],
+    "Immune System Improved": [
+      {
+        "question": "What is the ability of an animal to ward off internal threats such as microbes or cancerous cells called?",
+        "type": "mcq",
+        "options": [
+          "Immunity",
+          "Opsonisation",
+          "Sensitisation",
+          "Phagocytosis"
+        ],
+        "answer": "Immunity"
+      },
+      {
+        "question": "Immunity is the ability of an animal to ward off internal threats like microbes and microbial toxins.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "The ability of an animal's body to ward off internal threats is broadly known as _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "immunity"
+      },
+      {
+        "question": "Which type of immunity is present at birth and functions the same way regardless of the invader?",
+        "type": "mcq",
+        "options": [
+          "Innate immunity",
+          "Adaptive immunity",
+          "Passive immunity",
+          "Cell-mediated immunity"
+        ],
+        "answer": "Innate immunity"
+      },
+      {
+        "question": "Innate immunity develops only after exposure to a specific pathogen.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Defences that are present at birth and act non-specifically against invaders are part of _______ immunity.",
+        "type": "blank",
+        "options": [],
+        "answer": "innate"
+      },
+      {
+        "question": "Which type of immunity develops after exposure and targets an invader specifically?",
+        "type": "mcq",
+        "options": [
+          "Adaptive immunity",
+          "Innate immunity",
+          "Barrier defences",
+          "General immunity"
+        ],
+        "answer": "Adaptive immunity"
+      },
+      {
+        "question": "Adaptive immunity provides a generic, non-specific defence against all types of pathogens.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "_______ immunity develops after initial exposure to a pathogen and targets that specific invader in the future.",
+        "type": "blank",
+        "options": [],
+        "answer": "Adaptive"
+      },
+      {
+        "question": "Which pathogens primarily damage host tissues at open wound sites or by releasing toxins into the bloodstream?",
+        "type": "mcq",
+        "options": [
+          "Bacteria",
+          "Viruses",
+          "Fungi",
+          "Protists"
+        ],
+        "answer": "Bacteria"
+      },
+      {
+        "question": "Bacteria can damage host tissues by releasing toxins that enter the bloodstream.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "Pathogens that often enter through open wounds and can release toxins into the bloodstream are called _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "bacteria"
+      },
+      {
+        "question": "Which pathogens consist of nucleic acids enclosed in a protein coat and must infect a host cell to replicate?",
+        "type": "mcq",
+        "options": [
+          "Viruses",
+          "Bacteria",
+          "Eukaryotic parasites",
+          "Worms"
+        ],
+        "answer": "Viruses"
+      },
+      {
+        "question": "Viruses can independently replicate in the extracellular fluid without a host cell.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "_______ are pathogens composed of nucleic acids in a protein coat that require a host cell for replication.",
+        "type": "blank",
+        "options": [],
+        "answer": "Viruses"
+      },
+      {
+        "question": "Any molecule that the host does not recognise as 'self' and triggers an immune response is known as an:",
+        "type": "mcq",
+        "options": [
+          "Antigen",
+          "Antibody",
+          "Epitope",
+          "Cytokine"
+        ],
+        "answer": "Antigen"
+      },
+      {
+        "question": "An antigen is a molecule that the immune system recognises as a normal, 'self' component of the body.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "A foreign molecule that elicits a specific response from the immune system is called an _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "antigen"
+      },
+      {
+        "question": "General, conserved molecular features common to many types of pathogens that are recognised by the innate immune system are called:",
+        "type": "mcq",
+        "options": [
+          "Pathogen-Associated Molecular Patterns (PAMPs)",
+          "Major Histocompatibility Complexes (MHC)",
+          "Immunoglobulins",
+          "Cytokines"
+        ],
+        "answer": "Pathogen-Associated Molecular Patterns (PAMPs)"
+      },
+      {
+        "question": "PAMPs are highly specific antigens recognised uniquely by the adaptive immune system.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The innate immune system recognises conserved features on pathogens known as Pathogen-Associated Molecular _______ (PAMPs).",
+        "type": "blank",
+        "options": [],
+        "answer": "Patterns"
+      },
+      {
+        "question": "The specific fragment of an antigen that is displayed on an MHC protein after phagocytosis is called an:",
+        "type": "mcq",
+        "options": [
+          "Epitope",
+          "Antibody",
+          "Interleukin",
+          "Opsonin"
+        ],
+        "answer": "Epitope"
+      },
+      {
+        "question": "An epitope is an entire, intact virus circulating in the bloodstream.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "After digestion by a macrophage, the specific fragment of an antigen displayed on its surface is called an _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "epitope"
+      },
+      {
+        "question": "Proteins synthesised and secreted by plasma cells that bind to specific antigens are called:",
+        "type": "mcq",
+        "options": [
+          "Antibodies",
+          "Cytokines",
+          "Antigens",
+          "PAMPs"
+        ],
+        "answer": "Antibodies"
+      },
+      {
+        "question": "Antibodies are proteins secreted by Cytotoxic T cells to directly destroy infected cells.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Plasma cells secrete proteins called _______ that bind specifically to foreign antigens.",
+        "type": "blank",
+        "options": [],
+        "answer": "antibodies"
+      },
+      {
+        "question": "Chemical messengers secreted by immune cells to regulate the immune response and induce inflammation are called:",
+        "type": "mcq",
+        "options": [
+          "Cytokines",
+          "Antigens",
+          "Epitopes",
+          "Antibodies"
+        ],
+        "answer": "Cytokines"
+      },
+      {
+        "question": "Cytokines are specialised red blood cells that transport oxygen during an infection.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Immune cells communicate and induce inflammation by secreting chemical messengers called _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "cytokines"
+      },
+      {
+        "question": "The process where a pathogen is linked to a non-specific immune cell by antibodies to enhance phagocytosis is known as:",
+        "type": "mcq",
+        "options": [
+          "Opsonisation",
+          "Sensitisation",
+          "Clonal selection",
+          "Apoptosis"
+        ],
+        "answer": "Opsonisation"
+      },
+      {
+        "question": "Opsonisation hides pathogens from macrophages, preventing them from being phagocytised.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Coating a pathogen with antibodies to enhance its phagocytosis by macrophages is a process called _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "opsonisation"
+      },
+      {
+        "question": "The process where an antigen-stimulated lymphocyte divides into a massive population of identical cells is called:",
+        "type": "mcq",
+        "options": [
+          "Clonal selection",
+          "Opsonisation",
+          "Meiosis",
+          "Sensitisation"
+        ],
+        "answer": "Clonal selection"
+      },
+      {
+        "question": "Clonal selection refers to the natural death of white blood cells after an infection is cleared.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The rapid division of an antigen-stimulated lymphocyte into many identical cells is known as _______ selection.",
+        "type": "blank",
+        "options": [],
+        "answer": "clonal"
+      },
+      {
+        "question": "Which branch of adaptive immunity involves B cells and targets pathogens in the extracellular fluid?",
+        "type": "mcq",
+        "options": [
+          "Humoral immunity",
+          "Cell-mediated immunity",
+          "Innate immunity",
+          "Passive immunity"
+        ],
+        "answer": "Humoral immunity"
+      },
+      {
+        "question": "Humoral immunity primarily utilises Cytotoxic T cells to destroy cancer cells.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The branch of adaptive immunity that targets extracellular pathogens using antibodies is known as _______ immunity.",
+        "type": "blank",
+        "options": [],
+        "answer": "humoral"
+      },
+      {
+        "question": "Which type of immunity targets infected body cells or cancer cells using Cytotoxic T cells?",
+        "type": "mcq",
+        "options": [
+          "Cell-mediated immunity",
+          "Humoral immunity",
+          "Passive immunity",
+          "Innate immunity"
+        ],
+        "answer": "Cell-mediated immunity"
+      },
+      {
+        "question": "Cell-mediated immunity involves the secretion of massive amounts of antibodies into the blood.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "_______-mediated immunity utilises Cytotoxic T cells to destroy infected host cells.",
+        "type": "blank",
+        "options": [],
+        "answer": "Cell"
+      },
+      {
+        "question": "Immunity gained through an infection or vaccination that produces long-term memory cells is called:",
+        "type": "mcq",
+        "options": [
+          "Active immunity",
+          "Passive immunity",
+          "Innate immunity",
+          "Maternal immunity"
+        ],
+        "answer": "Active immunity"
+      },
+      {
+        "question": "Active immunity is short-lived because it relies on antibodies transferred from the mother.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "_______ immunity is achieved when the body is exposed to a pathogen or vaccine and creates its own memory cells.",
+        "type": "blank",
+        "options": [],
+        "answer": "Active"
+      },
+      {
+        "question": "The transfer of antibodies through breast milk or the placenta provides a short-lived defence known as:",
+        "type": "mcq",
+        "options": [
+          "Passive immunity",
+          "Active immunity",
+          "Cell-mediated immunity",
+          "Adaptive immunity"
+        ],
+        "answer": "Passive immunity"
+      },
+      {
+        "question": "Passive immunity produces memory cells that last for the entire lifespan of the organism.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Receiving pre-made antibodies from another source, such as via the placenta, is an example of _______ immunity.",
+        "type": "blank",
+        "options": [],
+        "answer": "passive"
+      },
+      {
+        "question": "Compared to the primary immune response, the secondary immune response upon re-exposure is:",
+        "type": "mcq",
+        "options": [
+          "Faster and produces massive amounts of antibodies",
+          "Slower and produces fewer antibodies",
+          "Faster but produces fewer antibodies",
+          "Slower but produces massive amounts of antibodies"
+        ],
+        "answer": "Faster and produces massive amounts of antibodies"
+      },
+      {
+        "question": "The primary immune response produces significantly more antibodies than the secondary immune response.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Due to immunological memory, the _______ immune response is much faster and produces massive amounts of antibodies.",
+        "type": "blank",
+        "options": [],
+        "answer": "secondary"
+      },
+      {
+        "question": "An exaggerated immune response to typically harmless environmental antigens that causes inflammation is known as:",
+        "type": "mcq",
+        "options": [
+          "An allergy",
+          "An autoimmune disease",
+          "Immunodeficiency",
+          "Passive immunity"
+        ],
+        "answer": "An allergy"
+      },
+      {
+        "question": "Allergies occur because environmental antigens are inherently lethal toxins to all humans.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Hypersensitivity to harmless environmental antigens, causing inflammation and tissue damage, is called an _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "allergy"
+      },
+      {
+        "question": "Which hormone, associated with stress, has a powerful suppressive activity on inflammation and specific immunity?",
+        "type": "mcq",
+        "options": [
+          "Cortisol",
+          "Insulin",
+          "Glucagon",
+          "Thyroxine"
+        ],
+        "answer": "Cortisol"
+      },
+      {
+        "question": "High levels of cortisol enhance the immune system's ability to fight off infections.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The stress hormone _______ actively suppresses inflammation and immune function.",
+        "type": "blank",
+        "options": [],
+        "answer": "cortisol"
+      },
+      {
+        "question": "Which immune cells are primarily responsible for the graft rejection of transplanted organs?",
+        "type": "mcq",
+        "options": [
+          "Cytotoxic T cells and Helper T cells",
+          "Red blood cells and Platelets",
+          "Mast cells and Basophils",
+          "Eosinophils and Neutrophils"
+        ],
+        "answer": "Cytotoxic T cells and Helper T cells"
+      },
+      {
+        "question": "Organ transplants are never rejected because the innate immune system ignores foreign human tissue.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "To prevent graft rejection of a transplanted organ, patients are given drugs that _______ immune function.",
+        "type": "blank",
+        "options": [],
+        "answer": "suppress"
+      }
     ]
   },
   "Chemistry": {},
