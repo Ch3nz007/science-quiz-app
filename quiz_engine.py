@@ -10,37 +10,7 @@ from pptx import Presentation
 # --- Setup ---
 st.set_page_config(page_title="Quiz Engine", layout="wide")
 
-# --- 🔒 PASSWORD PROTECTION START ---
-def check_password():
-    """Returns `True` if the user had the correct password."""
-
-    def password_entered():
-        """Checks whether a password entered by the user is correct."""
-        if st.session_state["password"] == st.secrets["APP_PASSWORD"]:
-            st.session_state["password_correct"] = True
-            del st.session_state["password"]  # don't store password
-        else:
-            st.session_state["password_correct"] = False
-
-    if "password_correct" not in st.session_state:
-        # First run, show input for password.
-        st.text_input("Enter Password to Access Quiz Engine:", type="password", on_change=password_entered, key="password")
-        return False
-    elif not st.session_state["password_correct"]:
-        # Password incorrect, show input + error.
-        st.text_input("Enter Password to Access Quiz Engine:", type="password", on_change=password_entered, key="password")
-        st.error("😕 Password incorrect")
-        return False
-    else:
-        # Password correct.
-        return True
-
-if not check_password():
-    st.stop()  # Do not run any code below this line if password is wrong
-# --- 🔒 PASSWORD PROTECTION END ---
-
-
-# ⚠️ CHANGE THIS TO YOUR EXACT REPO NAME
+# CHANGE THIS TO YOUR EXACT REPO NAME
 REPO_KEY = "Ch3nz007/science-quiz-app"
 FILE_PATH = "science_topics.json"
 
@@ -105,14 +75,14 @@ def get_available_models(api_key):
 
 # --- CRITICAL FIX: DATA CLEANER ---
 def clean_quiz_data(raw_questions):
-    """Fixes bad capitalization (Question -> question) and missing keys"""
+    """Fixes bad capitalisation (Question -> question) and missing keys"""
     if not isinstance(raw_questions, list): return []
     
     cleaned = []
     for q in raw_questions:
         if not isinstance(q, dict): continue
         
-        # 1. Normalize Keys (Convert 'Question' to 'question', etc.)
+        # 1. Normalise Keys (Convert 'Question' to 'question', etc.)
         new_q = {}
         for k, v in q.items():
             new_q[k.lower().strip()] = v
@@ -165,7 +135,7 @@ def generate_questions_gemini(text_content, api_key, model_name):
         return None
 
 # --- Frontend ---
-st.title("🎓 Quiz Engine")
+st.title("Quiz Engine")
 
 if "quiz_data" not in st.session_state: st.session_state.quiz_data = []
 if "score" not in st.session_state: st.session_state.score = 0
@@ -256,7 +226,7 @@ elif mode == "Take Quiz":
                     
                     if submitted:
                         score = 0
-                        st.write("### 📝 Results:")
+                        st.write("### Results:")
                         for i, q in enumerate(st.session_state.quiz_data):
                             u_ans = user_answers.get(i)
                             c_ans = q.get('answer', '')
