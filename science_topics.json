@@ -1799,6 +1799,424 @@
         "options": [],
         "answer": "Multiple"
       }
+    ],
+    "Circulatory System and Respiratory System Improved": [
+      {
+        "question": "What is the primary function of a circulatory system in an animal?",
+        "type": "mcq",
+        "options": [
+          "To transport necessary materials to cells and remove waste products",
+          "To provide rigid structural support to the body",
+          "To coordinate sensory inputs from the external environment",
+          "To chemically break down complex food molecules"
+        ],
+        "answer": "To transport necessary materials to cells and remove waste products"
+      },
+      {
+        "question": "The circulatory system is responsible for transporting waste products away from cells so they can be released into the environment.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "The system that transports oxygen and nutrients to cells and removes metabolic waste is the _______ system.",
+        "type": "blank",
+        "options": [],
+        "answer": "circulatory"
+      },
+      {
+        "question": "Which animals typically possess an open circulatory system?",
+        "type": "mcq",
+        "options": [
+          "Arthropods and some molluscs",
+          "Earthworms and cephalopods",
+          "All vertebrates",
+          "Fish and amphibians"
+        ],
+        "answer": "Arthropods and some molluscs"
+      },
+      {
+        "question": "In an open circulatory system, blood is kept physically separated from the interstitial fluid at all times.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "In an open circulatory system, the fluid that is pumped into the body cavity and mixes directly with interstitial fluid is called _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "haemolymph"
+      },
+      {
+        "question": "What defines a closed circulatory system?",
+        "type": "mcq",
+        "options": [
+          "Blood and interstitial fluid are physically separated",
+          "Haemolymph surrounds all internal organs",
+          "The heart does not require vessels to pump fluid",
+          "Nutrients diffuse across the body surface without fluid transport"
+        ],
+        "answer": "Blood and interstitial fluid are physically separated"
+      },
+      {
+        "question": "Earthworms, cephalopods, and all vertebrates possess closed circulatory systems.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "A circulatory system where blood remains within vessels and is distinct from interstitial fluid is known as a _______ circulatory system.",
+        "type": "blank",
+        "options": [],
+        "answer": "closed"
+      },
+      {
+        "question": "Which type of circulation involves blood passing through the heart twice in each complete circuit of the body?",
+        "type": "mcq",
+        "options": [
+          "Double circulation",
+          "Single circulation",
+          "Open circulation",
+          "Gastrovascular circulation"
+        ],
+        "answer": "Double circulation"
+      },
+      {
+        "question": "Fish possess a double circulation system where blood passes through the heart twice.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Mammals and birds possess _______ circulation, involving both a pulmonary circuit and a systemic circuit.",
+        "type": "blank",
+        "options": [],
+        "answer": "double"
+      },
+      {
+        "question": "What is the fluid portion of blood containing water, dissolved nutrients, and proteins called?",
+        "type": "mcq",
+        "options": [
+          "Plasma",
+          "Haemolymph",
+          "Interstitial fluid",
+          "Lymph"
+        ],
+        "answer": "Plasma"
+      },
+      {
+        "question": "Plasma is the solid, cellular component of blood responsible for carrying oxygen.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The fluid portion of the blood that contains dissolved gases, nutrients, and proteins is known as _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "plasma"
+      },
+      {
+        "question": "Which iron-containing protein is found within red blood cells and binds reversibly to oxygen?",
+        "type": "mcq",
+        "options": [
+          "Haemoglobin",
+          "Myoglobin",
+          "Fibrinogen",
+          "Immunoglobulin"
+        ],
+        "answer": "Haemoglobin"
+      },
+      {
+        "question": "Haemoglobin is primarily found dissolved freely in the plasma of vertebrate blood.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The iron-containing protein in red blood cells that transports oxygen throughout the body is _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "haemoglobin"
+      },
+      {
+        "question": "Which protein has a higher affinity for oxygen than haemoglobin and acts as an oxygen reserve in muscle cells?",
+        "type": "mcq",
+        "options": [
+          "Myoglobin",
+          "Actin",
+          "Myosin",
+          "Collagen"
+        ],
+        "answer": "Myoglobin"
+      },
+      {
+        "question": "Myoglobin has a lower affinity for oxygen than haemoglobin, allowing it to release oxygen easily in the lungs.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Extra _______ in muscle cells allows more blood oxygen to travel to other critical structures during exertion.",
+        "type": "blank",
+        "options": [],
+        "answer": "myoglobin"
+      },
+      {
+        "question": "Which blood vessels typically carry blood away from the heart under high pressure?",
+        "type": "mcq",
+        "options": [
+          "Arteries",
+          "Veins",
+          "Capillaries",
+          "Venules"
+        ],
+        "answer": "Arteries"
+      },
+      {
+        "question": "Arteries generally have thicker smooth muscle and elastic layers compared to veins.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "Blood vessels that carry blood away from the heart and possess thick muscular layers are called _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "arteries"
+      },
+      {
+        "question": "What structural feature in veins prevents the backflow of blood?",
+        "type": "mcq",
+        "options": [
+          "Valves",
+          "Thick smooth muscle",
+          "Nodes of Ranvier",
+          "Elastic recoil"
+        ],
+        "answer": "Valves"
+      },
+      {
+        "question": "Veins carry blood towards the heart under relatively low pressure.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "To prevent the backflow of blood in low-pressure vessels, veins contain specialised structures called _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "valves"
+      },
+      {
+        "question": "A heart that initiates its own beat through its own muscle cells, as seen in vertebrates, is described as:",
+        "type": "mcq",
+        "options": [
+          "Myogenic",
+          "Neurogenic",
+          "Autonomic",
+          "Somatic"
+        ],
+        "answer": "Myogenic"
+      },
+      {
+        "question": "A neurogenic heart will continue to beat normally even if all nerve connections to it are cut.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Because vertebrate hearts initiate their own beats independently of the nervous system, they are termed _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "myogenic"
+      },
+      {
+        "question": "During mammalian inhalation, what occurs to bring air into the lungs?",
+        "type": "mcq",
+        "options": [
+          "The diaphragm and rib muscles contract to expand the thoracic cavity",
+          "The diaphragm relaxes and pushes up against the lungs",
+          "The intercostal muscles relax to compress the rib cage",
+          "Positive pressure physically forces air into the respiratory tract"
+        ],
+        "answer": "The diaphragm and rib muscles contract to expand the thoracic cavity"
+      },
+      {
+        "question": "Mammals rely on positive pressure breathing to push air down into their lungs.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "During inhalation, the contraction of the _______ and rib muscles expands the thoracic cavity to draw air in.",
+        "type": "blank",
+        "options": [],
+        "answer": "diaphragm"
+      },
+      {
+        "question": "Which respiratory condition is characterised by extensive lung damage that reduces the elastic quality and total surface area of the alveoli?",
+        "type": "mcq",
+        "options": [
+          "Emphysema",
+          "Asthma",
+          "Meningitis",
+          "Multiple Sclerosis"
+        ],
+        "answer": "Emphysema"
+      },
+      {
+        "question": "Over 85% of emphysema cases are attributed to long-term smoking.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "Long-term smoking is the major cause of _______, a disease that breaks down alveoli walls and reduces gas exchange surface area.",
+        "type": "blank",
+        "options": [],
+        "answer": "emphysema"
+      },
+      {
+        "question": "Which respiratory condition is caused by the hyperexcitability and contraction of smooth muscles around the bronchioles?",
+        "type": "mcq",
+        "options": [
+          "Asthma",
+          "Emphysema",
+          "Lung cancer",
+          "Atherosclerosis"
+        ],
+        "answer": "Asthma"
+      },
+      {
+        "question": "Asthma involves the relaxation of smooth muscles around the bronchioles, causing them to widen excessively.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "An aerosol mist containing bronchodilators is typically used to alleviate the wheezing and restricted airways associated with _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "asthma"
+      },
+      {
+        "question": "Why does oxygen readily enter the blood in the lungs relative to the alveolar air?",
+        "type": "mcq",
+        "options": [
+          "The oxygen concentration in the blood is lower than in the alveolar air",
+          "The carbon dioxide concentration in the blood is low",
+          "The oxygen concentration in the blood is higher than in the alveolar air",
+          "The process uses active transport independent of concentration gradients"
+        ],
+        "answer": "The oxygen concentration in the blood is lower than in the alveolar air"
+      },
+      {
+        "question": "Oxygen enters the blood in the lungs because the oxygen concentration in the blood is naturally higher than in the alveolar air.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Oxygen diffuses into the pulmonary capillaries because its concentration in the deoxygenated blood is relatively _______ compared to alveolar air.",
+        "type": "blank",
+        "options": [],
+        "answer": "low"
+      },
+      {
+        "question": "How is the majority of carbon dioxide transported in the blood?",
+        "type": "mcq",
+        "options": [
+          "In the form of carbonic acid and bicarbonate ions",
+          "Bound directly to the iron in haemoglobin",
+          "As freely dissolved gas bubbles in the plasma",
+          "Stored within the mitochondria of red blood cells"
+        ],
+        "answer": "In the form of carbonic acid and bicarbonate ions"
+      },
+      {
+        "question": "The majority of carbon dioxide in the blood is transported by binding directly to the haemoglobin molecules.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Most carbon dioxide in the blood is transported in the form of carbonic acid and _______ ions.",
+        "type": "blank",
+        "options": [],
+        "answer": "bicarbonate"
+      },
+      {
+        "question": "When a person forcefully exhales, what physical event occurs in the respiratory system?",
+        "type": "mcq",
+        "options": [
+          "The lungs undergo an elastic recoil",
+          "The diaphragm actively contracts downwards",
+          "The rib muscles pull the rib cage upwards and outwards",
+          "Positive pressure is actively pumped from the environment into the trachea"
+        ],
+        "answer": "The lungs undergo an elastic recoil"
+      },
+      {
+        "question": "During exhalation, the diaphragm and rib muscles strongly contract to force air out.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "When a person exhales, the relaxation of muscles causes the lungs to undergo an elastic _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "recoil"
+      }
     ]
   },
   "Chemistry": {},
