@@ -2217,6 +2217,320 @@
         "options": [],
         "answer": "recoil"
       }
+    ],
+    "The Digestive System": [
+      {
+        "question": "What is any substance taken in by an organism that is needed for survival, growth, development, tissue repair, or reproduction called?",
+        "type": "mcq",
+        "options": [
+          "Nutrient",
+          "Enzyme",
+          "Hormone",
+          "Antibody"
+        ],
+        "answer": "Nutrient"
+      },
+      {
+        "question": "A nutrient is a substance taken in by an organism solely for energy production, and is not involved in tissue repair.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Any substance taken in by an organism that is needed for survival, growth, and tissue repair is known as a _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "nutrient"
+      },
+      {
+        "question": "What is the correct sequence of the four sequential phases of food processing in animals?",
+        "type": "mcq",
+        "options": [
+          "Ingestion, digestion, absorption, egestion",
+          "Digestion, ingestion, absorption, egestion",
+          "Ingestion, absorption, digestion, egestion",
+          "Absorption, digestion, egestion, ingestion"
+        ],
+        "answer": "Ingestion, digestion, absorption, egestion"
+      },
+      {
+        "question": "The four phases of food processing in animals are ingestion, digestion, absorption, and egestion.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "The final phase of food processing, where undigested materials and other wastes are passed from the body, is called _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "egestion"
+      },
+      {
+        "question": "Which of the following distinguishes an alimentary canal from a gastrovascular cavity?",
+        "type": "mcq",
+        "options": [
+          "It has two separate openings for entry and exit (mouth and anus)",
+          "It only has a single opening for both entry and exit",
+          "It does not utilize any smooth muscle for movement",
+          "It relies exclusively on intracellular digestion"
+        ],
+        "answer": "It has two separate openings for entry and exit (mouth and anus)"
+      },
+      {
+        "question": "A gastrovascular cavity features two separate openings: a mouth and an anus.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "A single elongated digestive tube with an opening at both ends is commonly known as an _______ canal.",
+        "type": "blank",
+        "options": [],
+        "answer": "alimentary"
+      },
+      {
+        "question": "What term describes the rhythmic, spontaneous waves of smooth muscle contraction that propel food through the digestive tract?",
+        "type": "mcq",
+        "options": [
+          "Peristalsis",
+          "Mastication",
+          "Segmentation",
+          "Deglutition"
+        ],
+        "answer": "Peristalsis"
+      },
+      {
+        "question": "Peristalsis refers to the conscious, voluntary contraction of skeletal muscles to swallow food.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Rhythmic, spontaneous waves of smooth muscle contraction that propel food through the alimentary canal are called _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "peristalsis"
+      },
+      {
+        "question": "The liquid mixture of partially digested food and gastric juices produced in the stomach is known as:",
+        "type": "mcq",
+        "options": [
+          "Chyme",
+          "Bile",
+          "Bolus",
+          "Feces"
+        ],
+        "answer": "Chyme"
+      },
+      {
+        "question": "Chyme is the solid waste product formed in the large intestine just before egestion.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The liquid mixture of partially digested food and gastric juices formed in the stomach is called _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "chyme"
+      },
+      {
+        "question": "What is the primary function of the finger-like projections called villi in the small intestine?",
+        "type": "mcq",
+        "options": [
+          "To increase the surface area for nutrient absorption",
+          "To physically grind and break down tough food particles",
+          "To secrete hydrochloric acid into the lumen",
+          "To propel food directly into the large intestine"
+        ],
+        "answer": "To increase the surface area for nutrient absorption"
+      },
+      {
+        "question": "Villi are primarily responsible for mechanically grinding food in the stomach.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Finger-like projections on the lining of the small intestine that greatly increase the surface area for absorption are called _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "villi"
+      },
+      {
+        "question": "Why is the protein-digesting enzyme in the stomach initially secreted as inactive pepsinogen?",
+        "type": "mcq",
+        "options": [
+          "To protect the stomach cells from self-digestion",
+          "Because the stomach is a highly alkaline environment",
+          "To allow bacteria in the stomach to utilize it first",
+          "Because active pepsin cannot mix with chyme"
+        ],
+        "answer": "To protect the stomach cells from self-digestion"
+      },
+      {
+        "question": "Pepsinogen is the active form of the enzyme and does not require hydrochloric acid (HCl) for activation.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The inactive precursor of pepsin, which is secreted to protect stomach cells from self-digestion, is called _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "pepsinogen"
+      },
+      {
+        "question": "In which part of the human digestive system does the vast majority of nutrient digestion and absorption occur?",
+        "type": "mcq",
+        "options": [
+          "Small intestine",
+          "Stomach",
+          "Large intestine",
+          "Esophagus"
+        ],
+        "answer": "Small intestine"
+      },
+      {
+        "question": "The large intestine is the primary site for the chemical digestion and absorption of carbohydrates and proteins.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The primary site of digestion and absorption of nutrients in the alimentary canal is the _______ intestine.",
+        "type": "blank",
+        "options": [],
+        "answer": "small"
+      },
+      {
+        "question": "What is the primary function of the large intestine (colon) in human digestion?",
+        "type": "mcq",
+        "options": [
+          "To absorb water and salts and store waste",
+          "To mechanically churn and break down food",
+          "To secrete digestive enzymes for lipid breakdown",
+          "To absorb the majority of amino acids into the bloodstream"
+        ],
+        "answer": "To absorb water and salts and store waste"
+      },
+      {
+        "question": "The large intestine houses a high concentration of bacteria and primarily absorbs water and salts.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "The segment of the digestive tract that primarily absorbs water and salts and houses high concentrations of bacteria is the _______ intestine.",
+        "type": "blank",
+        "options": [],
+        "answer": "large"
+      },
+      {
+        "question": "Which bacterium is identified as a major cause of ulcers in the stomach and small intestine?",
+        "type": "mcq",
+        "options": [
+          "Helicobacter pylori",
+          "Escherichia coli",
+          "Vibrio cholerae",
+          "Staphylococcus aureus"
+        ],
+        "answer": "Helicobacter pylori"
+      },
+      {
+        "question": "Ulcers are completely normal features of the stomach lining that actively aid in chemical digestion.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Erosions of the alimentary canal lining, often caused by the bacterium Helicobacter pylori, are known as _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "ulcers"
+      },
+      {
+        "question": "What is the chief physiological concern and primary cause of death associated with severe diarrhea (such as in Cholera)?",
+        "type": "mcq",
+        "options": [
+          "Loss of nutrients, water, and ensuing severe dehydration",
+          "Rapid internal bleeding in the large intestine",
+          "An extreme spike in blood pressure",
+          "Complete paralysis of the smooth muscles"
+        ],
+        "answer": "Loss of nutrients, water, and ensuing severe dehydration"
+      },
+      {
+        "question": "Cholera is caused by a virus and leads to extreme constipation and water retention.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The severe disease caused by Vibrio cholerae, which leads to life-threatening _______ through excessive fluid loss in the stool, is cholera.",
+        "type": "blank",
+        "options": [],
+        "answer": "dehydration"
+      },
+      {
+        "question": "How many amino acids are considered 'essential' for humans because they cannot be synthesized by the body and must be obtained from the diet?",
+        "type": "mcq",
+        "options": [
+          "9",
+          "20",
+          "5",
+          "12"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "Humans can synthesize all necessary amino acids within their own bodies, so none are technically 'essential' in the diet.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Humans require _______ specific essential amino acids that cannot be synthesized internally and must be obtained from food.",
+        "type": "blank",
+        "options": [],
+        "answer": "9"
+      }
     ]
   },
   "Chemistry": {},
