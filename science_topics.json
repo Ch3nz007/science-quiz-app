@@ -3263,6 +3263,502 @@
         "options": [],
         "answer": "cytoplasm"
       }
+    ],
+    "Mutations, Mutagens, DNA Repair, Cancer & Oncogenes": [
+      {
+        "question": "Which of the following describes any heritable change in the genetic material?",
+        "type": "mcq",
+        "options": [
+          "Mutation",
+          "Transcription",
+          "Translation",
+          "Replication"
+        ],
+        "answer": "Mutation"
+      },
+      {
+        "question": "A mutation is defined as any heritable change in the genetic material.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "Any heritable change in the genetic material is known as a _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "mutation"
+      },
+      {
+        "question": "What is the ultimate source of genetic variation in living organisms?",
+        "type": "mcq",
+        "options": [
+          "Mutations",
+          "Mitosis",
+          "Splicing",
+          "Translation"
+        ],
+        "answer": "Mutations"
+      },
+      {
+        "question": "Mutations decrease the overall biological diversity across different species.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The ultimate source of genetic variation in humans and other living organisms are _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "mutations"
+      },
+      {
+        "question": "A mutation involving a base substitution, or a single base insertion/deletion is called a:",
+        "type": "mcq",
+        "options": [
+          "Point mutation",
+          "Chromosomal translocation",
+          "Aneuploidy",
+          "Genomic imprinting"
+        ],
+        "answer": "Point mutation"
+      },
+      {
+        "question": "A point mutation involves the alteration of large segments of a chromosome.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "A _______ mutation involves a base substitution, or a single base insertion or deletion.",
+        "type": "blank",
+        "options": [],
+        "answer": "point"
+      },
+      {
+        "question": "Which type of mutation involves a base substitution that causes no change in the resulting amino acid sequence?",
+        "type": "mcq",
+        "options": [
+          "Silent mutation",
+          "Missense mutation",
+          "Nonsense mutation",
+          "Frameshift mutation"
+        ],
+        "answer": "Silent mutation"
+      },
+      {
+        "question": "A silent mutation changes the resulting amino acid sequence of a protein.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "A base substitution that does not alter the amino acid sequence is called a _______ mutation.",
+        "type": "blank",
+        "options": [],
+        "answer": "silent"
+      },
+      {
+        "question": "Which mutation involves a base substitution that changes exactly one amino acid in the polypeptide sequence?",
+        "type": "mcq",
+        "options": [
+          "Missense mutation",
+          "Silent mutation",
+          "Nonsense mutation",
+          "Frameshift mutation"
+        ],
+        "answer": "Missense mutation"
+      },
+      {
+        "question": "A missense mutation introduces a premature stop codon into the mRNA sequence.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "A base substitution that results in a change of a single amino acid is known as a _______ mutation.",
+        "type": "blank",
+        "options": [],
+        "answer": "missense"
+      },
+      {
+        "question": "Sickle-cell anemia is a classic example of a disease caused by which type of mutation in the beta-globin gene?",
+        "type": "mcq",
+        "options": [
+          "Missense mutation",
+          "Silent mutation",
+          "Nonsense mutation",
+          "Frameshift mutation"
+        ],
+        "answer": "Missense mutation"
+      },
+      {
+        "question": "Sickle-cell anemia is caused by a silent mutation that substitutes valine for glutamic acid.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Sickle-cell disease is caused by a missense mutation that substitutes the amino acid _______ for glutamic acid.",
+        "type": "blank",
+        "options": [],
+        "answer": "valine"
+      },
+      {
+        "question": "Which mutation involves a base substitution that introduces a premature stop codon, truncating the protein?",
+        "type": "mcq",
+        "options": [
+          "Nonsense mutation",
+          "Missense mutation",
+          "Silent mutation",
+          "Frameshift mutation"
+        ],
+        "answer": "Nonsense mutation"
+      },
+      {
+        "question": "A nonsense mutation truncates a protein by introducing a premature stop codon.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "A mutation that changes a normal amino acid-coding codon to a premature stop codon is a _______ mutation.",
+        "type": "blank",
+        "options": [],
+        "answer": "nonsense"
+      },
+      {
+        "question": "The addition or deletion of nucleotides not in multiples of 3 that alters the reading frame is known as a:",
+        "type": "mcq",
+        "options": [
+          "Frameshift mutation",
+          "Point mutation",
+          "Silent mutation",
+          "Nonsense mutation"
+        ],
+        "answer": "Frameshift mutation"
+      },
+      {
+        "question": "A frameshift mutation occurs when nucleotides are added or deleted in exact multiples of three.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "A _______ mutation shifts the reading frame, producing a completely different amino acid sequence downstream.",
+        "type": "blank",
+        "options": [],
+        "answer": "frameshift"
+      },
+      {
+        "question": "Mutations that occur in reproductive cells and are inherited by all cells of the offspring are called:",
+        "type": "mcq",
+        "options": [
+          "Germ-line mutations",
+          "Somatic mutations",
+          "Spontaneous mutations",
+          "Induced mutations"
+        ],
+        "answer": "Germ-line mutations"
+      },
+      {
+        "question": "Somatic mutations are passed on to the offspring and are present in all of their cells.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Mutations that occur in non-reproductive body cells and create a mosaic pattern of affected tissue are called _______ mutations.",
+        "type": "blank",
+        "options": [],
+        "answer": "somatic"
+      },
+      {
+        "question": "Mutations that arise internally from natural biological errors, such as DNA replication mistakes, are called:",
+        "type": "mcq",
+        "options": [
+          "Spontaneous mutations",
+          "Induced mutations",
+          "Germ-line mutations",
+          "Somatic mutations"
+        ],
+        "answer": "Spontaneous mutations"
+      },
+      {
+        "question": "Induced mutations are caused by exposure to external environmental agents, such as chemical or physical mutagens.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "Mutations caused by exposure to external agents like UV light or chemicals are known as _______ mutations.",
+        "type": "blank",
+        "options": [],
+        "answer": "induced"
+      },
+      {
+        "question": "What is the primary purpose of the Ames test?",
+        "type": "mcq",
+        "options": [
+          "To test and quantify the mutagenicity of chemicals",
+          "To determine the blood type of an individual",
+          "To sequence the entire human genome",
+          "To measure the rate of cell division"
+        ],
+        "answer": "To test and quantify the mutagenicity of chemicals"
+      },
+      {
+        "question": "The Ames test uses a strain of Salmonella typhimurium that cannot synthesize histidine to evaluate if a chemical is a mutagen.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "The _______ test uses bacteria to monitor the rate of mutation and quantify the mutagenicity of chemicals.",
+        "type": "blank",
+        "options": [],
+        "answer": "Ames"
+      },
+      {
+        "question": "Which DNA repair pathway primarily removes and replaces damaged segments of DNA, such as UV-induced thymine dimers?",
+        "type": "mcq",
+        "options": [
+          "Nucleotide Excision Repair (NER)",
+          "Mismatch Repair",
+          "Homologous Recombination",
+          "Non-homologous end joining"
+        ],
+        "answer": "Nucleotide Excision Repair (NER)"
+      },
+      {
+        "question": "Nucleotide Excision Repair (NER) can fix UV-induced thymine dimers by removing and replacing the damaged DNA segment.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "An inherited defect in the _______ Excision Repair pathway causes the disease Xeroderma pigmentosum.",
+        "type": "blank",
+        "options": [],
+        "answer": "Nucleotide"
+      },
+      {
+        "question": "An abnormal mass of cells resulting from uncontrolled cell division with no useful purpose is called a:",
+        "type": "mcq",
+        "options": [
+          "Tumour",
+          "Cyst",
+          "Granuloma",
+          "Abscess"
+        ],
+        "answer": "Tumour"
+      },
+      {
+        "question": "Benign tumours are highly invasive and can metastasise to other locations through the bloodstream.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Malignant tumours are invasive and have the ability to spread through the bloodstream in a process called _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "metastasis"
+      },
+      {
+        "question": "A normal gene that regulates cell growth but can become cancer-driving when mutated is known as a:",
+        "type": "mcq",
+        "options": [
+          "Proto-oncogene",
+          "Tumour-suppressor gene",
+          "Mutator gene",
+          "Pseudogene"
+        ],
+        "answer": "Proto-oncogene"
+      },
+      {
+        "question": "An oncogene acts as a driving force for cancer by promoting uncontrolled cell growth when it is overactive.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "A normal gene that can turn into a cancer-causing gene when mutated is known as a _______-oncogene.",
+        "type": "blank",
+        "options": [],
+        "answer": "proto"
+      },
+      {
+        "question": "Genes whose normal function is to prevent cancerous growth by maintaining genome integrity or inhibiting cell division are called:",
+        "type": "mcq",
+        "options": [
+          "Tumour-suppressor genes",
+          "Oncogenes",
+          "Proto-oncogenes",
+          "Homeobox genes"
+        ],
+        "answer": "Tumour-suppressor genes"
+      },
+      {
+        "question": "Tumour-suppressor genes contribute to cancer when they become overactive and constantly stimulate cell division.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Genes that act as brakes to inhibit cell division or repair DNA are called _______-suppressor genes.",
+        "type": "blank",
+        "options": [],
+        "answer": "tumour"
+      },
+      {
+        "question": "Which tumour-suppressor protein acts at the G1 checkpoint and is mutated in approximately 50% of all human cancers?",
+        "type": "mcq",
+        "options": [
+          "p53",
+          "Rb",
+          "Ras",
+          "E2F"
+        ],
+        "answer": "p53"
+      },
+      {
+        "question": "The p53 protein can trigger apoptosis (programmed cell death) if DNA damage is too severe to be repaired.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "The tumour-suppressor gene _______ acts as the \"guardian of the genome\" and is mutated in roughly 50% of human cancers.",
+        "type": "blank",
+        "options": [],
+        "answer": "p53"
+      },
+      {
+        "question": "How does the Rb (retinoblastoma) protein act as a negative regulator of cell division?",
+        "type": "mcq",
+        "options": [
+          "By inhibiting the E2F transcription factor",
+          "By degrading RNA polymerase",
+          "By activating Ras",
+          "By promoting angiogenesis"
+        ],
+        "answer": "By inhibiting the E2F transcription factor"
+      },
+      {
+        "question": "The Rb protein promotes cell division by directly phosphorylating DNA polymerase.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The Rb protein inhibits the _______ transcription factor, preventing cell division unless properly phosphorylated.",
+        "type": "blank",
+        "options": [],
+        "answer": "E2F"
+      },
+      {
+        "question": "According to the multistep model of cancer, what is generally required for a malignant cancer to develop?",
+        "type": "mcq",
+        "options": [
+          "The accumulation of multiple successive mutations in the same cell lineage",
+          "A single point mutation in a skin cell",
+          "Exposure to a single viral particle",
+          "A diet high in carbohydrates"
+        ],
+        "answer": "The accumulation of multiple successive mutations in the same cell lineage"
+      },
+      {
+        "question": "Malignant colon cancer typically develops rapidly from a single mutation in the p53 gene alone.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Cancer is usually a disease of older individuals because it takes time for _______ genetic changes to accumulate in the same cell lineage.",
+        "type": "blank",
+        "options": [],
+        "answer": "multiple"
+      },
+      {
+        "question": "Which of the following is an example of non-ionizing radiation that specifically causes the formation of thymine dimers?",
+        "type": "mcq",
+        "options": [
+          "UV light",
+          "X-rays",
+          "Gamma rays",
+          "Alpha particles"
+        ],
+        "answer": "UV light"
+      },
+      {
+        "question": "X-rays are a form of ionizing radiation that can cause deletions or breaks in one or both DNA strands.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "Ultraviolet (UV) rays can cause adjacent pyrimidine bases to bond together, forming _______ dimers.",
+        "type": "blank",
+        "options": [],
+        "answer": "thymine"
+      }
     ]
   },
   "Chemistry": {},
