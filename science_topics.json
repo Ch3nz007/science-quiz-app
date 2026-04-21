@@ -7361,6 +7361,1988 @@
         ],
         "answer": "Water-soluble and fat-soluble"
       }
+    ],
+    "GENETICS FINAL": [
+      {
+        "question": "The branch of biology that examines heredity and variation in living organisms is known as:",
+        "type": "mcq",
+        "options": [
+          "Genetics",
+          "Ecology",
+          "Anatomy",
+          "Taxonomy"
+        ],
+        "answer": "Genetics"
+      },
+      {
+        "question": "Which of the following is a nucleic acid containing the genetic instructions for the development of all known living organisms?",
+        "type": "mcq",
+        "options": [
+          "Deoxyribonucleic acid (DNA)",
+          "Polypeptide",
+          "Messenger RNA",
+          "Lipid bilayer"
+        ],
+        "answer": "Deoxyribonucleic acid (DNA)"
+      },
+      {
+        "question": "The complete hereditary information of an organism is referred to as its:",
+        "type": "mcq",
+        "options": [
+          "Genome",
+          "Proteome",
+          "Transcriptome",
+          "Karyotype"
+        ],
+        "answer": "Genome"
+      },
+      {
+        "question": "An organised structure consisting of DNA and protein found in cells is a:",
+        "type": "mcq",
+        "options": [
+          "Chromosome",
+          "Ribosome",
+          "Lysosome",
+          "Spliceosome"
+        ],
+        "answer": "Chromosome"
+      },
+      {
+        "question": "A segment of DNA that carries the instructions to produce a functional molecule, often a protein, is called a:",
+        "type": "mcq",
+        "options": [
+          "Gene",
+          "Telomere",
+          "Centromere",
+          "Nucleosome"
+        ],
+        "answer": "Gene"
+      },
+      {
+        "question": "What are the three components of a nucleotide?",
+        "type": "mcq",
+        "options": [
+          "A pentose sugar, a phosphate group, and a nitrogenous base",
+          "A hexose sugar, a sulfate group, and an amino acid",
+          "A ribose sugar, a lipid, and a base",
+          "A deoxyribose sugar, a protein, and a base"
+        ],
+        "answer": "A pentose sugar, a phosphate group, and a nitrogenous base"
+      },
+      {
+        "question": "A molecule composed of a sugar and a nitrogenous base, but lacking a phosphate group, is called a:",
+        "type": "mcq",
+        "options": [
+          "Nucleoside",
+          "Nucleotide",
+          "Polynucleotide",
+          "Peptide"
+        ],
+        "answer": "Nucleoside"
+      },
+      {
+        "question": "A series of short, repeating nucleotide sequences that cap the ends of eukaryotic chromosomes to prevent degradation are:",
+        "type": "mcq",
+        "options": [
+          "Telomeres",
+          "Promoters",
+          "Introns",
+          "Origins of replication"
+        ],
+        "answer": "Telomeres"
+      },
+      {
+        "question": "Chromosomal regions that are less compact and transcriptionally active are known as:",
+        "type": "mcq",
+        "options": [
+          "Euchromatin",
+          "Heterochromatin",
+          "Centromeres",
+          "Nucleosomes"
+        ],
+        "answer": "Euchromatin"
+      },
+      {
+        "question": "Chromosomal regions that are highly compacted and transcriptionally inactive are referred to as:",
+        "type": "mcq",
+        "options": [
+          "Heterochromatin",
+          "Euchromatin",
+          "Exons",
+          "Telomeres"
+        ],
+        "answer": "Heterochromatin"
+      },
+      {
+        "question": "Where is the primary location of genetic material in a eukaryotic cell?",
+        "type": "mcq",
+        "options": [
+          "Nucleus",
+          "Cytoplasm",
+          "Endoplasmic Reticulum",
+          "Golgi apparatus"
+        ],
+        "answer": "Nucleus"
+      },
+      {
+        "question": "Aside from the nucleus, which other organelle contains a small amount of essential genetic information in animal cells?",
+        "type": "mcq",
+        "options": [
+          "Mitochondria",
+          "Lysosomes",
+          "Peroxisomes",
+          "Smooth ER"
+        ],
+        "answer": "Mitochondria"
+      },
+      {
+        "question": "Which scientist's X-ray diffraction images provided crucial evidence for the helical structure of DNA?",
+        "type": "mcq",
+        "options": [
+          "Rosalind Franklin",
+          "Gregor Mendel",
+          "Thomas Hunt Morgan",
+          "Charles Darwin"
+        ],
+        "answer": "Rosalind Franklin"
+      },
+      {
+        "question": "Which pentose sugar is found in the backbone of RNA?",
+        "type": "mcq",
+        "options": [
+          "Ribose",
+          "Deoxyribose",
+          "Glucose",
+          "Fructose"
+        ],
+        "answer": "Ribose"
+      },
+      {
+        "question": "Which nitrogenous base is unique to RNA and replaces thymine?",
+        "type": "mcq",
+        "options": [
+          "Uracil",
+          "Adenine",
+          "Guanine",
+          "Cytosine"
+        ],
+        "answer": "Uracil"
+      },
+      {
+        "question": "Adenine and Guanine possess a double-ring structure and are classified as:",
+        "type": "mcq",
+        "options": [
+          "Purines",
+          "Pyrimidines",
+          "Amino acids",
+          "Steroids"
+        ],
+        "answer": "Purines"
+      },
+      {
+        "question": "Cytosine, Thymine, and Uracil possess a single-ring structure and are classified as:",
+        "type": "mcq",
+        "options": [
+          "Pyrimidines",
+          "Purines",
+          "Nucleosides",
+          "Isotopes"
+        ],
+        "answer": "Pyrimidines"
+      },
+      {
+        "question": "During DNA replication, which strand is synthesised continuously toward the replication fork?",
+        "type": "mcq",
+        "options": [
+          "Leading strand",
+          "Lagging strand",
+          "Template strand",
+          "Coding strand"
+        ],
+        "answer": "Leading strand"
+      },
+      {
+        "question": "During DNA replication, which strand is synthesised discontinuously away from the replication fork, creating Okazaki fragments?",
+        "type": "mcq",
+        "options": [
+          "Lagging strand",
+          "Leading strand",
+          "Non-coding strand",
+          "Sense strand"
+        ],
+        "answer": "Lagging strand"
+      },
+      {
+        "question": "How many origins of replication do prokaryotic chromosomes typically have?",
+        "type": "mcq",
+        "options": [
+          "A single origin",
+          "Multiple origins",
+          "Zero origins",
+          "Two origins"
+        ],
+        "answer": "A single origin"
+      },
+      {
+        "question": "Because of their large linear size, eukaryotic chromosomes possess:",
+        "type": "mcq",
+        "options": [
+          "Multiple origins of replication",
+          "A single origin of replication",
+          "No origins of replication",
+          "Circular replication forks"
+        ],
+        "answer": "Multiple origins of replication"
+      },
+      {
+        "question": "If a DNA molecule contains 20% Adenine, what percentage of Cytosine does it contain according to complementary base pairing?",
+        "type": "mcq",
+        "options": [
+          "30%",
+          "20%",
+          "40%",
+          "60%"
+        ],
+        "answer": "30%"
+      },
+      {
+        "question": "The strong covalent bond linking the 3' carbon of one nucleotide to the 5' carbon of the next is called a:",
+        "type": "mcq",
+        "options": [
+          "Phosphodiester linkage",
+          "Peptide bond",
+          "Hydrogen bond",
+          "Disulfide bridge"
+        ],
+        "answer": "Phosphodiester linkage"
+      },
+      {
+        "question": "DNA strands run in opposite directions (5' to 3' and 3' to 5'). This arrangement is called:",
+        "type": "mcq",
+        "options": [
+          "Antiparallel",
+          "Parallel",
+          "Orthogonal",
+          "Symmetrical"
+        ],
+        "answer": "Antiparallel"
+      },
+      {
+        "question": "DNA replication is described as semiconservative because each new double helix consists of:",
+        "type": "mcq",
+        "options": [
+          "One original parental strand and one newly synthesised strand",
+          "Two newly synthesised strands",
+          "Two original parental strands",
+          "A random mix of old and new DNA fragments"
+        ],
+        "answer": "One original parental strand and one newly synthesised strand"
+      },
+      {
+        "question": "Which enzyme is responsible for unwinding the DNA double helix during replication?",
+        "type": "mcq",
+        "options": [
+          "Helicase",
+          "DNA Ligase",
+          "Topoisomerase",
+          "Primase"
+        ],
+        "answer": "Helicase"
+      },
+      {
+        "question": "Which enzyme relieves the supercoiling tension ahead of the replication fork?",
+        "type": "mcq",
+        "options": [
+          "Topoisomerase",
+          "Helicase",
+          "DNA Polymerase",
+          "RNA Polymerase"
+        ],
+        "answer": "Topoisomerase"
+      },
+      {
+        "question": "Which enzyme synthesises a short RNA primer to initiate DNA replication?",
+        "type": "mcq",
+        "options": [
+          "DNA Primase",
+          "DNA Ligase",
+          "DNA Polymerase",
+          "Helicase"
+        ],
+        "answer": "DNA Primase"
+      },
+      {
+        "question": "Which enzyme joins Okazaki fragments together on the lagging strand?",
+        "type": "mcq",
+        "options": [
+          "DNA Ligase",
+          "Helicase",
+          "Primase",
+          "Topoisomerase"
+        ],
+        "answer": "DNA Ligase"
+      },
+      {
+        "question": "Which enzyme adds free nucleotides to the growing DNA strand in the 5' to 3' direction?",
+        "type": "mcq",
+        "options": [
+          "DNA Polymerase",
+          "RNA Polymerase",
+          "DNA Ligase",
+          "Helicase"
+        ],
+        "answer": "DNA Polymerase"
+      },
+      {
+        "question": "The directional flow of genetic information from DNA to RNA to protein is known as:",
+        "type": "mcq",
+        "options": [
+          "The Central Dogma",
+          "The Cell Theory",
+          "The Theory of Evolution",
+          "Mendelian Inheritance"
+        ],
+        "answer": "The Central Dogma"
+      },
+      {
+        "question": "The cellular process of synthesising an RNA transcript from a DNA template is called:",
+        "type": "mcq",
+        "options": [
+          "Transcription",
+          "Translation",
+          "Replication",
+          "Translocation"
+        ],
+        "answer": "Transcription"
+      },
+      {
+        "question": "The process by which ribosomes synthesise a specific polypeptide chain based on mRNA codons is:",
+        "type": "mcq",
+        "options": [
+          "Translation",
+          "Transcription",
+          "Replication",
+          "Transformation"
+        ],
+        "answer": "Translation"
+      },
+      {
+        "question": "A specific DNA sequence located upstream of a gene that acts as a binding site for RNA polymerase is the:",
+        "type": "mcq",
+        "options": [
+          "Promoter",
+          "Terminator",
+          "Intron",
+          "Exon"
+        ],
+        "answer": "Promoter"
+      },
+      {
+        "question": "Non-coding sequences within a eukaryotic gene that are removed during RNA processing are called:",
+        "type": "mcq",
+        "options": [
+          "Introns",
+          "Exons",
+          "Promoters",
+          "Telomeres"
+        ],
+        "answer": "Introns"
+      },
+      {
+        "question": "The coding sequences of a gene that are retained and spliced together to form the mature mRNA are:",
+        "type": "mcq",
+        "options": [
+          "Exons",
+          "Introns",
+          "Promoters",
+          "Terminators"
+        ],
+        "answer": "Exons"
+      },
+      {
+        "question": "The monomeric building block of proteins, consisting of an amino group, a carboxyl group, and an R-group, is an:",
+        "type": "mcq",
+        "options": [
+          "Amino acid",
+          "Nucleotide",
+          "Monosaccharide",
+          "Fatty acid"
+        ],
+        "answer": "Amino acid"
+      },
+      {
+        "question": "The covalent bond formed between the carboxyl group of one amino acid and the amino group of the next is a:",
+        "type": "mcq",
+        "options": [
+          "Peptide bond",
+          "Phosphodiester bond",
+          "Hydrogen bond",
+          "Glycosidic bond"
+        ],
+        "answer": "Peptide bond"
+      },
+      {
+        "question": "Which enzyme synthesises RNA during transcription?",
+        "type": "mcq",
+        "options": [
+          "RNA Polymerase",
+          "DNA Polymerase",
+          "DNA Ligase",
+          "Helicase"
+        ],
+        "answer": "RNA Polymerase"
+      },
+      {
+        "question": "In eukaryotes, transcription occurs in the nucleus, whereas translation occurs in the:",
+        "type": "mcq",
+        "options": [
+          "Cytoplasm",
+          "Nucleolus",
+          "Mitochondria",
+          "Lysosome"
+        ],
+        "answer": "Cytoplasm"
+      },
+      {
+        "question": "To protect eukaryotic mRNA from degradation, a modified guanine nucleotide is added. This is called:",
+        "type": "mcq",
+        "options": [
+          "5' Capping",
+          "3' Polyadenylation",
+          "Splicing",
+          "Transcription"
+        ],
+        "answer": "5' Capping"
+      },
+      {
+        "question": "During RNA processing, what is added to the 3' end of the transcript to provide stability?",
+        "type": "mcq",
+        "options": [
+          "A poly-A tail",
+          "A 5' cap",
+          "An intron",
+          "An Okazaki fragment"
+        ],
+        "answer": "A poly-A tail"
+      },
+      {
+        "question": "The complex of snRNAs and proteins that precisely removes introns from pre-mRNA is the:",
+        "type": "mcq",
+        "options": [
+          "Spliceosome",
+          "Ribosome",
+          "Nucleosome",
+          "Proteasome"
+        ],
+        "answer": "Spliceosome"
+      },
+      {
+        "question": "The process allowing a single gene to produce multiple different protein products by altering which exons are joined is:",
+        "type": "mcq",
+        "options": [
+          "Alternative splicing",
+          "Polyadenylation",
+          "Capping",
+          "Proofreading"
+        ],
+        "answer": "Alternative splicing"
+      },
+      {
+        "question": "Because multiple different codons can specify the same amino acid, the genetic code is described as:",
+        "type": "mcq",
+        "options": [
+          "Redundant (degenerate)",
+          "Unambiguous",
+          "Overlapping",
+          "Universal"
+        ],
+        "answer": "Redundant (degenerate)"
+      },
+      {
+        "question": "The genetic code is unambiguous, which means:",
+        "type": "mcq",
+        "options": [
+          "No single codon specifies more than one amino acid",
+          "Multiple codons specify the same amino acid",
+          "It is identical in every living organism",
+          "It can be read forwards and backwards"
+        ],
+        "answer": "No single codon specifies more than one amino acid"
+      },
+      {
+        "question": "The standard start codon that initiates translation and codes for Methionine is:",
+        "type": "mcq",
+        "options": [
+          "AUG",
+          "UAA",
+          "UAG",
+          "UGA"
+        ],
+        "answer": "AUG"
+      },
+      {
+        "question": "UAA, UAG, and UGA do not code for any amino acids and instead function as:",
+        "type": "mcq",
+        "options": [
+          "Stop codons",
+          "Start codons",
+          "Promoters",
+          "Introns"
+        ],
+        "answer": "Stop codons"
+      },
+      {
+        "question": "The linear sequence of amino acids in a polypeptide chain is its:",
+        "type": "mcq",
+        "options": [
+          "Primary structure",
+          "Secondary structure",
+          "Tertiary structure",
+          "Quaternary structure"
+        ],
+        "answer": "Primary structure"
+      },
+      {
+        "question": "Alpha-helices and Beta-pleated sheets are examples of which level of protein structure?",
+        "type": "mcq",
+        "options": [
+          "Secondary structure",
+          "Primary structure",
+          "Tertiary structure",
+          "Quaternary structure"
+        ],
+        "answer": "Secondary structure"
+      },
+      {
+        "question": "The overall 3D shape of a single polypeptide chain, determined by R-group interactions, is its:",
+        "type": "mcq",
+        "options": [
+          "Tertiary structure",
+          "Primary structure",
+          "Secondary structure",
+          "Quaternary structure"
+        ],
+        "answer": "Tertiary structure"
+      },
+      {
+        "question": "The functional protein complex formed when two or more polypeptide chains interact is the:",
+        "type": "mcq",
+        "options": [
+          "Quaternary structure",
+          "Tertiary structure",
+          "Secondary structure",
+          "Primary structure"
+        ],
+        "answer": "Quaternary structure"
+      },
+      {
+        "question": "Which RNA molecule transfers a single amino acid to the ribosome during protein synthesis?",
+        "type": "mcq",
+        "options": [
+          "Transfer RNA (tRNA)",
+          "Messenger RNA (mRNA)",
+          "Ribosomal RNA (rRNA)",
+          "Small nuclear RNA (snRNA)"
+        ],
+        "answer": "Transfer RNA (tRNA)"
+      },
+      {
+        "question": "Ribosomes, the cellular machines that synthesize proteins, are composed of a large and small subunit made of:",
+        "type": "mcq",
+        "options": [
+          "rRNA and proteins",
+          "mRNA and lipids",
+          "tRNA and carbohydrates",
+          "DNA and histones"
+        ],
+        "answer": "rRNA and proteins"
+      },
+      {
+        "question": "During which stage of translation do the mRNA, initiator tRNA, and ribosomal subunits assemble?",
+        "type": "mcq",
+        "options": [
+          "Initiation",
+          "Elongation",
+          "Termination",
+          "Translocation"
+        ],
+        "answer": "Initiation"
+      },
+      {
+        "question": "During which stage of translation does the ribosome travel along the mRNA, adding amino acids to the growing chain?",
+        "type": "mcq",
+        "options": [
+          "Elongation",
+          "Initiation",
+          "Termination",
+          "Splicing"
+        ],
+        "answer": "Elongation"
+      },
+      {
+        "question": "Translation ends when the ribosome reaches a stop codon. This stage is called:",
+        "type": "mcq",
+        "options": [
+          "Termination",
+          "Elongation",
+          "Initiation",
+          "Capping"
+        ],
+        "answer": "Termination"
+      },
+      {
+        "question": "The grouping of nucleotides into non-overlapping triplets for translation is known as the:",
+        "type": "mcq",
+        "options": [
+          "Reading frame",
+          "Promoter region",
+          "Splice site",
+          "Anticodon loop"
+        ],
+        "answer": "Reading frame"
+      },
+      {
+        "question": "Which enzyme attaches the correct amino acid to its corresponding tRNA molecule?",
+        "type": "mcq",
+        "options": [
+          "Aminoacyl-tRNA synthetase",
+          "RNA Polymerase",
+          "Peptidyl transferase",
+          "DNA Ligase"
+        ],
+        "answer": "Aminoacyl-tRNA synthetase"
+      },
+      {
+        "question": "During transcription elongation, RNA polymerase synthesizes the new RNA strand in which direction?",
+        "type": "mcq",
+        "options": [
+          "5' to 3' direction",
+          "3' to 5' direction",
+          "N-terminus to C-terminus",
+          "C-terminus to N-terminus"
+        ],
+        "answer": "5' to 3' direction"
+      },
+      {
+        "question": "Any heritable change in the genetic material of an organism is defined as a:",
+        "type": "mcq",
+        "options": [
+          "Mutation",
+          "Transcription",
+          "Translation",
+          "Replication"
+        ],
+        "answer": "Mutation"
+      },
+      {
+        "question": "A mutation involving a base substitution, or a single base insertion/deletion is called a:",
+        "type": "mcq",
+        "options": [
+          "Point mutation",
+          "Chromosomal translocation",
+          "Aneuploidy",
+          "Polyploidy"
+        ],
+        "answer": "Point mutation"
+      },
+      {
+        "question": "A base substitution that causes no change in the resulting amino acid sequence is a:",
+        "type": "mcq",
+        "options": [
+          "Silent mutation",
+          "Missense mutation",
+          "Nonsense mutation",
+          "Frameshift mutation"
+        ],
+        "answer": "Silent mutation"
+      },
+      {
+        "question": "A base substitution that changes exactly one amino acid in the polypeptide sequence is a:",
+        "type": "mcq",
+        "options": [
+          "Missense mutation",
+          "Silent mutation",
+          "Nonsense mutation",
+          "Frameshift mutation"
+        ],
+        "answer": "Missense mutation"
+      },
+      {
+        "question": "A base substitution that introduces a premature stop codon, truncating the protein, is a:",
+        "type": "mcq",
+        "options": [
+          "Nonsense mutation",
+          "Missense mutation",
+          "Silent mutation",
+          "Frameshift mutation"
+        ],
+        "answer": "Nonsense mutation"
+      },
+      {
+        "question": "The addition or deletion of nucleotides not in multiples of 3, shifting the reading frame, is a:",
+        "type": "mcq",
+        "options": [
+          "Frameshift mutation",
+          "Point mutation",
+          "Silent mutation",
+          "Nonsense mutation"
+        ],
+        "answer": "Frameshift mutation"
+      },
+      {
+        "question": "A chemical or physical agent that actively alters DNA and increases the mutation rate is a:",
+        "type": "mcq",
+        "options": [
+          "Mutagen",
+          "Pathogen",
+          "Antigen",
+          "Antibody"
+        ],
+        "answer": "Mutagen"
+      },
+      {
+        "question": "A mutated gene that drives cancer by promoting uncontrolled cell growth is an:",
+        "type": "mcq",
+        "options": [
+          "Oncogene",
+          "Proto-oncogene",
+          "Tumour-suppressor gene",
+          "Mutator gene"
+        ],
+        "answer": "Oncogene"
+      },
+      {
+        "question": "A normal cellular gene that has the potential to become an oncogene if mutated is a:",
+        "type": "mcq",
+        "options": [
+          "Proto-oncogene",
+          "Tumour-suppressor gene",
+          "Pseudogene",
+          "Homeobox gene"
+        ],
+        "answer": "Proto-oncogene"
+      },
+      {
+        "question": "A gene whose normal function is to prevent cancerous growth by inhibiting cell division is a:",
+        "type": "mcq",
+        "options": [
+          "Tumour-suppressor gene",
+          "Proto-oncogene",
+          "Oncogene",
+          "Viral gene"
+        ],
+        "answer": "Tumour-suppressor gene"
+      },
+      {
+        "question": "An abnormal mass of cells resulting from uncontrolled cell division is called a:",
+        "type": "mcq",
+        "options": [
+          "Tumour",
+          "Cyst",
+          "Granuloma",
+          "Polyp"
+        ],
+        "answer": "Tumour"
+      },
+      {
+        "question": "Tumours that are invasive, metastasise, and spread through the body are considered:",
+        "type": "mcq",
+        "options": [
+          "Malignant",
+          "Benign",
+          "Localized",
+          "Encapsulated"
+        ],
+        "answer": "Malignant"
+      },
+      {
+        "question": "Sickle-cell anemia is caused by substituting valine for glutamic acid. This is an example of a:",
+        "type": "mcq",
+        "options": [
+          "Missense mutation",
+          "Silent mutation",
+          "Nonsense mutation",
+          "Frameshift mutation"
+        ],
+        "answer": "Missense mutation"
+      },
+      {
+        "question": "Mutations that occur in reproductive cells and are inherited by offspring are called:",
+        "type": "mcq",
+        "options": [
+          "Germ-line mutations",
+          "Somatic mutations",
+          "Induced mutations",
+          "Acquired mutations"
+        ],
+        "answer": "Germ-line mutations"
+      },
+      {
+        "question": "Mutations that occur in non-reproductive body cells and are not passed to offspring are:",
+        "type": "mcq",
+        "options": [
+          "Somatic mutations",
+          "Germ-line mutations",
+          "Inherited mutations",
+          "Congenital mutations"
+        ],
+        "answer": "Somatic mutations"
+      },
+      {
+        "question": "Mutations arising internally from natural biological errors, like DNA replication mistakes, are:",
+        "type": "mcq",
+        "options": [
+          "Spontaneous mutations",
+          "Induced mutations",
+          "Environmental mutations",
+          "Targeted mutations"
+        ],
+        "answer": "Spontaneous mutations"
+      },
+      {
+        "question": "Mutations caused by exposure to external environmental agents (mutagens) are:",
+        "type": "mcq",
+        "options": [
+          "Induced mutations",
+          "Spontaneous mutations",
+          "Germ-line mutations",
+          "Beneficial mutations"
+        ],
+        "answer": "Induced mutations"
+      },
+      {
+        "question": "Which laboratory assay uses Salmonella typhimurium to test the mutagenicity of chemicals?",
+        "type": "mcq",
+        "options": [
+          "The Ames Test",
+          "The ELISA Test",
+          "The PCR Assay",
+          "The Western Blot"
+        ],
+        "answer": "The Ames Test"
+      },
+      {
+        "question": "Which enzyme checks for and removes incorrectly added bases immediately during DNA replication?",
+        "type": "mcq",
+        "options": [
+          "DNA Polymerase",
+          "RNA Polymerase",
+          "DNA Ligase",
+          "Helicase"
+        ],
+        "answer": "DNA Polymerase"
+      },
+      {
+        "question": "Which DNA repair pathway removes and replaces damaged segments of DNA, such as thymine dimers?",
+        "type": "mcq",
+        "options": [
+          "Nucleotide Excision Repair (NER)",
+          "Mismatch Repair",
+          "Non-homologous end joining",
+          "Homology-directed repair"
+        ],
+        "answer": "Nucleotide Excision Repair (NER)"
+      },
+      {
+        "question": "Which cellular mechanism specifically targets and fixes incorrectly paired bases (e.g., A paired with G) after replication?",
+        "type": "mcq",
+        "options": [
+          "Mismatch Repair",
+          "Nucleotide Excision Repair",
+          "Telomerase extension",
+          "Splicing"
+        ],
+        "answer": "Mismatch Repair"
+      },
+      {
+        "question": "Which tumour-suppressor protein is mutated in roughly 50% of human cancers and is known as the 'guardian of the genome'?",
+        "type": "mcq",
+        "options": [
+          "p53",
+          "Rb",
+          "Ras",
+          "BRCA1"
+        ],
+        "answer": "p53"
+      },
+      {
+        "question": "The Rb (retinoblastoma) protein acts as a negative regulator of cell division by inhibiting:",
+        "type": "mcq",
+        "options": [
+          "The E2F transcription factor",
+          "DNA polymerase",
+          "RNA polymerase",
+          "Helicase"
+        ],
+        "answer": "The E2F transcription factor"
+      },
+      {
+        "question": "If DNA damage is too severe, the p53 protein can trigger programmed cell death, known as:",
+        "type": "mcq",
+        "options": [
+          "Apoptosis",
+          "Necrosis",
+          "Lysis",
+          "Senescence"
+        ],
+        "answer": "Apoptosis"
+      },
+      {
+        "question": "According to the multistep model of cancer, a malignant tumor typically requires:",
+        "type": "mcq",
+        "options": [
+          "Multiple successive mutations in the same cell lineage",
+          "A single point mutation in a germ cell",
+          "A diet completely devoid of antioxidants",
+          "One viral infection"
+        ],
+        "answer": "Multiple successive mutations in the same cell lineage"
+      },
+      {
+        "question": "Exposure to ultraviolet (UV) light specifically causes which type of DNA damage?",
+        "type": "mcq",
+        "options": [
+          "Formation of thymine dimers",
+          "Double-strand DNA breaks",
+          "Complete loss of telomeres",
+          "Degradation of RNA polymerase"
+        ],
+        "answer": "Formation of thymine dimers"
+      },
+      {
+        "question": "Which of the following is a form of ionizing radiation that can cause deletions or breaks in DNA strands?",
+        "type": "mcq",
+        "options": [
+          "X-rays",
+          "Visible light",
+          "Microwaves",
+          "Radio waves"
+        ],
+        "answer": "X-rays"
+      },
+      {
+        "question": "Chemicals or environmental agents that are known to cause cancer are specifically termed:",
+        "type": "mcq",
+        "options": [
+          "Carcinogens",
+          "Pathogens",
+          "Antigens",
+          "Teratogens"
+        ],
+        "answer": "Carcinogens"
+      },
+      {
+        "question": "A mutation in the Ras gene, causing it to remain permanently active and signal the cell to divide, converts it into an:",
+        "type": "mcq",
+        "options": [
+          "Oncogene",
+          "Tumour-suppressor gene",
+          "Apoptotic gene",
+          "Inert pseudogene"
+        ],
+        "answer": "Oncogene"
+      },
+      {
+        "question": "An inherited defect in the Nucleotide Excision Repair (NER) pathway causes a severe sensitivity to sunlight known as:",
+        "type": "mcq",
+        "options": [
+          "Xeroderma pigmentosum",
+          "Cystic fibrosis",
+          "Huntington's disease",
+          "Sickle-cell anemia"
+        ],
+        "answer": "Xeroderma pigmentosum"
+      },
+      {
+        "question": "The process by which a single parent cell divides to become two identical daughter cells is:",
+        "type": "mcq",
+        "options": [
+          "Mitosis",
+          "Meiosis",
+          "Transcription",
+          "Binary fission"
+        ],
+        "answer": "Mitosis"
+      },
+      {
+        "question": "The microscopic examination of chromosomes and cell division is the field of:",
+        "type": "mcq",
+        "options": [
+          "Cytogenetics",
+          "Molecular genetics",
+          "Genomics",
+          "Proteomics"
+        ],
+        "answer": "Cytogenetics"
+      },
+      {
+        "question": "A visual arrangement revealing the number, size, and form of chromosomes in a cell is a:",
+        "type": "mcq",
+        "options": [
+          "Karyotype",
+          "Pedigree",
+          "Microarray",
+          "Southern blot"
+        ],
+        "answer": "Karyotype"
+      },
+      {
+        "question": "Two identical copies of a chromosome produced during DNA replication and held together at the centromere are:",
+        "type": "mcq",
+        "options": [
+          "Sister chromatids",
+          "Homologous chromosomes",
+          "Autosomes",
+          "Bivalents"
+        ],
+        "answer": "Sister chromatids"
+      },
+      {
+        "question": "Cells containing two sets of chromosomes (2n) are described as:",
+        "type": "mcq",
+        "options": [
+          "Diploid",
+          "Haploid",
+          "Polyploid",
+          "Aneuploid"
+        ],
+        "answer": "Diploid"
+      },
+      {
+        "question": "The cell division process by which haploid gametes are produced from a diploid cell is:",
+        "type": "mcq",
+        "options": [
+          "Meiosis",
+          "Mitosis",
+          "Cytokinesis",
+          "Apoptosis"
+        ],
+        "answer": "Meiosis"
+      },
+      {
+        "question": "A diploid cell created when two haploid gametes unite during fertilisation is a:",
+        "type": "mcq",
+        "options": [
+          "Zygote",
+          "Spore",
+          "Oocyte",
+          "Somatic cell"
+        ],
+        "answer": "Zygote"
+      },
+      {
+        "question": "The failure of chromosomes to correctly separate during the anaphase stage of cell division is:",
+        "type": "mcq",
+        "options": [
+          "Nondisjunction",
+          "Translocation",
+          "Crossing over",
+          "Independent assortment"
+        ],
+        "answer": "Nondisjunction"
+      },
+      {
+        "question": "During which phase of the eukaryotic cell cycle does normal cell growth and preparation for replication occur?",
+        "type": "mcq",
+        "options": [
+          "G1 phase",
+          "S phase",
+          "G2 phase",
+          "M phase"
+        ],
+        "answer": "G1 phase"
+      },
+      {
+        "question": "During which phase of the cell cycle does DNA replication (synthesis) take place?",
+        "type": "mcq",
+        "options": [
+          "S phase",
+          "G1 phase",
+          "G2 phase",
+          "M phase"
+        ],
+        "answer": "S phase"
+      },
+      {
+        "question": "During which phase does the cell synthesize proteins needed for chromosome sorting and cell division?",
+        "type": "mcq",
+        "options": [
+          "G2 phase",
+          "S phase",
+          "G1 phase",
+          "G0 phase"
+        ],
+        "answer": "G2 phase"
+      },
+      {
+        "question": "In which stage of mitosis do chromosomes condense and become visible under a light microscope?",
+        "type": "mcq",
+        "options": [
+          "Prophase",
+          "Metaphase",
+          "Anaphase",
+          "Telophase"
+        ],
+        "answer": "Prophase"
+      },
+      {
+        "question": "In which stage of mitosis do the mitotic spindles fully attach to the kinetochores?",
+        "type": "mcq",
+        "options": [
+          "Prometaphase",
+          "Prophase",
+          "Telophase",
+          "Cytokinesis"
+        ],
+        "answer": "Prometaphase"
+      },
+      {
+        "question": "In which stage of mitosis do the chromosomes align along the equator of the cell?",
+        "type": "mcq",
+        "options": [
+          "Metaphase",
+          "Prophase",
+          "Anaphase",
+          "Telophase"
+        ],
+        "answer": "Metaphase"
+      },
+      {
+        "question": "In which stage of mitosis do sister chromatids separate and move toward opposite poles?",
+        "type": "mcq",
+        "options": [
+          "Anaphase",
+          "Metaphase",
+          "Prometaphase",
+          "Prophase"
+        ],
+        "answer": "Anaphase"
+      },
+      {
+        "question": "In which stage of mitosis does the nuclear envelope re-form and chromosomes decondense?",
+        "type": "mcq",
+        "options": [
+          "Telophase",
+          "Anaphase",
+          "Metaphase",
+          "Prophase"
+        ],
+        "answer": "Telophase"
+      },
+      {
+        "question": "During cytokinesis in animal cells, what structure forms to pinch the cell in two?",
+        "type": "mcq",
+        "options": [
+          "Cleavage furrow",
+          "Cell plate",
+          "Nuclear envelope",
+          "Spindle pole"
+        ],
+        "answer": "Cleavage furrow"
+      },
+      {
+        "question": "During Anaphase I of meiosis, what separates and moves to opposite poles?",
+        "type": "mcq",
+        "options": [
+          "Homologous chromosomes",
+          "Sister chromatids",
+          "Bivalents",
+          "Nuclei"
+        ],
+        "answer": "Homologous chromosomes"
+      },
+      {
+        "question": "The exchange of DNA segments between non-sister chromatids of homologous chromosomes is called:",
+        "type": "mcq",
+        "options": [
+          "Crossing over",
+          "Independent assortment",
+          "Nondisjunction",
+          "Translocation"
+        ],
+        "answer": "Crossing over"
+      },
+      {
+        "question": "During Anaphase II of meiosis, what separates and moves to opposite poles?",
+        "type": "mcq",
+        "options": [
+          "Sister chromatids",
+          "Homologous chromosomes",
+          "Tetrads",
+          "Centrosomes"
+        ],
+        "answer": "Sister chromatids"
+      },
+      {
+        "question": "The random alignment of maternal and paternal homologous chromosomes at the metaphase plate is called:",
+        "type": "mcq",
+        "options": [
+          "Independent assortment",
+          "Crossing over",
+          "Nondisjunction",
+          "Segregation"
+        ],
+        "answer": "Independent assortment"
+      },
+      {
+        "question": "The presence of an abnormal number of chromosomes (extra or missing) in a cell is called:",
+        "type": "mcq",
+        "options": [
+          "Aneuploidy",
+          "Polyploidy",
+          "Euploidy",
+          "Diploidy"
+        ],
+        "answer": "Aneuploidy"
+      },
+      {
+        "question": "A karyotype of 47, +21 indicates the presence of an extra chromosome 21, representing which condition?",
+        "type": "mcq",
+        "options": [
+          "Down syndrome",
+          "Turner syndrome",
+          "Klinefelter syndrome",
+          "Edward syndrome"
+        ],
+        "answer": "Down syndrome"
+      },
+      {
+        "question": "Which syndrome is characterized by a missing sex chromosome in females (45, XO)?",
+        "type": "mcq",
+        "options": [
+          "Turner syndrome",
+          "Down syndrome",
+          "Klinefelter syndrome",
+          "Patau syndrome"
+        ],
+        "answer": "Turner syndrome"
+      },
+      {
+        "question": "Which syndrome occurs in males with an extra X chromosome (47, XXY)?",
+        "type": "mcq",
+        "options": [
+          "Klinefelter syndrome",
+          "Turner syndrome",
+          "Down syndrome",
+          "Edward syndrome"
+        ],
+        "answer": "Klinefelter syndrome"
+      },
+      {
+        "question": "Having more than two complete sets of chromosomes, a condition common in plants but lethal in mammals, is called:",
+        "type": "mcq",
+        "options": [
+          "Polyploidy",
+          "Aneuploidy",
+          "Diploidy",
+          "Haploidy"
+        ],
+        "answer": "Polyploidy"
+      },
+      {
+        "question": "Regulatory mechanisms that pause the cell cycle to ensure DNA is intact and conditions are favorable are called:",
+        "type": "mcq",
+        "options": [
+          "Checkpoints",
+          "Centromeres",
+          "Kinetochores",
+          "Promoters"
+        ],
+        "answer": "Checkpoints"
+      },
+      {
+        "question": "The structure composed of microtubules that organizes and sorts chromosomes during cell division is the:",
+        "type": "mcq",
+        "options": [
+          "Mitotic spindle",
+          "Contractile ring",
+          "Cell plate",
+          "Nucleolus"
+        ],
+        "answer": "Mitotic spindle"
+      },
+      {
+        "question": "During Prophase I, homologous chromosomes associate closely to form a structure consisting of four chromatids called a:",
+        "type": "mcq",
+        "options": [
+          "Bivalent (tetrad)",
+          "Centrosome",
+          "Kinetochore",
+          "Zygote"
+        ],
+        "answer": "Bivalent (tetrad)"
+      },
+      {
+        "question": "What is the final cellular product of complete meiosis?",
+        "type": "mcq",
+        "options": [
+          "Four non-identical haploid cells",
+          "Two identical diploid cells",
+          "Four identical diploid cells",
+          "Two non-identical haploid cells"
+        ],
+        "answer": "Four non-identical haploid cells"
+      },
+      {
+        "question": "A unit of heredity transferred from a parent to offspring that determines some characteristic is a:",
+        "type": "mcq",
+        "options": [
+          "Gene",
+          "Allele",
+          "Genotype",
+          "Phenotype"
+        ],
+        "answer": "Gene"
+      },
+      {
+        "question": "One of two or more alternative forms of a gene found at the same place on a chromosome is an:",
+        "type": "mcq",
+        "options": [
+          "Allele",
+          "Autosome",
+          "Intron",
+          "Exon"
+        ],
+        "answer": "Allele"
+      },
+      {
+        "question": "The genetic makeup of an organism, specifically the alleles it possesses, is its:",
+        "type": "mcq",
+        "options": [
+          "Genotype",
+          "Phenotype",
+          "Karyotype",
+          "Pedigree"
+        ],
+        "answer": "Genotype"
+      },
+      {
+        "question": "The observable physical or biochemical characteristics of an organism are its:",
+        "type": "mcq",
+        "options": [
+          "Phenotype",
+          "Genotype",
+          "Allelotype",
+          "Haplotype"
+        ],
+        "answer": "Phenotype"
+      },
+      {
+        "question": "An allele that expresses its phenotypic effect even when heterozygous with a different allele is:",
+        "type": "mcq",
+        "options": [
+          "Dominant",
+          "Recessive",
+          "Codominant",
+          "Incompletely dominant"
+        ],
+        "answer": "Dominant"
+      },
+      {
+        "question": "An allele whose phenotypic effect is not expressed in a heterozygote is:",
+        "type": "mcq",
+        "options": [
+          "Recessive",
+          "Dominant",
+          "Wild-type",
+          "Codominant"
+        ],
+        "answer": "Recessive"
+      },
+      {
+        "question": "Males possess only one copy of X-linked genes. This condition is referred to as:",
+        "type": "mcq",
+        "options": [
+          "Hemizygous",
+          "Homozygous",
+          "Heterozygous",
+          "Nullizygous"
+        ],
+        "answer": "Hemizygous"
+      },
+      {
+        "question": "A form of inheritance where a heterozygote exhibits a blended, intermediate phenotype is:",
+        "type": "mcq",
+        "options": [
+          "Incomplete dominance",
+          "Codominance",
+          "Multiple alleles",
+          "Epistasis"
+        ],
+        "answer": "Incomplete dominance"
+      },
+      {
+        "question": "A form of inheritance where both alleles in a heterozygote are fully and equally expressed is:",
+        "type": "mcq",
+        "options": [
+          "Codominance",
+          "Incomplete dominance",
+          "Polygenic inheritance",
+          "Pleiotropy"
+        ],
+        "answer": "Codominance"
+      },
+      {
+        "question": "A trait whose phenotype is influenced by multiple genes and the environment, showing continuous variation, is a:",
+        "type": "mcq",
+        "options": [
+          "Polygenic (complex) trait",
+          "Mendelian trait",
+          "Single-gene trait",
+          "Sex-linked trait"
+        ],
+        "answer": "Polygenic (complex) trait"
+      },
+      {
+        "question": "A trait controlled by a single gene that falls into discrete categories (like yellow or green peas) is a:",
+        "type": "mcq",
+        "options": [
+          "Mendelian trait",
+          "Polygenic trait",
+          "Complex trait",
+          "Continuous trait"
+        ],
+        "answer": "Mendelian trait"
+      },
+      {
+        "question": "In a pedigree, if a trait appears in every generation and affected offspring have an affected parent, the trait is likely:",
+        "type": "mcq",
+        "options": [
+          "Autosomal dominant",
+          "Autosomal recessive",
+          "X-linked recessive",
+          "Mitochondrial"
+        ],
+        "answer": "Autosomal dominant"
+      },
+      {
+        "question": "In a pedigree, if affected individuals frequently have unaffected, heterozygous parents (skipping generations), the trait is likely:",
+        "type": "mcq",
+        "options": [
+          "Autosomal recessive",
+          "Autosomal dominant",
+          "X-linked dominant",
+          "Y-linked"
+        ],
+        "answer": "Autosomal recessive"
+      },
+      {
+        "question": "In the mammalian sex determination system, what is the typical chromosomal genotype for females and males?",
+        "type": "mcq",
+        "options": [
+          "XX and XY",
+          "ZW and ZZ",
+          "XX and XO",
+          "Diploid and Haploid"
+        ],
+        "answer": "XX and XY"
+      },
+      {
+        "question": "In some insects, females are XX and males are X or XO. This is called the:",
+        "type": "mcq",
+        "options": [
+          "X-0 system",
+          "X-Y system",
+          "Z-W system",
+          "Haplo-diploid system"
+        ],
+        "answer": "X-0 system"
+      },
+      {
+        "question": "In birds and some fish, males are ZZ and females are ZW. This is called the:",
+        "type": "mcq",
+        "options": [
+          "Z-W system",
+          "X-Y system",
+          "X-0 system",
+          "Haplo-diploid system"
+        ],
+        "answer": "Z-W system"
+      },
+      {
+        "question": "In bees, females are diploid from fertilized eggs, and males are haploid from unfertilized eggs. This is the:",
+        "type": "mcq",
+        "options": [
+          "Haplo-diploid system",
+          "X-Y system",
+          "Z-W system",
+          "X-0 system"
+        ],
+        "answer": "Haplo-diploid system"
+      },
+      {
+        "question": "Why do X-linked recessive diseases (like haemophilia) affect males more frequently than females?",
+        "type": "mcq",
+        "options": [
+          "Males only have one X chromosome, so a single recessive allele causes the disease",
+          "Males have a Y chromosome which mutates easily",
+          "Females do not possess an X chromosome",
+          "X-linked genes are lethal to females"
+        ],
+        "answer": "Males only have one X chromosome, so a single recessive allele causes the disease"
+      },
+      {
+        "question": "An inheritance pattern where mothers pass an X-linked trait to their sons is known as:",
+        "type": "mcq",
+        "options": [
+          "Crisscross inheritance",
+          "Autosomal dominant inheritance",
+          "Mitochondrial inheritance",
+          "Codominance"
+        ],
+        "answer": "Crisscross inheritance"
+      },
+      {
+        "question": "Who demonstrated X-linked inheritance using white-eyed fruit flies?",
+        "type": "mcq",
+        "options": [
+          "Thomas Hunt Morgan",
+          "Gregor Mendel",
+          "Charles Darwin",
+          "Rosalind Franklin"
+        ],
+        "answer": "Thomas Hunt Morgan"
+      },
+      {
+        "question": "The phenotypic range a genotype exhibits under different environmental conditions is known as the:",
+        "type": "mcq",
+        "options": [
+          "Norm of reaction",
+          "Law of Segregation",
+          "Independent Assortment",
+          "Pleiotropy"
+        ],
+        "answer": "Norm of reaction"
+      },
+      {
+        "question": "An individual possessing two identical alleles for a particular gene (e.g., AA or aa) is:",
+        "type": "mcq",
+        "options": [
+          "Homozygous",
+          "Heterozygous",
+          "Hemizygous",
+          "Dizygotic"
+        ],
+        "answer": "Homozygous"
+      },
+      {
+        "question": "An individual possessing two different alleles for a particular gene (e.g., Aa) is:",
+        "type": "mcq",
+        "options": [
+          "Heterozygous",
+          "Homozygous",
+          "Hemizygous",
+          "Monozygotic"
+        ],
+        "answer": "Heterozygous"
+      },
+      {
+        "question": "A strain that produces offspring identical to the parents over many generations due to being homozygous is called:",
+        "type": "mcq",
+        "options": [
+          "True-breeding",
+          "Hybrid",
+          "Mutant",
+          "Heterozygous"
+        ],
+        "answer": "True-breeding"
+      },
+      {
+        "question": "In a genetic cross, the offspring of the parental (P) generation are known as the:",
+        "type": "mcq",
+        "options": [
+          "F1 generation",
+          "F2 generation",
+          "P2 generation",
+          "Wild-type generation"
+        ],
+        "answer": "F1 generation"
+      },
+      {
+        "question": "Mendel's law stating that two alleles of a gene separate during gamete formation so each sperm/egg receives only one is the:",
+        "type": "mcq",
+        "options": [
+          "Law of Segregation",
+          "Law of Independent Assortment",
+          "Law of Dominance",
+          "Chromosome Theory"
+        ],
+        "answer": "Law of Segregation"
+      },
+      {
+        "question": "Mendel's law stating that alleles of different genes segregate independently of one another during gamete formation is the:",
+        "type": "mcq",
+        "options": [
+          "Law of Independent Assortment",
+          "Law of Segregation",
+          "Law of Codominance",
+          "Law of Epistasis"
+        ],
+        "answer": "Law of Independent Assortment"
+      },
+      {
+        "question": "When two heterozygous individuals (Aa x Aa) are crossed for a single trait exhibiting complete dominance, the expected phenotypic ratio is:",
+        "type": "mcq",
+        "options": [
+          "3:1",
+          "1:2:1",
+          "9:3:3:1",
+          "1:1"
+        ],
+        "answer": "3:1"
+      },
+      {
+        "question": "When two individuals heterozygous for two distinct traits (AaBb x AaBb) are crossed, the expected phenotypic ratio is:",
+        "type": "mcq",
+        "options": [
+          "9:3:3:1",
+          "3:1",
+          "1:1:1:1",
+          "1:2:1"
+        ],
+        "answer": "9:3:3:1"
+      },
+      {
+        "question": "Individuals who are heterozygous for an autosomal recessive trait, appearing normal but able to pass the trait on, are called:",
+        "type": "mcq",
+        "options": [
+          "Carriers",
+          "Mutants",
+          "True-breeders",
+          "Clones"
+        ],
+        "answer": "Carriers"
+      },
+      {
+        "question": "The process of producing many identical copies of a specific gene using recombinant DNA technology is:",
+        "type": "mcq",
+        "options": [
+          "Gene cloning",
+          "Gel electrophoresis",
+          "Sanger sequencing",
+          "Polymerase chain reaction"
+        ],
+        "answer": "Gene cloning"
+      },
+      {
+        "question": "A single molecule formed by combining DNA from different biological sources is known as:",
+        "type": "mcq",
+        "options": [
+          "Recombinant DNA",
+          "Template DNA",
+          "Guide RNA",
+          "Complementary DNA"
+        ],
+        "answer": "Recombinant DNA"
+      },
+      {
+        "question": "A DNA molecule used as a vehicle to carry foreign genetic material into another host cell is a:",
+        "type": "mcq",
+        "options": [
+          "Vector",
+          "Restriction enzyme",
+          "Primer",
+          "Polymerase"
+        ],
+        "answer": "Vector"
+      },
+      {
+        "question": "Which enzymes cut DNA at specific palindromic sequences to create single-stranded overhangs?",
+        "type": "mcq",
+        "options": [
+          "Restriction enzymes",
+          "DNA ligases",
+          "DNA polymerases",
+          "Reverse transcriptases"
+        ],
+        "answer": "Restriction enzymes"
+      },
+      {
+        "question": "The single-stranded overhangs created by restriction enzymes that easily bond with complementary sequences are called:",
+        "type": "mcq",
+        "options": [
+          "Sticky ends",
+          "Blunt ends",
+          "Primers",
+          "Telomeres"
+        ],
+        "answer": "Sticky ends"
+      },
+      {
+        "question": "Which enzyme covalently links the sugar-phosphate backbones of DNA fragments to form a stable recombinant molecule?",
+        "type": "mcq",
+        "options": [
+          "DNA ligase",
+          "Taq polymerase",
+          "Cas9 endonuclease",
+          "Restriction endonuclease"
+        ],
+        "answer": "DNA ligase"
+      },
+      {
+        "question": "A laboratory technique used to exponentially amplify a specific DNA segment in vitro is:",
+        "type": "mcq",
+        "options": [
+          "Polymerase Chain Reaction (PCR)",
+          "Gel Electrophoresis",
+          "Blue-White Screening",
+          "CRISPR-Cas Editing"
+        ],
+        "answer": "Polymerase Chain Reaction (PCR)"
+      },
+      {
+        "question": "Why is Taq polymerase essential for the Polymerase Chain Reaction (PCR)?",
+        "type": "mcq",
+        "options": [
+          "It is thermostable and does not denature at high temperatures",
+          "It cuts DNA at highly specific palindromic sequences",
+          "It synthesizes RNA primers for replication",
+          "It ligates broken DNA backbones together"
+        ],
+        "answer": "It is thermostable and does not denature at high temperatures"
+      },
+      {
+        "question": "During the first step of PCR, the mixture is heated to 95\u00b0C to separate double-stranded DNA. This is called:",
+        "type": "mcq",
+        "options": [
+          "Denaturation",
+          "Annealing",
+          "Extension",
+          "Ligation"
+        ],
+        "answer": "Denaturation"
+      },
+      {
+        "question": "During the second step of PCR, the mixture is cooled to allow specific primers to bind. This is called:",
+        "type": "mcq",
+        "options": [
+          "Annealing",
+          "Extension",
+          "Denaturation",
+          "Transcription"
+        ],
+        "answer": "Annealing"
+      },
+      {
+        "question": "During the third step of PCR, Taq polymerase synthesizes the new DNA strands at 72\u00b0C. This is called:",
+        "type": "mcq",
+        "options": [
+          "Extension",
+          "Denaturation",
+          "Annealing",
+          "Transformation"
+        ],
+        "answer": "Extension"
+      },
+      {
+        "question": "On what primary basis does gel electrophoresis separate macromolecules like DNA fragments?",
+        "type": "mcq",
+        "options": [
+          "Size (length)",
+          "Base pair sequence",
+          "Protein content",
+          "Temperature stability"
+        ],
+        "answer": "Size (length)"
+      },
+      {
+        "question": "Because DNA molecules are negatively charged, they migrate toward which electrode during gel electrophoresis?",
+        "type": "mcq",
+        "options": [
+          "Positive electrode",
+          "Negative electrode",
+          "Neutral electrode",
+          "Magnetic pole"
+        ],
+        "answer": "Positive electrode"
+      },
+      {
+        "question": "In blue-white screening, what do white bacterial colonies represent?",
+        "type": "mcq",
+        "options": [
+          "Cells containing a recombinant plasmid where the lacZ gene is disrupted",
+          "Cells containing an empty vector with an intact lacZ gene",
+          "Cells that failed to take up any plasmid",
+          "Cells that are resistant to the antibiotic ampicillin but lack the lacZ gene"
+        ],
+        "answer": "Cells containing a recombinant plasmid where the lacZ gene is disrupted"
+      },
+      {
+        "question": "If target DNA is successfully inserted into a cloning vector, it disrupts which gene, resulting in white colonies?",
+        "type": "mcq",
+        "options": [
+          "lacZ gene",
+          "ampR gene",
+          "Cas9 gene",
+          "p53 gene"
+        ],
+        "answer": "lacZ gene"
+      },
+      {
+        "question": "Which method is commonly used to determine the exact sequence of nucleotides in a DNA molecule?",
+        "type": "mcq",
+        "options": [
+          "Sanger sequencing",
+          "Polymerase Chain Reaction",
+          "Ames test",
+          "Southern blotting"
+        ],
+        "answer": "Sanger sequencing"
+      },
+      {
+        "question": "What critical component of the Sanger sequencing method causes DNA synthesis to terminate?",
+        "type": "mcq",
+        "options": [
+          "Dideoxynucleotides (ddNTPs) lacking a 3'-OH group",
+          "Restriction endonucleases",
+          "Taq polymerase",
+          "Synthetic guide RNA (gRNA)"
+        ],
+        "answer": "Dideoxynucleotides (ddNTPs) lacking a 3'-OH group"
+      },
+      {
+        "question": "What was the original natural function of the CRISPR-Cas system before it was adapted for genetic engineering?",
+        "type": "mcq",
+        "options": [
+          "An adaptive immune system in bacteria against viral infections",
+          "A mechanism for bacterial reproduction",
+          "A pathway for synthesizing restriction enzymes",
+          "A system to repair UV-induced DNA damage"
+        ],
+        "answer": "An adaptive immune system in bacteria against viral infections"
+      },
+      {
+        "question": "In the CRISPR-Cas gene editing system, which component acts as the DNA-cutting enzyme?",
+        "type": "mcq",
+        "options": [
+          "Cas9",
+          "Taq polymerase",
+          "EcoRI",
+          "DNA ligase"
+        ],
+        "answer": "Cas9"
+      },
+      {
+        "question": "In CRISPR gene editing, what specifically directs the Cas9 enzyme to the target DNA sequence?",
+        "type": "mcq",
+        "options": [
+          "A synthetic guide RNA (gRNA)",
+          "A highly specific DNA primer",
+          "A promoter sequence",
+          "Dideoxynucleotides"
+        ],
+        "answer": "A synthetic guide RNA (gRNA)"
+      },
+      {
+        "question": "Which error-prone cellular repair mechanism follows a CRISPR cut and often introduces small insertions or deletions to knock out a gene?",
+        "type": "mcq",
+        "options": [
+          "Non-Homologous End Joining (NHEJ)",
+          "Homology-Directed Repair (HDR)",
+          "Mismatch Repair",
+          "Nucleotide Excision Repair"
+        ],
+        "answer": "Non-Homologous End Joining (NHEJ)"
+      },
+      {
+        "question": "Which cellular repair mechanism following a CRISPR cut is highly precise and requires a supplied donor DNA template?",
+        "type": "mcq",
+        "options": [
+          "Homology-Directed Repair (HDR)",
+          "Non-Homologous End Joining (NHEJ)",
+          "Nucleotide Excision Repair (NER)",
+          "Mismatch Repair"
+        ],
+        "answer": "Homology-Directed Repair (HDR)"
+      },
+      {
+        "question": "A library containing all sequences of an organism's genome, including introns and exons, is a:",
+        "type": "mcq",
+        "options": [
+          "Genomic Library",
+          "cDNA Library",
+          "Proteomic Library",
+          "RNA Library"
+        ],
+        "answer": "Genomic Library"
+      },
+      {
+        "question": "What is a key difference between a genomic DNA library and a cDNA library?",
+        "type": "mcq",
+        "options": [
+          "A cDNA library contains only coding sequences (exons) and lacks introns",
+          "A genomic library is made using reverse transcriptase",
+          "A cDNA library contains all non-coding regions",
+          "A genomic library only contains expressed genes"
+        ],
+        "answer": "A cDNA library contains only coding sequences (exons) and lacks introns"
+      },
+      {
+        "question": "Which enzyme is used to synthesize complementary DNA (cDNA) from an mRNA template?",
+        "type": "mcq",
+        "options": [
+          "Reverse transcriptase",
+          "RNA polymerase",
+          "DNA ligase",
+          "Restriction endonuclease"
+        ],
+        "answer": "Reverse transcriptase"
+      },
+      {
+        "question": "The process by which competent bacterial cells take up recombinant plasmids from the surrounding environment is called:",
+        "type": "mcq",
+        "options": [
+          "Transformation",
+          "Transduction",
+          "Conjugation",
+          "Translation"
+        ],
+        "answer": "Transformation"
+      },
+      {
+        "question": "In gene cloning, genes like ampicillin resistance (ampR) are included in vectors to serve as:",
+        "type": "mcq",
+        "options": [
+          "Selectable markers",
+          "Origins of replication",
+          "Promoters",
+          "Restriction sites"
+        ],
+        "answer": "Selectable markers"
+      },
+      {
+        "question": "Small, circular pieces of extrachromosomal DNA found naturally in bacteria and often used as vectors are called:",
+        "type": "mcq",
+        "options": [
+          "Plasmids",
+          "Nucleosomes",
+          "Centromeres",
+          "Bacteriophages"
+        ],
+        "answer": "Plasmids"
+      },
+      {
+        "question": "While PCR amplifies DNA in vitro, gene cloning amplifies DNA:",
+        "type": "mcq",
+        "options": [
+          "In vivo (within living cells)",
+          "By reverse transcription",
+          "Using gel electrophoresis",
+          "Through translation"
+        ],
+        "answer": "In vivo (within living cells)"
+      },
+      {
+        "question": "In the CRISPR-Cas9 system, what short DNA sequence must be adjacent to the target sequence for Cas9 to bind and cut?",
+        "type": "mcq",
+        "options": [
+          "PAM sequence",
+          "TATA box",
+          "Start codon",
+          "Poly-A tail"
+        ],
+        "answer": "PAM sequence"
+      }
     ]
   },
   "Chemistry": {},
