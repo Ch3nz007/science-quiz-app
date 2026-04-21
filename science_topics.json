@@ -4935,6 +4935,450 @@
         "options": [],
         "answer": "Homology"
       }
+    ],
+    "The Endocrine and Excretory System": [
+      {
+        "question": "What is a collection of specialized glands and organs that synthesize and secrete hormones called?",
+        "type": "mcq",
+        "options": [
+          "Endocrine system",
+          "Exocrine system",
+          "Nervous system",
+          "Lymphatic system"
+        ],
+        "answer": "Endocrine system"
+      },
+      {
+        "question": "The endocrine system consists of specialized glands and organs that synthesize and secrete hormones into the bloodstream.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "A collection of specialized glands and organs that synthesize and secrete hormones is known as the _______ system.",
+        "type": "blank",
+        "options": [],
+        "answer": "endocrine"
+      },
+      {
+        "question": "Which of the following describes a chemical signal that circulates in the bloodstream to alter target tissue function?",
+        "type": "mcq",
+        "options": [
+          "Hormone",
+          "Enzyme",
+          "Neurotransmitter",
+          "Antibody"
+        ],
+        "answer": "Hormone"
+      },
+      {
+        "question": "Hormones are chemical signals that circulate locally in the interstitial fluid without ever entering the bloodstream.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "A chemical signal produced by cells that circulates in the bloodstream to act on specific target tissues is called a _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "hormone"
+      },
+      {
+        "question": "What type of gland secretes its products through a duct onto an epithelial surface rather than into the bloodstream?",
+        "type": "mcq",
+        "options": [
+          "Exocrine gland",
+          "Endocrine gland",
+          "Adrenal gland",
+          "Pituitary gland"
+        ],
+        "answer": "Exocrine gland"
+      },
+      {
+        "question": "Exocrine glands, such as sweat and salivary glands, secrete their products directly into the bloodstream.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Glands that secrete substances via a duct onto an epithelial surface are known as _______ glands.",
+        "type": "blank",
+        "options": [],
+        "answer": "exocrine"
+      },
+      {
+        "question": "Which brain region acts as the master controller of the endocrine system, linking it directly to the nervous system?",
+        "type": "mcq",
+        "options": [
+          "Hypothalamus",
+          "Cerebellum",
+          "Medulla oblongata",
+          "Thalamus"
+        ],
+        "answer": "Hypothalamus"
+      },
+      {
+        "question": "The hypothalamus acts as a bridge linking the nervous system and the endocrine system.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "The region of the brain that acts as the master controller of the endocrine system is the _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "hypothalamus"
+      },
+      {
+        "question": "Which gland is a pea-sized structure attached to the hypothalamus and is functionally divided into anterior and posterior lobes?",
+        "type": "mcq",
+        "options": [
+          "Pituitary gland",
+          "Thyroid gland",
+          "Pineal gland",
+          "Adrenal gland"
+        ],
+        "answer": "Pituitary gland"
+      },
+      {
+        "question": "The pituitary gland is divided into three distinct functional lobes: anterior, medial, and posterior.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The pea-sized gland attached to the hypothalamus that is divided into anterior and posterior lobes is the _______ gland.",
+        "type": "blank",
+        "options": [],
+        "answer": "pituitary"
+      },
+      {
+        "question": "Which organ secretes atrial natriuretic peptide (ANP) to lower blood sodium levels?",
+        "type": "mcq",
+        "options": [
+          "Heart",
+          "Kidney",
+          "Liver",
+          "Lungs"
+        ],
+        "answer": "Heart"
+      },
+      {
+        "question": "The heart functions as an endocrine organ by producing atrial natriuretic peptide.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "The heart makes atrial natriuretic peptide, which functions to lower blood _______ levels.",
+        "type": "blank",
+        "options": [],
+        "answer": "sodium"
+      },
+      {
+        "question": "Which two hormones are synthesized in the hypothalamus and secreted by the posterior pituitary gland?",
+        "type": "mcq",
+        "options": [
+          "Oxytocin and Antidiuretic hormone",
+          "Prolactin and Growth hormone",
+          "TSH and ACTH",
+          "Melatonin and PTH"
+        ],
+        "answer": "Oxytocin and Antidiuretic hormone"
+      },
+      {
+        "question": "The posterior pituitary synthesizes its own hormones entirely independently of the hypothalamus.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "In mammals, the posterior pituitary secretes antidiuretic hormone and _______, which stimulates uterine contractions.",
+        "type": "blank",
+        "options": [],
+        "answer": "oxytocin"
+      },
+      {
+        "question": "Which gland makes melatonin to regulate daily rhythms and seasonal reproduction?",
+        "type": "mcq",
+        "options": [
+          "Pineal gland",
+          "Thyroid gland",
+          "Pituitary gland",
+          "Adrenal gland"
+        ],
+        "answer": "Pineal gland"
+      },
+      {
+        "question": "Melatonin is produced by the parathyroid gland to regulate calcium levels.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The pineal gland produces _______, a hormone that regulates daily rhythms.",
+        "type": "blank",
+        "options": [],
+        "answer": "melatonin"
+      },
+      {
+        "question": "At what minimum percentage of functional nephrons can the human kidneys still operate effectively?",
+        "type": "mcq",
+        "options": [
+          "20%",
+          "50%",
+          "80%",
+          "10%"
+        ],
+        "answer": "20%"
+      },
+      {
+        "question": "Kidneys require at least 80% of their nephrons to be fully functional in order to work effectively.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Kidneys are highly resilient organs that can function effectively with only _______ percent of their nephrons working.",
+        "type": "blank",
+        "options": [],
+        "answer": "20"
+      },
+      {
+        "question": "What is the medical condition characterized by the accumulation of urea and toxic wastes in the blood due to renal failure?",
+        "type": "mcq",
+        "options": [
+          "Uremia",
+          "Anemia",
+          "Diabetes mellitus",
+          "Hypothyroidism"
+        ],
+        "answer": "Uremia"
+      },
+      {
+        "question": "Uremia occurs when the kidneys efficiently filter out all urea from the blood, leaving levels too low.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The retention of urea and toxic wastes in the blood resulting from renal failure is known as _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "uremia"
+      },
+      {
+        "question": "In hemodialysis, what system is utilized to maximize the diffusion of waste products out of the patient's blood?",
+        "type": "mcq",
+        "options": [
+          "Countercurrent exchange system",
+          "Active transport system",
+          "Positive feedback loop",
+          "Feedforward regulation"
+        ],
+        "answer": "Countercurrent exchange system"
+      },
+      {
+        "question": "In a hemodialysis machine, the patient's blood and the dialysis fluid flow in the exact same direction to maximize waste removal.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Hemodialysis uses an artificial _______ exchange system where blood and dialysis fluid flow in opposite directions.",
+        "type": "blank",
+        "options": [],
+        "answer": "countercurrent"
+      },
+      {
+        "question": "Animals that expend energy to maintain an internal osmolarity that differs from their environment are called:",
+        "type": "mcq",
+        "options": [
+          "Osmoregulators",
+          "Osmoconformers",
+          "Thermoregulators",
+          "Endotherms"
+        ],
+        "answer": "Osmoregulators"
+      },
+      {
+        "question": "Osmoregulators match their internal osmolarity perfectly to their environment in order to save energy.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Animals that require energy to maintain an internal osmolarity different from their external environment are known as _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "osmoregulators"
+      },
+      {
+        "question": "Most marine invertebrates save energy by matching their internal osmolarity to the seawater. What are they called?",
+        "type": "mcq",
+        "options": [
+          "Osmoconformers",
+          "Osmoregulators",
+          "Ectotherms",
+          "Filter feeders"
+        ],
+        "answer": "Osmoconformers"
+      },
+      {
+        "question": "Osmoconformers actively pump ions to ensure their internal fluids remain completely different from their environment.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Animals whose internal osmolarity matches their external environment, such as most marine invertebrates, are called _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "osmoconformers"
+      },
+      {
+        "question": "What is the permeability characteristic of the descending limb of the Loop of Henle?",
+        "type": "mcq",
+        "options": [
+          "Permeable to water and impermeable to salts",
+          "Permeable to salts and impermeable to water",
+          "Permeable to both water and salts",
+          "Impermeable to both water and salts"
+        ],
+        "answer": "Permeable to water and impermeable to salts"
+      },
+      {
+        "question": "The descending limb of the Loop of Henle actively transports sodium out of the filtrate.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The descending limb of the Loop of Henle is highly permeable to _______ but remains impermeable to salts.",
+        "type": "blank",
+        "options": [],
+        "answer": "water"
+      },
+      {
+        "question": "Which part of the nephron is impermeable to water but actively transports salts out of the filtrate?",
+        "type": "mcq",
+        "options": [
+          "Ascending limb of the Loop of Henle",
+          "Descending limb of the Loop of Henle",
+          "Proximal convoluted tubule",
+          "Renal corpuscle"
+        ],
+        "answer": "Ascending limb of the Loop of Henle"
+      },
+      {
+        "question": "The ascending limb of the Loop of Henle is highly permeable to water to allow further concentration of the urine.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The _______ limb of the Loop of Henle is impermeable to water but utilizes active transport to move salts out.",
+        "type": "blank",
+        "options": [],
+        "answer": "ascending"
+      },
+      {
+        "question": "Where does the non-selective process of filtration exclusively occur in the nephron?",
+        "type": "mcq",
+        "options": [
+          "Renal corpuscle",
+          "Loop of Henle",
+          "Collecting duct",
+          "Distal convoluted tubule"
+        ],
+        "answer": "Renal corpuscle"
+      },
+      {
+        "question": "Filtration in the kidney is a highly selective process that occurs throughout the entire length of the renal tubule.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Non-selective filtration of blood based on molecule size occurs exclusively at the structure known as the renal _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "corpuscle"
+      },
+      {
+        "question": "Which process in the kidney involves the selective transport of specific toxins and excess ions from the blood into the tubular fluid?",
+        "type": "mcq",
+        "options": [
+          "Secretion",
+          "Filtration",
+          "Reabsorption",
+          "Excretion"
+        ],
+        "answer": "Secretion"
+      },
+      {
+        "question": "Tubular secretion is a non-selective process driven purely by blood hydrostatic pressure at the glomerulus.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The selective transport of specific toxins and ions from the peritubular capillaries into the renal tubules is called _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "secretion"
+      }
     ]
   },
   "Chemistry": {},
