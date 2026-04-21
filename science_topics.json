@@ -5379,6 +5379,1988 @@
         "options": [],
         "answer": "secretion"
       }
+    ],
+    "PHYSIOLOGY FINAL": [
+      {
+        "question": "Which of the following allows cells with identical DNA within the same multicellular organism to have distinct structures and functions?",
+        "type": "mcq",
+        "options": [
+          "Different genomes",
+          "Different proteomes",
+          "Spontaneous mutations",
+          "Varying extracellular matrices"
+        ],
+        "answer": "Different proteomes"
+      },
+      {
+        "question": "Which of the following is a fundamental component of the cell theory?",
+        "type": "mcq",
+        "options": [
+          "All living organisms are composed of one or more cells",
+          "Cells can spontaneously generate from non-living matter",
+          "DNA is entirely different in every cell of the body",
+          "Tissues are considered the smallest units of life"
+        ],
+        "answer": "All living organisms are composed of one or more cells"
+      },
+      {
+        "question": "A group of specialized cells of a specific type that grow and orient together with a similar structure or function is known as a:",
+        "type": "mcq",
+        "options": [
+          "Tissue",
+          "Organ",
+          "Organ system",
+          "Organelle"
+        ],
+        "answer": "Tissue"
+      },
+      {
+        "question": "A structure composed of layers of cells of multiple types arranged in various patterns to perform a specific function is an:",
+        "type": "mcq",
+        "options": [
+          "Organ",
+          "Organelle",
+          "Extracellular matrix",
+          "Organism"
+        ],
+        "answer": "Organ"
+      },
+      {
+        "question": "Which of the following fluids is located outside of the cells?",
+        "type": "mcq",
+        "options": [
+          "Extracellular fluid",
+          "Intracellular fluid",
+          "Cytosolic fluid",
+          "Nucleoplasm"
+        ],
+        "answer": "Extracellular fluid"
+      },
+      {
+        "question": "Which type of cell junction allows signaling molecules to pass directly from the cytosol of one cell to another?",
+        "type": "mcq",
+        "options": [
+          "Gap junctions",
+          "Tight junctions",
+          "Desmosomes",
+          "Anchoring junctions"
+        ],
+        "answer": "Gap junctions"
+      },
+      {
+        "question": "Which tissue type consisting of sheet-like layers of cells can both exchange oxygen and act as a barrier to bacteria?",
+        "type": "mcq",
+        "options": [
+          "Epithelial",
+          "Connective",
+          "Nervous",
+          "Muscle"
+        ],
+        "answer": "Epithelial"
+      },
+      {
+        "question": "Which two proteins are major fibrous components of the extracellular matrix in connective tissue?",
+        "type": "mcq",
+        "options": [
+          "Collagen and elastin",
+          "Actin and myosin",
+          "Keratin and tubulin",
+          "Hemoglobin and myoglobin"
+        ],
+        "answer": "Collagen and elastin"
+      },
+      {
+        "question": "Which type of muscle tissue is under voluntary control and provides the force needed for locomotion?",
+        "type": "mcq",
+        "options": [
+          "Skeletal muscle",
+          "Smooth muscle",
+          "Cardiac muscle",
+          "Interlinked muscle"
+        ],
+        "answer": "Skeletal muscle"
+      },
+      {
+        "question": "Which tissue type initiates and conducts electrical signals from one part of the animal's body to another?",
+        "type": "mcq",
+        "options": [
+          "Nervous tissue",
+          "Muscle tissue",
+          "Connective tissue",
+          "Epithelial tissue"
+        ],
+        "answer": "Nervous tissue"
+      },
+      {
+        "question": "When molecules bound to the surface of one cell serve as signals to cells that physically touch them, this is known as:",
+        "type": "mcq",
+        "options": [
+          "Contact-dependent signaling",
+          "Endocrine signaling",
+          "Autocrine signaling",
+          "Paracrine signaling"
+        ],
+        "answer": "Contact-dependent signaling"
+      },
+      {
+        "question": "In which type of signaling do cells secrete molecules that bind to receptors on their own surface or on similar neighboring cells?",
+        "type": "mcq",
+        "options": [
+          "Autocrine signaling",
+          "Paracrine signaling",
+          "Endocrine signaling",
+          "Direct intercellular signaling"
+        ],
+        "answer": "Autocrine signaling"
+      },
+      {
+        "question": "What type of signaling influences nearby target cells but does not affect the originating cell that secreted the signal?",
+        "type": "mcq",
+        "options": [
+          "Paracrine signaling",
+          "Autocrine signaling",
+          "Endocrine signaling",
+          "Contact-dependent signaling"
+        ],
+        "answer": "Paracrine signaling"
+      },
+      {
+        "question": "Hormones that travel long distances via the bloodstream utilize which type of signaling?",
+        "type": "mcq",
+        "options": [
+          "Endocrine signaling",
+          "Paracrine signaling",
+          "Direct intercellular signaling",
+          "Autocrine signaling"
+        ],
+        "answer": "Endocrine signaling"
+      },
+      {
+        "question": "What is the correct sequential order of the three stages of cell signaling?",
+        "type": "mcq",
+        "options": [
+          "Receptor activation, signal transduction, cellular response",
+          "Signal transduction, cellular response, receptor activation",
+          "Cellular response, receptor activation, signal transduction",
+          "Receptor activation, cellular response, signal transduction"
+        ],
+        "answer": "Receptor activation, signal transduction, cellular response"
+      },
+      {
+        "question": "Which type of receptor involves an intracellular catalytic domain that becomes active when an extracellular signaling molecule is bound?",
+        "type": "mcq",
+        "options": [
+          "Enzyme-linked receptors",
+          "G-protein-coupled receptors",
+          "Ligand-gated ion channels",
+          "Intracellular receptors"
+        ],
+        "answer": "Enzyme-linked receptors"
+      },
+      {
+        "question": "When a signaling molecule binds to a GPCR, what does the associated G protein exchange its GDP for?",
+        "type": "mcq",
+        "options": [
+          "GTP",
+          "ATP",
+          "cAMP",
+          "ADP"
+        ],
+        "answer": "GTP"
+      },
+      {
+        "question": "What do ligand-gated ion channels allow to pass through the cell membrane when they are opened by a signaling molecule?",
+        "type": "mcq",
+        "options": [
+          "Ions",
+          "Large proteins",
+          "DNA strands",
+          "Whole organelles"
+        ],
+        "answer": "Ions"
+      },
+      {
+        "question": "In mammals, receptors for which type of hormone are typically found inside the cell (intracellular) and bind to DNA?",
+        "type": "mcq",
+        "options": [
+          "Steroid hormones (e.g., estrogen)",
+          "Protein hormones",
+          "Enzyme hormones",
+          "Peptide hormones"
+        ],
+        "answer": "Steroid hormones (e.g., estrogen)"
+      },
+      {
+        "question": "In the Epidermal Growth Factor (EGF) signal transduction pathway, what initiates the protein kinase cascade?",
+        "type": "mcq",
+        "options": [
+          "Ras activates Raf",
+          "cAMP binds to PKA",
+          "Adenylyl cyclase synthesizes ATP",
+          "G-protein binds GDP"
+        ],
+        "answer": "Ras activates Raf"
+      },
+      {
+        "question": "In the epinephrine signaling pathway, which enzyme is activated by the alpha subunit to synthesize cAMP from ATP?",
+        "type": "mcq",
+        "options": [
+          "Adenylyl cyclase",
+          "Phosphodiesterase",
+          "Protein kinase A",
+          "Phosphorylase kinase"
+        ],
+        "answer": "Adenylyl cyclase"
+      },
+      {
+        "question": "In homeostatic control systems, what is the normal, target value for a controlled variable called?",
+        "type": "mcq",
+        "options": [
+          "Set point",
+          "Sensor limit",
+          "Effector range",
+          "Integrator value"
+        ],
+        "answer": "Set point"
+      },
+      {
+        "question": "Animals that maintain an internal body composition matching their environment, requiring less energy, are known as:",
+        "type": "mcq",
+        "options": [
+          "Conformers",
+          "Regulators",
+          "Integrators",
+          "Effectors"
+        ],
+        "answer": "Conformers"
+      },
+      {
+        "question": "In a homeostatic control system, which component compares signals from the sensor to the set point?",
+        "type": "mcq",
+        "options": [
+          "Integrator",
+          "Sensor",
+          "Effector",
+          "Receptor"
+        ],
+        "answer": "Integrator"
+      },
+      {
+        "question": "Which mechanism prevents homeostatic responses from overcompensating by moving a variable in the opposite direction of the initial change?",
+        "type": "mcq",
+        "options": [
+          "Negative feedback",
+          "Positive feedback",
+          "Feedforward regulation",
+          "Action potential"
+        ],
+        "answer": "Negative feedback"
+      },
+      {
+        "question": "Shivering in response to a drop in body temperature is a classic example of which homeostatic mechanism?",
+        "type": "mcq",
+        "options": [
+          "Negative feedback",
+          "Positive feedback",
+          "Feedforward regulation",
+          "Conformational adjustment"
+        ],
+        "answer": "Negative feedback"
+      },
+      {
+        "question": "Which of the following processes is a recognized example of positive feedback in animals?",
+        "type": "mcq",
+        "options": [
+          "Blood clotting",
+          "Body temperature regulation",
+          "Blood sugar regulation",
+          "Osmoregulation"
+        ],
+        "answer": "Blood clotting"
+      },
+      {
+        "question": "What is the process called where an animal's body begins preparing for a change in a variable before it actually occurs (e.g., salivating when smelling food)?",
+        "type": "mcq",
+        "options": [
+          "Feedforward regulation",
+          "Negative feedback",
+          "Positive feedback",
+          "Contact-dependent signaling"
+        ],
+        "answer": "Feedforward regulation"
+      },
+      {
+        "question": "A signaling molecule that binds non-covalently to a receptor with high specificity, causing a conformational change, is called a:",
+        "type": "mcq",
+        "options": [
+          "Ligand",
+          "Substrate",
+          "Catalyst",
+          "Template"
+        ],
+        "answer": "Ligand"
+      },
+      {
+        "question": "Programmed cell death, which can be triggered intentionally by signaling molecules, is termed:",
+        "type": "mcq",
+        "options": [
+          "Apoptosis",
+          "Necrosis",
+          "Lysis",
+          "Autophagy"
+        ],
+        "answer": "Apoptosis"
+      },
+      {
+        "question": "What type of simple interconnected nervous system is found in cnidarians like jellyfish?",
+        "type": "mcq",
+        "options": [
+          "Nerve net",
+          "Central nervous system",
+          "Autonomic ganglion",
+          "Spinal cord"
+        ],
+        "answer": "Nerve net"
+      },
+      {
+        "question": "Which structures make up the Central Nervous System (CNS) in vertebrates?",
+        "type": "mcq",
+        "options": [
+          "Brain and spinal cord",
+          "Cranial nerves and spinal nerves",
+          "Sympathetic and parasympathetic ganglia",
+          "Sensory receptors and motor neurons"
+        ],
+        "answer": "Brain and spinal cord"
+      },
+      {
+        "question": "What is the primary function of the Peripheral Nervous System (PNS)?",
+        "type": "mcq",
+        "options": [
+          "To transmit signals between the CNS and the rest of the body",
+          "To process and interpret complex sensory information",
+          "To form memories and facilitate learning",
+          "To generate the primary resting membrane potential of the brain"
+        ],
+        "answer": "To transmit signals between the CNS and the rest of the body"
+      },
+      {
+        "question": "Which type of cells surround, support, and protect neurons in the nervous system?",
+        "type": "mcq",
+        "options": [
+          "Glial cells (Glia)",
+          "Epithelial cells",
+          "Red blood cells",
+          "Muscle fibers"
+        ],
+        "answer": "Glial cells (Glia)"
+      },
+      {
+        "question": "What is the typical resting membrane potential of a mammalian neuron?",
+        "type": "mcq",
+        "options": [
+          "-70 mV",
+          "+30 mV",
+          "0 mV",
+          "-110 mV"
+        ],
+        "answer": "-70 mV"
+      },
+      {
+        "question": "What term describes a rapid, large, all-or-none change in membrane potential used to transmit electrical signals along an axon?",
+        "type": "mcq",
+        "options": [
+          "Action potential",
+          "Graded potential",
+          "Resting potential",
+          "Equilibrium potential"
+        ],
+        "answer": "Action potential"
+      },
+      {
+        "question": "Which part of a neuron primarily receives incoming chemical and electrical signals from other neurons?",
+        "type": "mcq",
+        "options": [
+          "Dendrites",
+          "Axon hillock",
+          "Myelin sheath",
+          "Axon terminals"
+        ],
+        "answer": "Dendrites"
+      },
+      {
+        "question": "What structure carries outgoing electrical signals from the cell body to the axon terminals?",
+        "type": "mcq",
+        "options": [
+          "Axon",
+          "Dendrite",
+          "Soma",
+          "Nucleus"
+        ],
+        "answer": "Axon"
+      },
+      {
+        "question": "What insulating layer, formed by glial cells, wraps around axons to speed up signal conduction?",
+        "type": "mcq",
+        "options": [
+          "Myelin sheath",
+          "Synaptic cleft",
+          "Meninges",
+          "Axoplasm"
+        ],
+        "answer": "Myelin sheath"
+      },
+      {
+        "question": "What are the uninsulated gaps in the myelin sheath where action potentials are regenerated called?",
+        "type": "mcq",
+        "options": [
+          "Nodes of Ranvier",
+          "Axon hillocks",
+          "Synaptic clefts",
+          "Dendritic spines"
+        ],
+        "answer": "Nodes of Ranvier"
+      },
+      {
+        "question": "How does the sodium-potassium pump actively contribute to the resting membrane potential?",
+        "type": "mcq",
+        "options": [
+          "It transports 3 Na+ out and 2 K+ in",
+          "It transports 2 Na+ out and 3 K+ in",
+          "It transports 3 Na+ in and 2 K+ out",
+          "It allows passive diffusion of Na+ and K+ equally"
+        ],
+        "answer": "It transports 3 Na+ out and 2 K+ in"
+      },
+      {
+        "question": "During the depolarization phase of an action potential, which channels open to allow positive ions to rush into the cell?",
+        "type": "mcq",
+        "options": [
+          "Voltage-gated sodium channels",
+          "Voltage-gated potassium channels",
+          "Ligand-gated chloride channels",
+          "Calcium leak channels"
+        ],
+        "answer": "Voltage-gated sodium channels"
+      },
+      {
+        "question": "Which event is primarily responsible for the repolarization phase of an action potential?",
+        "type": "mcq",
+        "options": [
+          "Opening of voltage-gated potassium channels",
+          "Opening of voltage-gated sodium channels",
+          "Closing of voltage-gated potassium channels",
+          "Activation of the sodium-potassium pump"
+        ],
+        "answer": "Opening of voltage-gated potassium channels"
+      },
+      {
+        "question": "What is the junction where a nerve terminal communicates with a neuron, muscle, or gland cell called?",
+        "type": "mcq",
+        "options": [
+          "Synapse",
+          "Axon hillock",
+          "Node of Ranvier",
+          "Soma"
+        ],
+        "answer": "Synapse"
+      },
+      {
+        "question": "What chemical messengers are released by presynaptic neurons to elicit a response in postsynaptic cells?",
+        "type": "mcq",
+        "options": [
+          "Neurotransmitters",
+          "Hormones",
+          "Enzymes",
+          "Second messengers"
+        ],
+        "answer": "Neurotransmitters"
+      },
+      {
+        "question": "Which of the following describes a quick, automatic response that requires little to no interpretation by the brain?",
+        "type": "mcq",
+        "options": [
+          "Reflex arc",
+          "Action potential",
+          "Saltatory conduction",
+          "Long-term memory"
+        ],
+        "answer": "Reflex arc"
+      },
+      {
+        "question": "Which division of the peripheral nervous system regulates involuntary homeostasis and organ function?",
+        "type": "mcq",
+        "options": [
+          "Autonomic nervous system",
+          "Somatic nervous system",
+          "Central nervous system",
+          "Sensory nervous system"
+        ],
+        "answer": "Autonomic nervous system"
+      },
+      {
+        "question": "Which branch of the autonomic nervous system is responsible for the 'fight-or-flight' response?",
+        "type": "mcq",
+        "options": [
+          "Sympathetic division",
+          "Parasympathetic division",
+          "Somatic division",
+          "Enteric division"
+        ],
+        "answer": "Sympathetic division"
+      },
+      {
+        "question": "Which nervous system division maintains homeostasis during restful periods, often called the 'rest-and-digest' system?",
+        "type": "mcq",
+        "options": [
+          "Parasympathetic division",
+          "Sympathetic division",
+          "Somatic division",
+          "Central division"
+        ],
+        "answer": "Parasympathetic division"
+      },
+      {
+        "question": "Which neurological disorder is characterized by the autoimmune destruction of the myelin sheath?",
+        "type": "mcq",
+        "options": [
+          "Multiple Sclerosis (MS)",
+          "Alzheimer's Disease",
+          "Congenital Hypothyroidism",
+          "Meningitis"
+        ],
+        "answer": "Multiple Sclerosis (MS)"
+      },
+      {
+        "question": "What is the leading cause of dementia, characterized by plaques and neurofibrillary tangles in the brain?",
+        "type": "mcq",
+        "options": [
+          "Alzheimer's Disease",
+          "Multiple Sclerosis",
+          "Meningitis",
+          "Schizophrenia"
+        ],
+        "answer": "Alzheimer's Disease"
+      },
+      {
+        "question": "What is the process where an action potential appears to 'jump' from one Node of Ranvier to the next?",
+        "type": "mcq",
+        "options": [
+          "Saltatory conduction",
+          "Continuous conduction",
+          "Synaptic transmission",
+          "Active transport"
+        ],
+        "answer": "Saltatory conduction"
+      },
+      {
+        "question": "What type of receptors act as ligand-gated ion channels to mediate fast synaptic transmission?",
+        "type": "mcq",
+        "options": [
+          "Ionotropic receptors",
+          "Metabotropic receptors",
+          "G-protein coupled receptors",
+          "Thermoreceptors"
+        ],
+        "answer": "Ionotropic receptors"
+      },
+      {
+        "question": "Metabotropic receptors initiate slower cellular responses by acting through:",
+        "type": "mcq",
+        "options": [
+          "G-protein coupled receptors",
+          "Ligand-gated ion channels",
+          "Direct gap junctions",
+          "Voltage-gated calcium channels"
+        ],
+        "answer": "G-protein coupled receptors"
+      },
+      {
+        "question": "The membrane potential at which an action potential is guaranteed to fire is known as the:",
+        "type": "mcq",
+        "options": [
+          "Threshold potential",
+          "Resting potential",
+          "Equilibrium potential",
+          "Refractory potential"
+        ],
+        "answer": "Threshold potential"
+      },
+      {
+        "question": "When the membrane potential becomes more negative than the resting potential, this phase is called:",
+        "type": "mcq",
+        "options": [
+          "Hyperpolarization",
+          "Depolarization",
+          "Repolarization",
+          "Action potential"
+        ],
+        "answer": "Hyperpolarization"
+      },
+      {
+        "question": "What type of synapse involves direct transfer of ions through gap junctions?",
+        "type": "mcq",
+        "options": [
+          "Electrical synapse",
+          "Chemical synapse",
+          "Neuromuscular junction",
+          "Endocrine synapse"
+        ],
+        "answer": "Electrical synapse"
+      },
+      {
+        "question": "Which neurotransmitter is primarily utilized by the parasympathetic nervous system to slow heart rate?",
+        "type": "mcq",
+        "options": [
+          "Acetylcholine",
+          "Norepinephrine",
+          "Dopamine",
+          "Serotonin"
+        ],
+        "answer": "Acetylcholine"
+      },
+      {
+        "question": "Which part of the brain is primarily responsible for coordinating breathing and heart rate?",
+        "type": "mcq",
+        "options": [
+          "Medulla oblongata",
+          "Cerebellum",
+          "Cerebrum",
+          "Thalamus"
+        ],
+        "answer": "Medulla oblongata"
+      },
+      {
+        "question": "Which brain structure is highly developed in mammals and handles conscious thought, learning, and memory?",
+        "type": "mcq",
+        "options": [
+          "Cerebrum",
+          "Cerebellum",
+          "Hypothalamus",
+          "Pons"
+        ],
+        "answer": "Cerebrum"
+      },
+      {
+        "question": "What is the primary function of a circulatory system in an animal?",
+        "type": "mcq",
+        "options": [
+          "To transport necessary materials to cells and remove waste products",
+          "To provide rigid structural support to the body",
+          "To coordinate sensory inputs from the external environment",
+          "To chemically break down complex food molecules"
+        ],
+        "answer": "To transport necessary materials to cells and remove waste products"
+      },
+      {
+        "question": "In a closed circulatory system, what distinguishes blood from interstitial fluid?",
+        "type": "mcq",
+        "options": [
+          "Blood is physically separated from interstitial fluid and remains within vessels",
+          "Blood directly bathes the organs without vessels",
+          "Blood contains haemolymph instead of plasma",
+          "Blood only transports waste, while interstitial fluid transports oxygen"
+        ],
+        "answer": "Blood is physically separated from interstitial fluid and remains within vessels"
+      },
+      {
+        "question": "Which animals typically possess an open circulatory system?",
+        "type": "mcq",
+        "options": [
+          "Arthropods and some molluscs",
+          "Earthworms and cephalopods",
+          "All vertebrates",
+          "Fish and amphibians"
+        ],
+        "answer": "Arthropods and some molluscs"
+      },
+      {
+        "question": "Which type of circulation involves blood passing through the heart twice in each complete circuit of the body?",
+        "type": "mcq",
+        "options": [
+          "Double circulation",
+          "Single circulation",
+          "Open circulation",
+          "Gastrovascular circulation"
+        ],
+        "answer": "Double circulation"
+      },
+      {
+        "question": "Fish possess which type of circulatory arrangement?",
+        "type": "mcq",
+        "options": [
+          "Single circulation",
+          "Double circulation",
+          "Open circulation",
+          "Gastrovascular cavity"
+        ],
+        "answer": "Single circulation"
+      },
+      {
+        "question": "What is the fluid portion of blood containing water, dissolved nutrients, and proteins called?",
+        "type": "mcq",
+        "options": [
+          "Plasma",
+          "Haemolymph",
+          "Interstitial fluid",
+          "Lymph"
+        ],
+        "answer": "Plasma"
+      },
+      {
+        "question": "Which iron-containing protein is found within red blood cells and binds reversibly to oxygen?",
+        "type": "mcq",
+        "options": [
+          "Haemoglobin",
+          "Myoglobin",
+          "Fibrinogen",
+          "Immunoglobulin"
+        ],
+        "answer": "Haemoglobin"
+      },
+      {
+        "question": "Which protein has a higher affinity for oxygen than haemoglobin and acts as an oxygen reserve in muscle cells?",
+        "type": "mcq",
+        "options": [
+          "Myoglobin",
+          "Actin",
+          "Myosin",
+          "Collagen"
+        ],
+        "answer": "Myoglobin"
+      },
+      {
+        "question": "Which blood vessels typically carry blood away from the heart under high pressure?",
+        "type": "mcq",
+        "options": [
+          "Arteries",
+          "Veins",
+          "Capillaries",
+          "Venules"
+        ],
+        "answer": "Arteries"
+      },
+      {
+        "question": "What structural feature in veins prevents the backflow of blood?",
+        "type": "mcq",
+        "options": [
+          "Valves",
+          "Thick smooth muscle",
+          "Nodes of Ranvier",
+          "Elastic recoil"
+        ],
+        "answer": "Valves"
+      },
+      {
+        "question": "Which extremely thin blood vessels are the primary site of gas and nutrient exchange?",
+        "type": "mcq",
+        "options": [
+          "Capillaries",
+          "Arterioles",
+          "Venules",
+          "Aorta"
+        ],
+        "answer": "Capillaries"
+      },
+      {
+        "question": "A heart that initiates its own beat through its own muscle cells, as seen in vertebrates, is described as:",
+        "type": "mcq",
+        "options": [
+          "Myogenic",
+          "Neurogenic",
+          "Autonomic",
+          "Somatic"
+        ],
+        "answer": "Myogenic"
+      },
+      {
+        "question": "A heart that requires nerve impulses to initiate its contraction is termed:",
+        "type": "mcq",
+        "options": [
+          "Neurogenic",
+          "Myogenic",
+          "Autonomic",
+          "Somatic"
+        ],
+        "answer": "Neurogenic"
+      },
+      {
+        "question": "During mammalian inhalation, what occurs to bring air into the lungs?",
+        "type": "mcq",
+        "options": [
+          "The diaphragm and rib muscles contract to expand the thoracic cavity",
+          "The diaphragm relaxes and pushes up against the lungs",
+          "The intercostal muscles relax to compress the rib cage",
+          "Positive pressure physically forces air into the respiratory tract"
+        ],
+        "answer": "The diaphragm and rib muscles contract to expand the thoracic cavity"
+      },
+      {
+        "question": "When a person forcefully exhales, what physical event occurs in the respiratory system?",
+        "type": "mcq",
+        "options": [
+          "The lungs undergo an elastic recoil",
+          "The diaphragm actively contracts downwards",
+          "The rib muscles pull the rib cage upwards and outwards",
+          "Positive pressure is actively pumped from the environment into the trachea"
+        ],
+        "answer": "The lungs undergo an elastic recoil"
+      },
+      {
+        "question": "Which respiratory condition is characterised by extensive lung damage that reduces the elastic quality and total surface area of the alveoli?",
+        "type": "mcq",
+        "options": [
+          "Emphysema",
+          "Asthma",
+          "Meningitis",
+          "Multiple Sclerosis"
+        ],
+        "answer": "Emphysema"
+      },
+      {
+        "question": "Which respiratory condition is caused by the hyperexcitability and contraction of smooth muscles around the bronchioles?",
+        "type": "mcq",
+        "options": [
+          "Asthma",
+          "Emphysema",
+          "Lung cancer",
+          "Atherosclerosis"
+        ],
+        "answer": "Asthma"
+      },
+      {
+        "question": "Why does oxygen readily enter the blood in the lungs relative to the alveolar air?",
+        "type": "mcq",
+        "options": [
+          "The oxygen concentration in the blood is lower than in the alveolar air",
+          "The carbon dioxide concentration in the blood is low",
+          "The oxygen concentration in the blood is higher than in the alveolar air",
+          "The process uses active transport independent of concentration gradients"
+        ],
+        "answer": "The oxygen concentration in the blood is lower than in the alveolar air"
+      },
+      {
+        "question": "How is the majority of carbon dioxide transported in the blood?",
+        "type": "mcq",
+        "options": [
+          "In the form of carbonic acid and bicarbonate ions",
+          "Bound directly to the iron in haemoglobin",
+          "As freely dissolved gas bubbles in the plasma",
+          "Stored within the mitochondria of red blood cells"
+        ],
+        "answer": "In the form of carbonic acid and bicarbonate ions"
+      },
+      {
+        "question": "The volume of air normally breathed in and out at rest is known as the:",
+        "type": "mcq",
+        "options": [
+          "Tidal volume",
+          "Vital capacity",
+          "Residual volume",
+          "Total lung capacity"
+        ],
+        "answer": "Tidal volume"
+      },
+      {
+        "question": "The maximum volume of air that can be exhaled after a maximum inhalation is the:",
+        "type": "mcq",
+        "options": [
+          "Vital capacity",
+          "Tidal volume",
+          "Residual volume",
+          "Minute ventilation"
+        ],
+        "answer": "Vital capacity"
+      },
+      {
+        "question": "A mixture of lipids and proteins that reduces surface tension in the alveoli to prevent collapse is called:",
+        "type": "mcq",
+        "options": [
+          "Surfactant",
+          "Mucus",
+          "Plasma",
+          "Histamine"
+        ],
+        "answer": "Surfactant"
+      },
+      {
+        "question": "The tiny air sacs in the lungs where gas exchange occurs are the:",
+        "type": "mcq",
+        "options": [
+          "Alveoli",
+          "Bronchioles",
+          "Trachea",
+          "Villi"
+        ],
+        "answer": "Alveoli"
+      },
+      {
+        "question": "Which chamber of the heart primarily receives blood returning from the body or lungs?",
+        "type": "mcq",
+        "options": [
+          "Atrium",
+          "Ventricle",
+          "Aorta",
+          "Vena cava"
+        ],
+        "answer": "Atrium"
+      },
+      {
+        "question": "Which chamber of the heart is primarily responsible for pumping blood out to the body or lungs?",
+        "type": "mcq",
+        "options": [
+          "Ventricle",
+          "Atrium",
+          "Sinoatrial node",
+          "Septum"
+        ],
+        "answer": "Ventricle"
+      },
+      {
+        "question": "The specialized group of cardiac cells that acts as the heart's natural pacemaker is the:",
+        "type": "mcq",
+        "options": [
+          "Sinoatrial (SA) node",
+          "Atrioventricular (AV) node",
+          "Purkinje fibers",
+          "Bundle of His"
+        ],
+        "answer": "Sinoatrial (SA) node"
+      },
+      {
+        "question": "The phase of the cardiac cycle when the heart muscle contracts and pumps blood is called:",
+        "type": "mcq",
+        "options": [
+          "Systole",
+          "Diastole",
+          "Fibrillation",
+          "Tachycardia"
+        ],
+        "answer": "Systole"
+      },
+      {
+        "question": "The phase of the cardiac cycle when the heart muscle relaxes and fills with blood is:",
+        "type": "mcq",
+        "options": [
+          "Diastole",
+          "Systole",
+          "Depolarization",
+          "Ejection"
+        ],
+        "answer": "Diastole"
+      },
+      {
+        "question": "Which cells in the blood are primarily responsible for transporting oxygen?",
+        "type": "mcq",
+        "options": [
+          "Erythrocytes (Red blood cells)",
+          "Leukocytes (White blood cells)",
+          "Platelets",
+          "Plasma cells"
+        ],
+        "answer": "Erythrocytes (Red blood cells)"
+      },
+      {
+        "question": "Which cell fragments in the blood play a crucial role in the formation of blood clots?",
+        "type": "mcq",
+        "options": [
+          "Platelets",
+          "Erythrocytes",
+          "Lymphocytes",
+          "Macrophages"
+        ],
+        "answer": "Platelets"
+      },
+      {
+        "question": "Which type of immunity provides an immediate, non-specific defense against pathogens?",
+        "type": "mcq",
+        "options": [
+          "Innate immunity",
+          "Adaptive immunity",
+          "Passive immunity",
+          "Autoimmune response"
+        ],
+        "answer": "Innate immunity"
+      },
+      {
+        "question": "Which branch of the immune system is characterized by specificity and immunological memory?",
+        "type": "mcq",
+        "options": [
+          "Adaptive immunity",
+          "Innate immunity",
+          "Barrier defenses",
+          "Chemical immunity"
+        ],
+        "answer": "Adaptive immunity"
+      },
+      {
+        "question": "Which pathogens primarily damage host tissues at open wound sites or by releasing toxins into the bloodstream?",
+        "type": "mcq",
+        "options": [
+          "Bacteria",
+          "Viruses",
+          "Fungi",
+          "Protists"
+        ],
+        "answer": "Bacteria"
+      },
+      {
+        "question": "Which type of pathogen consists of nucleic acids enclosed in a protein coat and must infect a host cell to replicate?",
+        "type": "mcq",
+        "options": [
+          "Virus",
+          "Bacteria",
+          "Fungus",
+          "Protist"
+        ],
+        "answer": "Virus"
+      },
+      {
+        "question": "General, conserved molecular features common to many pathogens that are recognized by the innate immune system are called:",
+        "type": "mcq",
+        "options": [
+          "Pathogen-Associated Molecular Patterns (PAMPs)",
+          "Epitopes",
+          "Major Histocompatibility Complexes (MHCs)",
+          "Antibodies"
+        ],
+        "answer": "Pathogen-Associated Molecular Patterns (PAMPs)"
+      },
+      {
+        "question": "Foreign molecules that are recognized by the immune system and elicit a specific response are known as:",
+        "type": "mcq",
+        "options": [
+          "Antigens",
+          "Antibodies",
+          "Cytokines",
+          "Interferons"
+        ],
+        "answer": "Antigens"
+      },
+      {
+        "question": "What is the specific fragment of an antigen that is displayed on an MHC protein after phagocytosis?",
+        "type": "mcq",
+        "options": [
+          "Epitope",
+          "Cytokine",
+          "Opsonin",
+          "Toll-like receptor"
+        ],
+        "answer": "Epitope"
+      },
+      {
+        "question": "Proteins synthesized and secreted by plasma cells that bind to specific antigens to help destroy them are:",
+        "type": "mcq",
+        "options": [
+          "Antibodies (Immunoglobulins)",
+          "Cytokines",
+          "Perforins",
+          "Histamines"
+        ],
+        "answer": "Antibodies (Immunoglobulins)"
+      },
+      {
+        "question": "Which molecules act as chemical messengers to regulate the immune response, induce inflammation, and stimulate cell division?",
+        "type": "mcq",
+        "options": [
+          "Cytokines",
+          "Antigens",
+          "Erythrocytes",
+          "Platelets"
+        ],
+        "answer": "Cytokines"
+      },
+      {
+        "question": "The process where a pathogen is linked to a non-specific immune cell via antibodies or complement to enhance phagocytosis is called:",
+        "type": "mcq",
+        "options": [
+          "Opsonization",
+          "Sensitization",
+          "Clonal selection",
+          "Apoptosis"
+        ],
+        "answer": "Opsonization"
+      },
+      {
+        "question": "The process where an antigen-stimulated lymphocyte divides to produce progeny expressing the same specific receptor is:",
+        "type": "mcq",
+        "options": [
+          "Clonal selection",
+          "Meiosis",
+          "Opsonization",
+          "Phagocytosis"
+        ],
+        "answer": "Clonal selection"
+      },
+      {
+        "question": "What type of cell primarily acts by engulfing and destroying pathogens via phagocytosis?",
+        "type": "mcq",
+        "options": [
+          "Macrophage",
+          "Red blood cell",
+          "B cell",
+          "Platelet"
+        ],
+        "answer": "Macrophage"
+      },
+      {
+        "question": "Which type of white blood cell is typically the most abundant in the blood and usually the first to arrive at a site of infection?",
+        "type": "mcq",
+        "options": [
+          "Neutrophil",
+          "Basophil",
+          "Eosinophil",
+          "Lymphocyte"
+        ],
+        "answer": "Neutrophil"
+      },
+      {
+        "question": "During an inflammatory response, which cells are primarily responsible for releasing histamine?",
+        "type": "mcq",
+        "options": [
+          "Mast cells",
+          "B cells",
+          "Erythrocytes",
+          "Cytotoxic T cells"
+        ],
+        "answer": "Mast cells"
+      },
+      {
+        "question": "Which specific cells of the adaptive immune system are primarily responsible for producing and secreting antibodies?",
+        "type": "mcq",
+        "options": [
+          "B cells (Plasma cells)",
+          "T cells",
+          "Macrophages",
+          "Neutrophils"
+        ],
+        "answer": "B cells (Plasma cells)"
+      },
+      {
+        "question": "Which of the following cells directly destroys infected or cancerous host cells?",
+        "type": "mcq",
+        "options": [
+          "Cytotoxic T cells",
+          "Helper T cells",
+          "B cells",
+          "Mast cells"
+        ],
+        "answer": "Cytotoxic T cells"
+      },
+      {
+        "question": "What complex of proteins is responsible for displaying antigen fragments on the cell surface for recognition by T cells?",
+        "type": "mcq",
+        "options": [
+          "Major Histocompatibility Complex (MHC)",
+          "Antibodies",
+          "Complement system",
+          "Cytokines"
+        ],
+        "answer": "Major Histocompatibility Complex (MHC)"
+      },
+      {
+        "question": "Which type of immunity primarily targets pathogens in the extracellular fluid using secreted antibodies?",
+        "type": "mcq",
+        "options": [
+          "Humoral immunity",
+          "Cell-mediated immunity",
+          "Innate immunity",
+          "Passive immunity"
+        ],
+        "answer": "Humoral immunity"
+      },
+      {
+        "question": "Which type of immunity targets infected body cells or cancer cells using Cytotoxic T cells?",
+        "type": "mcq",
+        "options": [
+          "Cell-mediated immunity",
+          "Humoral immunity",
+          "Passive immunity",
+          "Innate immunity"
+        ],
+        "answer": "Cell-mediated immunity"
+      },
+      {
+        "question": "The initial, slower response to an antigen that produces fewer antibodies is called the:",
+        "type": "mcq",
+        "options": [
+          "Primary immune response",
+          "Secondary immune response",
+          "Innate immune response",
+          "Allergic response"
+        ],
+        "answer": "Primary immune response"
+      },
+      {
+        "question": "Compared to the primary immune response, the secondary immune response upon re-exposure to a pathogen is:",
+        "type": "mcq",
+        "options": [
+          "Faster and produces more antibodies",
+          "Slower and produces fewer antibodies",
+          "Faster but produces fewer antibodies",
+          "Slower but produces more antibodies"
+        ],
+        "answer": "Faster and produces more antibodies"
+      },
+      {
+        "question": "Vaccines primarily function by stimulating the adaptive immune system to produce:",
+        "type": "mcq",
+        "options": [
+          "Memory cells",
+          "Histamine",
+          "Red blood cells",
+          "Platelets"
+        ],
+        "answer": "Memory cells"
+      },
+      {
+        "question": "The transfer of antibodies through breast milk or the placenta provides a short-lived defense known as:",
+        "type": "mcq",
+        "options": [
+          "Passive immunity",
+          "Active immunity",
+          "Cell-mediated immunity",
+          "Adaptive immunity"
+        ],
+        "answer": "Passive immunity"
+      },
+      {
+        "question": "An exaggerated immune response to a harmless environmental antigen that causes inflammation and tissue damage is known as:",
+        "type": "mcq",
+        "options": [
+          "An allergy (hypersensitivity)",
+          "An autoimmune disease",
+          "An immunodeficiency",
+          "Passive immunity"
+        ],
+        "answer": "An allergy (hypersensitivity)"
+      },
+      {
+        "question": "A condition in which the body's immune system attacks its own healthy cells is known as an:",
+        "type": "mcq",
+        "options": [
+          "Autoimmune disease",
+          "Immunodeficiency",
+          "Allergy",
+          "Innate condition"
+        ],
+        "answer": "Autoimmune disease"
+      },
+      {
+        "question": "Which hormone, strongly associated with stress, has a powerful suppressive activity on inflammation and specific immunity?",
+        "type": "mcq",
+        "options": [
+          "Cortisol",
+          "Insulin",
+          "Thyroxine",
+          "Glucagon"
+        ],
+        "answer": "Cortisol"
+      },
+      {
+        "question": "Which immune cells are primarily responsible for the graft rejection of transplanted organs?",
+        "type": "mcq",
+        "options": [
+          "Cytotoxic T cells and Helper T cells",
+          "Red blood cells and Platelets",
+          "Mast cells and Basophils",
+          "Eosinophils and Neutrophils"
+        ],
+        "answer": "Cytotoxic T cells and Helper T cells"
+      },
+      {
+        "question": "Which cells assist in activating both B cells and Cytotoxic T cells?",
+        "type": "mcq",
+        "options": [
+          "Helper T cells",
+          "Macrophages",
+          "Erythrocytes",
+          "Natural Killer cells"
+        ],
+        "answer": "Helper T cells"
+      },
+      {
+        "question": "Apoptosis in infected cells is often triggered by the release of perforins and granzymes from:",
+        "type": "mcq",
+        "options": [
+          "Cytotoxic T cells",
+          "B cells",
+          "Plasma cells",
+          "Mast cells"
+        ],
+        "answer": "Cytotoxic T cells"
+      },
+      {
+        "question": "A network of vessels that returns interstitial fluid to the blood and houses many immune cells is the:",
+        "type": "mcq",
+        "options": [
+          "Lymphatic system",
+          "Endocrine system",
+          "Excretory system",
+          "Digestive system"
+        ],
+        "answer": "Lymphatic system"
+      },
+      {
+        "question": "What is a collection of specialized glands and organs that synthesize and secrete hormones called?",
+        "type": "mcq",
+        "options": [
+          "Endocrine system",
+          "Exocrine system",
+          "Nervous system",
+          "Lymphatic system"
+        ],
+        "answer": "Endocrine system"
+      },
+      {
+        "question": "Which of the following describes a chemical signal that circulates in the bloodstream to alter target tissue function?",
+        "type": "mcq",
+        "options": [
+          "Hormone",
+          "Enzyme",
+          "Neurotransmitter",
+          "Antibody"
+        ],
+        "answer": "Hormone"
+      },
+      {
+        "question": "What type of gland secretes its products through a duct onto an epithelial surface rather than into the bloodstream?",
+        "type": "mcq",
+        "options": [
+          "Exocrine gland",
+          "Endocrine gland",
+          "Adrenal gland",
+          "Pituitary gland"
+        ],
+        "answer": "Exocrine gland"
+      },
+      {
+        "question": "Which brain region acts as the master controller of the endocrine system, linking it directly to the nervous system?",
+        "type": "mcq",
+        "options": [
+          "Hypothalamus",
+          "Cerebellum",
+          "Medulla oblongata",
+          "Thalamus"
+        ],
+        "answer": "Hypothalamus"
+      },
+      {
+        "question": "Which gland is a pea-sized structure attached to the hypothalamus and is functionally divided into anterior and posterior lobes?",
+        "type": "mcq",
+        "options": [
+          "Pituitary gland",
+          "Thyroid gland",
+          "Pineal gland",
+          "Adrenal gland"
+        ],
+        "answer": "Pituitary gland"
+      },
+      {
+        "question": "Which of the following is NOT one of the three major chemical classes of hormones?",
+        "type": "mcq",
+        "options": [
+          "Carbohydrates",
+          "Amines",
+          "Polypeptides",
+          "Steroids"
+        ],
+        "answer": "Carbohydrates"
+      },
+      {
+        "question": "Where do water-soluble hormones like polypeptides typically bind to initiate a cellular response?",
+        "type": "mcq",
+        "options": [
+          "Cell surface receptors",
+          "Intracellular receptors",
+          "Mitochondrial membrane",
+          "Nuclear DNA"
+        ],
+        "answer": "Cell surface receptors"
+      },
+      {
+        "question": "How do lipid-soluble steroid hormones typically alter cellular function?",
+        "type": "mcq",
+        "options": [
+          "They bind to intracellular receptors to alter gene transcription",
+          "They act as second messengers in the cytoplasm",
+          "They activate G-proteins on the cell surface",
+          "They open ligand-gated ion channels on the membrane"
+        ],
+        "answer": "They bind to intracellular receptors to alter gene transcription"
+      },
+      {
+        "question": "Which organ secretes atrial natriuretic peptide (ANP) to lower blood sodium levels?",
+        "type": "mcq",
+        "options": [
+          "Heart",
+          "Kidney",
+          "Liver",
+          "Lungs"
+        ],
+        "answer": "Heart"
+      },
+      {
+        "question": "Which two hormones are synthesized in the hypothalamus and secreted by the posterior pituitary gland?",
+        "type": "mcq",
+        "options": [
+          "Oxytocin and Antidiuretic hormone (ADH)",
+          "Prolactin and Growth hormone",
+          "TSH and ACTH",
+          "Melatonin and PTH"
+        ],
+        "answer": "Oxytocin and Antidiuretic hormone (ADH)"
+      },
+      {
+        "question": "Which gland makes melatonin to regulate daily rhythms and seasonal reproduction?",
+        "type": "mcq",
+        "options": [
+          "Pineal gland",
+          "Thyroid gland",
+          "Pituitary gland",
+          "Adrenal gland"
+        ],
+        "answer": "Pineal gland"
+      },
+      {
+        "question": "Which of the following is NOT one of the four main processes of the excretory system?",
+        "type": "mcq",
+        "options": [
+          "Digestion",
+          "Filtration",
+          "Reabsorption",
+          "Secretion"
+        ],
+        "answer": "Digestion"
+      },
+      {
+        "question": "At what minimum percentage of functional nephrons can the human kidneys still operate effectively?",
+        "type": "mcq",
+        "options": [
+          "20%",
+          "50%",
+          "80%",
+          "10%"
+        ],
+        "answer": "20%"
+      },
+      {
+        "question": "What is the medical condition characterized by the accumulation of urea and toxic wastes in the blood due to renal failure?",
+        "type": "mcq",
+        "options": [
+          "Uremia",
+          "Anemia",
+          "Diabetes mellitus",
+          "Hypothyroidism"
+        ],
+        "answer": "Uremia"
+      },
+      {
+        "question": "In hemodialysis, what system is utilized to maximize the diffusion of waste products out of the patient's blood?",
+        "type": "mcq",
+        "options": [
+          "Countercurrent exchange system",
+          "Active transport system",
+          "Positive feedback loop",
+          "Feedforward regulation"
+        ],
+        "answer": "Countercurrent exchange system"
+      },
+      {
+        "question": "Animals that expend energy to maintain an internal osmolarity that differs from their environment are called:",
+        "type": "mcq",
+        "options": [
+          "Osmoregulators",
+          "Osmoconformers",
+          "Thermoregulators",
+          "Endotherms"
+        ],
+        "answer": "Osmoregulators"
+      },
+      {
+        "question": "Most marine invertebrates save energy by matching their internal osmolarity to the seawater. What are they called?",
+        "type": "mcq",
+        "options": [
+          "Osmoconformers",
+          "Osmoregulators",
+          "Ectotherms",
+          "Filter feeders"
+        ],
+        "answer": "Osmoconformers"
+      },
+      {
+        "question": "Where does the non-selective process of filtration exclusively occur in the nephron?",
+        "type": "mcq",
+        "options": [
+          "Renal corpuscle",
+          "Loop of Henle",
+          "Collecting duct",
+          "Distal convoluted tubule"
+        ],
+        "answer": "Renal corpuscle"
+      },
+      {
+        "question": "Which section of the renal tubule is responsible for the bulk of nutrient and water reabsorption?",
+        "type": "mcq",
+        "options": [
+          "Proximal convoluted tubule",
+          "Distal convoluted tubule",
+          "Collecting duct",
+          "Ascending limb"
+        ],
+        "answer": "Proximal convoluted tubule"
+      },
+      {
+        "question": "What is the permeability characteristic of the descending limb of the Loop of Henle?",
+        "type": "mcq",
+        "options": [
+          "Permeable to water, impermeable to salts",
+          "Permeable to salts, impermeable to water",
+          "Permeable to both water and salts",
+          "Impermeable to both water and salts"
+        ],
+        "answer": "Permeable to water, impermeable to salts"
+      },
+      {
+        "question": "Which part of the nephron is impermeable to water but actively transports salts out of the filtrate?",
+        "type": "mcq",
+        "options": [
+          "Ascending limb of the Loop of Henle",
+          "Descending limb of the Loop of Henle",
+          "Proximal convoluted tubule",
+          "Renal corpuscle"
+        ],
+        "answer": "Ascending limb of the Loop of Henle"
+      },
+      {
+        "question": "Which process in the kidney involves the selective transport of specific toxins and excess ions from the blood into the tubular fluid?",
+        "type": "mcq",
+        "options": [
+          "Secretion",
+          "Filtration",
+          "Reabsorption",
+          "Excretion"
+        ],
+        "answer": "Secretion"
+      },
+      {
+        "question": "How does Antidiuretic Hormone (ADH) primarily increase water reabsorption in the kidneys?",
+        "type": "mcq",
+        "options": [
+          "By inserting aquaporins into the collecting duct cells",
+          "By increasing active transport of sodium in the proximal tubule",
+          "By dilating the afferent arteriole to increase filtration rate",
+          "By blocking the action of aldosterone"
+        ],
+        "answer": "By inserting aquaporins into the collecting duct cells"
+      },
+      {
+        "question": "Which hormone acts on the distal tubule and collecting duct to stimulate sodium reabsorption and potassium secretion?",
+        "type": "mcq",
+        "options": [
+          "Aldosterone",
+          "Antidiuretic hormone",
+          "Cortisol",
+          "Atrial natriuretic peptide"
+        ],
+        "answer": "Aldosterone"
+      },
+      {
+        "question": "The primary nitrogenous waste product excreted in the urine of mammals is:",
+        "type": "mcq",
+        "options": [
+          "Urea",
+          "Ammonia",
+          "Uric acid",
+          "Amino acids"
+        ],
+        "answer": "Urea"
+      },
+      {
+        "question": "The cluster of capillaries within the renal corpuscle where blood filtration occurs is the:",
+        "type": "mcq",
+        "options": [
+          "Glomerulus",
+          "Vasa recta",
+          "Peritubular capillaries",
+          "Loop of Henle"
+        ],
+        "answer": "Glomerulus"
+      },
+      {
+        "question": "The cup-like structure that surrounds the glomerulus and captures the filtrate is called:",
+        "type": "mcq",
+        "options": [
+          "Bowman's capsule",
+          "Renal pelvis",
+          "Loop of Henle",
+          "Collecting duct"
+        ],
+        "answer": "Bowman's capsule"
+      },
+      {
+        "question": "Which endocrine gland produces hormones that regulate the body's metabolic rate?",
+        "type": "mcq",
+        "options": [
+          "Thyroid gland",
+          "Parathyroid gland",
+          "Thymus",
+          "Pineal gland"
+        ],
+        "answer": "Thyroid gland"
+      },
+      {
+        "question": "Which organ has both endocrine functions (producing insulin/glucagon) and exocrine functions (producing digestive enzymes)?",
+        "type": "mcq",
+        "options": [
+          "Pancreas",
+          "Liver",
+          "Stomach",
+          "Adrenal gland"
+        ],
+        "answer": "Pancreas"
+      },
+      {
+        "question": "During stressful situations, the adrenal medulla secretes which 'fight-or-flight' hormone?",
+        "type": "mcq",
+        "options": [
+          "Epinephrine (Adrenaline)",
+          "Cortisol",
+          "Aldosterone",
+          "Insulin"
+        ],
+        "answer": "Epinephrine (Adrenaline)"
+      },
+      {
+        "question": "What is any substance taken in by an organism that is needed for survival, growth, development, tissue repair, or reproduction called?",
+        "type": "mcq",
+        "options": [
+          "Nutrient",
+          "Enzyme",
+          "Hormone",
+          "Antibody"
+        ],
+        "answer": "Nutrient"
+      },
+      {
+        "question": "The act of taking food into the body and moving it into a digestive cavity is called:",
+        "type": "mcq",
+        "options": [
+          "Ingestion",
+          "Digestion",
+          "Absorption",
+          "Egestion"
+        ],
+        "answer": "Ingestion"
+      },
+      {
+        "question": "The process of breaking down food into smaller molecules mechanically and chemically is:",
+        "type": "mcq",
+        "options": [
+          "Digestion",
+          "Ingestion",
+          "Absorption",
+          "Egestion"
+        ],
+        "answer": "Digestion"
+      },
+      {
+        "question": "The process where ions, water, and small molecules diffuse or are transported into the circulatory system is called:",
+        "type": "mcq",
+        "options": [
+          "Absorption",
+          "Digestion",
+          "Ingestion",
+          "Egestion"
+        ],
+        "answer": "Absorption"
+      },
+      {
+        "question": "The passage of undigested materials and other wastes from the body is known as:",
+        "type": "mcq",
+        "options": [
+          "Egestion",
+          "Absorption",
+          "Digestion",
+          "Ingestion"
+        ],
+        "answer": "Egestion"
+      },
+      {
+        "question": "Which of the following distinguishes an alimentary canal from a gastrovascular cavity?",
+        "type": "mcq",
+        "options": [
+          "It has two separate openings for entry and exit (mouth and anus)",
+          "It only has a single opening for both entry and exit",
+          "It does not utilize any smooth muscle for movement",
+          "It relies exclusively on intracellular digestion"
+        ],
+        "answer": "It has two separate openings for entry and exit (mouth and anus)"
+      },
+      {
+        "question": "What term describes the rhythmic, spontaneous waves of smooth muscle contraction that propel food through the digestive tract?",
+        "type": "mcq",
+        "options": [
+          "Peristalsis",
+          "Mastication",
+          "Segmentation",
+          "Deglutition"
+        ],
+        "answer": "Peristalsis"
+      },
+      {
+        "question": "The liquid mixture of partially digested food and gastric juices produced in the stomach is known as:",
+        "type": "mcq",
+        "options": [
+          "Chyme",
+          "Bile",
+          "Bolus",
+          "Feces"
+        ],
+        "answer": "Chyme"
+      },
+      {
+        "question": "What is the primary function of the finger-like projections called villi in the small intestine?",
+        "type": "mcq",
+        "options": [
+          "To increase the surface area for nutrient absorption",
+          "To physically grind and break down tough food particles",
+          "To secrete hydrochloric acid into the lumen",
+          "To propel food directly into the large intestine"
+        ],
+        "answer": "To increase the surface area for nutrient absorption"
+      },
+      {
+        "question": "How many amino acids are considered 'essential' for humans because they cannot be synthesized by the body and must be obtained from the diet?",
+        "type": "mcq",
+        "options": [
+          "9",
+          "20",
+          "5",
+          "12"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "Which class of organic nutrients serves as a major source of energy and includes sugars and starches?",
+        "type": "mcq",
+        "options": [
+          "Carbohydrates",
+          "Proteins",
+          "Nucleic acids",
+          "Vitamins"
+        ],
+        "answer": "Carbohydrates"
+      },
+      {
+        "question": "Which major class of organic nutrients includes fats and oils, providing dense energy storage?",
+        "type": "mcq",
+        "options": [
+          "Lipids",
+          "Carbohydrates",
+          "Proteins",
+          "Nucleic acids"
+        ],
+        "answer": "Lipids"
+      },
+      {
+        "question": "Which substance secreted in the stomach creates a highly acidic environment to aid digestion and kill bacteria?",
+        "type": "mcq",
+        "options": [
+          "Hydrochloric acid (HCl)",
+          "Bile",
+          "Sodium bicarbonate",
+          "Amylase"
+        ],
+        "answer": "Hydrochloric acid (HCl)"
+      },
+      {
+        "question": "Why is the protein-digesting enzyme in the stomach initially secreted as inactive pepsinogen?",
+        "type": "mcq",
+        "options": [
+          "To protect the stomach cells from self-digestion",
+          "Because the stomach is a highly alkaline environment",
+          "To allow bacteria in the stomach to utilize it first",
+          "Because active pepsin cannot mix with chyme"
+        ],
+        "answer": "To protect the stomach cells from self-digestion"
+      },
+      {
+        "question": "In which part of the human digestive system does the vast majority of nutrient digestion and absorption occur?",
+        "type": "mcq",
+        "options": [
+          "Small intestine",
+          "Stomach",
+          "Large intestine",
+          "Esophagus"
+        ],
+        "answer": "Small intestine"
+      },
+      {
+        "question": "What is the primary function of the large intestine (colon) in human digestion?",
+        "type": "mcq",
+        "options": [
+          "To absorb water and salts and store waste",
+          "To mechanically churn and break down food",
+          "To secrete digestive enzymes for lipid breakdown",
+          "To absorb the majority of amino acids into the bloodstream"
+        ],
+        "answer": "To absorb water and salts and store waste"
+      },
+      {
+        "question": "Which bacterium is identified as a major cause of ulcers in the stomach and small intestine?",
+        "type": "mcq",
+        "options": [
+          "Helicobacter pylori",
+          "Escherichia coli",
+          "Vibrio cholerae",
+          "Staphylococcus aureus"
+        ],
+        "answer": "Helicobacter pylori"
+      },
+      {
+        "question": "What is the chief physiological concern and primary cause of death associated with severe diarrhea (such as in Cholera)?",
+        "type": "mcq",
+        "options": [
+          "Loss of nutrients, water, and ensuing severe dehydration",
+          "Rapid internal bleeding in the large intestine",
+          "An extreme spike in blood pressure",
+          "Complete paralysis of the smooth muscles"
+        ],
+        "answer": "Loss of nutrients, water, and ensuing severe dehydration"
+      },
+      {
+        "question": "Which accessory organ produces bile, a substance necessary for the emulsification of dietary lipids?",
+        "type": "mcq",
+        "options": [
+          "Liver",
+          "Pancreas",
+          "Gallbladder",
+          "Spleen"
+        ],
+        "answer": "Liver"
+      },
+      {
+        "question": "Which organ stores and concentrates bile before releasing it into the small intestine?",
+        "type": "mcq",
+        "options": [
+          "Gallbladder",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Gallbladder"
+      },
+      {
+        "question": "Which organ secretes a mixture of digestive enzymes and bicarbonate ions into the small intestine?",
+        "type": "mcq",
+        "options": [
+          "Pancreas",
+          "Liver",
+          "Gallbladder",
+          "Spleen"
+        ],
+        "answer": "Pancreas"
+      },
+      {
+        "question": "The enzyme present in saliva and pancreatic juice that begins the breakdown of starch is:",
+        "type": "mcq",
+        "options": [
+          "Amylase",
+          "Protease",
+          "Lipase",
+          "Nuclease"
+        ],
+        "answer": "Amylase"
+      },
+      {
+        "question": "The class of digestive enzymes primarily responsible for breaking down lipids (fats) is:",
+        "type": "mcq",
+        "options": [
+          "Lipase",
+          "Amylase",
+          "Protease",
+          "Cellulase"
+        ],
+        "answer": "Lipase"
+      },
+      {
+        "question": "Animals that eat only plants, often relying on symbiotic microbes to digest cellulose, are classified as:",
+        "type": "mcq",
+        "options": [
+          "Herbivores",
+          "Carnivores",
+          "Omnivores",
+          "Detritivores"
+        ],
+        "answer": "Herbivores"
+      },
+      {
+        "question": "Animals whose diet consists primarily of meat are classified as:",
+        "type": "mcq",
+        "options": [
+          "Carnivores",
+          "Herbivores",
+          "Omnivores",
+          "Filter feeders"
+        ],
+        "answer": "Carnivores"
+      },
+      {
+        "question": "Animals that consume both plant and animal matter, such as humans, are classified as:",
+        "type": "mcq",
+        "options": [
+          "Omnivores",
+          "Carnivores",
+          "Herbivores",
+          "Scavengers"
+        ],
+        "answer": "Omnivores"
+      },
+      {
+        "question": "The tiny, bristle-like extensions on the apical surface of intestinal epithelial cells that further increase absorptive area are called:",
+        "type": "mcq",
+        "options": [
+          "Microvilli",
+          "Cilia",
+          "Flagella",
+          "Villi"
+        ],
+        "answer": "Microvilli"
+      },
+      {
+        "question": "The muscular tube that connects the pharynx to the stomach is the:",
+        "type": "mcq",
+        "options": [
+          "Esophagus",
+          "Trachea",
+          "Larynx",
+          "Duodenum"
+        ],
+        "answer": "Esophagus"
+      },
+      {
+        "question": "Ring-like muscles that act as valves to regulate the passage of materials between compartments of the alimentary canal are called:",
+        "type": "mcq",
+        "options": [
+          "Sphincters",
+          "Villi",
+          "Microvilli",
+          "Nodes"
+        ],
+        "answer": "Sphincters"
+      },
+      {
+        "question": "Vitamins are commonly classified into two groups based on their solubility. These are:",
+        "type": "mcq",
+        "options": [
+          "Water-soluble and fat-soluble",
+          "Organic and inorganic",
+          "Essential and non-essential",
+          "Macronutrients and micronutrients"
+        ],
+        "answer": "Water-soluble and fat-soluble"
+      }
     ]
   },
   "Chemistry": {},
