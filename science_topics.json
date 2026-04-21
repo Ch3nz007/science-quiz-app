@@ -2531,6 +2531,294 @@
         "options": [],
         "answer": "9"
       }
+    ],
+    "Introduction to Genetics and Nucleic Acids": [
+      {
+        "question": "Which of the following best defines genetics?",
+        "type": "mcq",
+        "options": [
+          "The branch of biology that examines heredity and variation in living organisms",
+          "The study of interactions between organisms and their physical environment",
+          "The examination of fossil records to determine evolutionary history",
+          "The classification of living organisms into distinct taxonomic groups"
+        ],
+        "answer": "The branch of biology that examines heredity and variation in living organisms"
+      },
+      {
+        "question": "Genetics is the branch of biology that examines only the environmental factors affecting living organisms.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The branch of biology that examines heredity and variation in living organisms is known as _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "genetics"
+      },
+      {
+        "question": "What distinguishes a nucleoside from a nucleotide?",
+        "type": "mcq",
+        "options": [
+          "A nucleoside lacks a phosphate group",
+          "A nucleoside lacks a nitrogenous base",
+          "A nucleoside lacks a pentose sugar",
+          "A nucleoside contains a double-ring structure instead of a single-ring"
+        ],
+        "answer": "A nucleoside lacks a phosphate group"
+      },
+      {
+        "question": "A nucleoside is a molecule composed of a sugar, a base, and one or more phosphate groups.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "A molecule composed of a sugar and a nitrogenous base, but lacking a phosphate group, is called a _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "nucleoside"
+      },
+      {
+        "question": "An organism's genome is analysed and found to contain 18% cytosine. What percentage of that organism's genome contains adenine?",
+        "type": "mcq",
+        "options": [
+          "18%",
+          "32%",
+          "64%",
+          "82%"
+        ],
+        "answer": "32%"
+      },
+      {
+        "question": "If an organism's DNA contains 20% guanine, it must also contain exactly 20% adenine according to complementary base pairing rules.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "According to complementary base pairing rules, the amount of cytosine in a DNA molecule is always equal to the amount of _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "guanine"
+      },
+      {
+        "question": "In the DNA sequence 5'-CGTA-3', the phosphodiester linkage between the guanine and the thymine connects:",
+        "type": "mcq",
+        "options": [
+          "the 5' end of the guanine to the 3' end of the thymine",
+          "the 3' end of the guanine to the 5' end of the thymine",
+          "the 2' end of the thymine to the 3' end of the guanine",
+          "the 5' end of the guanine to the 5' end of the thymine"
+        ],
+        "answer": "the 3' end of the guanine to the 5' end of the thymine"
+      },
+      {
+        "question": "Phosphodiester bonds link the 5' carbon of one nucleotide's sugar to the 3' carbon of the adjacent nucleotide's sugar.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "The strong covalent bond that connects individual nucleotides to form the backbone of a DNA strand is called a _______ linkage.",
+        "type": "blank",
+        "options": [],
+        "answer": "phosphodiester"
+      },
+      {
+        "question": "Which of the following describes heterochromatin?",
+        "type": "mcq",
+        "options": [
+          "Less compact and transcriptionally active",
+          "Highly compacted and transcriptionally inactive",
+          "Found exclusively in prokaryotic cells",
+          "Composed entirely of RNA and lipids"
+        ],
+        "answer": "Highly compacted and transcriptionally inactive"
+      },
+      {
+        "question": "Euchromatin represents regions of the chromosome that are less compact and are transcriptionally active.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "Chromosomal regions that are highly compacted and transcriptionally inactive are referred to as _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "heterochromatin"
+      },
+      {
+        "question": "Which of the following nitrogenous bases are classified as pyrimidines?",
+        "type": "mcq",
+        "options": [
+          "Adenine and Guanine",
+          "Cytosine, Thymine, and Uracil",
+          "Adenine, Cytosine, and Uracil",
+          "Guanine and Thymine"
+        ],
+        "answer": "Cytosine, Thymine, and Uracil"
+      },
+      {
+        "question": "A double-ring purine must pair with a single-ring pyrimidine to maintain a uniform width across the DNA double helix.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "Adenine and Guanine are distinguished by their double-ring structure and belong to the chemical group called _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "purines"
+      },
+      {
+        "question": "Why are telomeres a necessary component of linear chromosomes?",
+        "type": "mcq",
+        "options": [
+          "They direct where DNA synthesis will begin",
+          "They fix mistakes that are made during DNA replication",
+          "They extend the life of cells because DNA is shortened every time it is replicated",
+          "They encode essential proteins for the cell cycle"
+        ],
+        "answer": "They extend the life of cells because DNA is shortened every time it is replicated"
+      },
+      {
+        "question": "Telomeres are long, unique, protein-coding sequences found directly in the center of eukaryotic chromosomes.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "A series of short, repeating nucleotide sequences that cap the ends of eukaryotic chromosomes to prevent degradation are called _______.",
+        "type": "blank",
+        "options": [],
+        "answer": "telomeres"
+      },
+      {
+        "question": "Which characteristic specifically describes the synthesis of the lagging strand during DNA replication?",
+        "type": "mcq",
+        "options": [
+          "Synthesised continuously toward the replication fork",
+          "Synthesised discontinuously away from the replication fork requiring multiple RNA primers",
+          "Synthesised without the use of DNA polymerase",
+          "Synthesised entirely out of RNA nucleotides"
+        ],
+        "answer": "Synthesised discontinuously away from the replication fork requiring multiple RNA primers"
+      },
+      {
+        "question": "The leading strand is synthesised continuously toward the replication fork and requires only a single RNA primer.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "The short, discontinuous segments of DNA synthesized on the lagging strand are known as _______ fragments.",
+        "type": "blank",
+        "options": [],
+        "answer": "Okazaki"
+      },
+      {
+        "question": "Which one of the following types of RNAs carries the information for synthesis of a polypeptide according to the genetic code?",
+        "type": "mcq",
+        "options": [
+          "transfer RNA",
+          "messenger RNA",
+          "small nuclear RNA",
+          "ribosomal RNA"
+        ],
+        "answer": "messenger RNA"
+      },
+      {
+        "question": "Transfer RNA (tRNA) provides a mechanism for decoding mRNA into amino acids by forming the structural core of the ribosome.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "The specific type of RNA that carries genetic information from DNA to the ribosome for protein synthesis is known as _______ RNA.",
+        "type": "blank",
+        "options": [],
+        "answer": "messenger"
+      },
+      {
+        "question": "Which of the following is a key difference between prokaryotic and eukaryotic DNA replication?",
+        "type": "mcq",
+        "options": [
+          "Eukaryotes have a single origin of replication, while prokaryotes have multiple.",
+          "Prokaryotes replicate DNA linearly, while eukaryotes replicate it circularly.",
+          "Eukaryotic chromosomes contain multiple origins of replication, while prokaryotic chromosomes have a single origin.",
+          "Prokaryotic replication only uses RNA polymerase instead of DNA polymerase."
+        ],
+        "answer": "Eukaryotic chromosomes contain multiple origins of replication, while prokaryotic chromosomes have a single origin."
+      },
+      {
+        "question": "In prokaryotes, transcription and translation occur at the same time because there is no physical separation by a nuclear membrane.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "Because of their large linear size, eukaryotic chromosomes contain _______ origins of replication.",
+        "type": "blank",
+        "options": [],
+        "answer": "multiple"
+      },
+      {
+        "question": "Which of the following base pairs would be targeted and repaired by a mismatch repair system?",
+        "type": "mcq",
+        "options": [
+          "A-T",
+          "C-G",
+          "A-G",
+          "A-T and C-G"
+        ],
+        "answer": "A-G"
+      },
+      {
+        "question": "A mismatch repair system is designed to target and fix perfectly paired complementary bases, such as A-T.",
+        "type": "true_false",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "A cellular mechanism that targets and fixes incorrectly paired bases during DNA replication is called the _______ repair system.",
+        "type": "blank",
+        "options": [],
+        "answer": "mismatch"
+      }
     ]
   },
   "Chemistry": {},
