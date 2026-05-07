@@ -1051,6 +1051,218 @@
         "options": [],
         "answer": "Tram Lane On Left"
       }
+    ],
+    "Worded Questions": [
+      {
+        "question": "When can you overtake on the left?",
+        "type": "blank",
+        "options": [],
+        "answer": "When the driver in front of you is turning right, when you intend to turn left."
+      },
+      {
+        "question": "At an uncontrolled junction with roads of equal importance, to whom should you give way?",
+        "type": "blank",
+        "options": [],
+        "answer": "Give way to traffic on the right and proceed with caution."
+      },
+      {
+        "question": "At a stop sign that has no white line, where should you stop?",
+        "type": "blank",
+        "options": [],
+        "answer": "At the stop sign."
+      },
+      {
+        "question": "What position would you take up for a right turn in a one way street?",
+        "type": "blank",
+        "options": [],
+        "answer": "The extreme right lane."
+      },
+      {
+        "question": "How would you turn right on a main road?",
+        "type": "blank",
+        "options": [],
+        "answer": "Mirror and signal and the move into the right hand lane when clear, keeping left of the white line in the centre, proceeding when a suitable gap in traffic occurs, complete your turn, never cut corners and give way to pedestrians."
+      },
+      {
+        "question": "How would you know a zebra crossing at night?",
+        "type": "blank",
+        "options": [],
+        "answer": "By yellow flashing beacons."
+      },
+      {
+        "question": "What does the island in the centre of a pedestrian crossing mean?",
+        "type": "blank",
+        "options": [],
+        "answer": "Each side of the island is a separate crossing."
+      },
+      {
+        "question": "What restrictions are there in relation to the use of the horn?",
+        "type": "blank",
+        "options": [],
+        "answer": "It must not be used between the hours of 11:30 PM and 7:00 AM in a built up area, except in emergency."
+      },
+      {
+        "question": "When driving at night when should you dip your headlights?",
+        "type": "blank",
+        "options": [],
+        "answer": "When meeting oncoming traffic, when following close behind another vehicle, on continuously lit roads."
+      },
+      {
+        "question": "What should you do if dazzled by lights of an oncoming car?",
+        "type": "blank",
+        "options": [],
+        "answer": "Low down and stop if necessary."
+      },
+      {
+        "question": "What is a clearway?",
+        "type": "blank",
+        "options": [],
+        "answer": "Stopping or parking are prohibited (except by buses and taxis) for the period of time indicated on the sign."
+      },
+      {
+        "question": "What does a broken yellow line mean?",
+        "type": "blank",
+        "options": [],
+        "answer": "A broken yellow line marks the edge of the road."
+      },
+      {
+        "question": "What does a single yellow line mean?",
+        "type": "blank",
+        "options": [],
+        "answer": "No parking at certain times."
+      },
+      {
+        "question": "What is the legal parking distance from the kerb?",
+        "type": "blank",
+        "options": [],
+        "answer": "Half a metre."
+      },
+      {
+        "question": "How close to a junction can you park?",
+        "type": "blank",
+        "options": [],
+        "answer": "5 meters."
+      },
+      {
+        "question": "Where should you not park?",
+        "type": "blank",
+        "options": [],
+        "answer": "Near a bend, the brow of a hill, a hump back bridge, a continuous white line, where your vehicle would obstruct traffic, opposite another vehicle, on a narrow road or a taxi rank."
+      },
+      {
+        "question": "Where should you not overtake?",
+        "type": "blank",
+        "options": [],
+        "answer": "At a bend, a junction, brow of a hill, a hump back bridge, a continuous white line or anywhere your view is obstructed."
+      },
+      {
+        "question": "What is the two second rule?",
+        "type": "blank",
+        "options": [],
+        "answer": "Stay two seconds behind the car in front. Use a stationary object on the road, start counting when the car should pass after continuing two seconds."
+      },
+      {
+        "question": "If you saw a red triangle on the road, what would it mean?",
+        "type": "blank",
+        "options": [],
+        "answer": "That there an obstruction on the road ahead."
+      },
+      {
+        "question": "What is the sequence of traffic lights?",
+        "type": "blank",
+        "options": [],
+        "answer": "Green, Amber, Red."
+      },
+      {
+        "question": "At an uncontrolled junction, who has the right of way?",
+        "type": "blank",
+        "options": [],
+        "answer": "Take it that no one has the right of way and proceed only when it is safe to do so."
+      },
+      {
+        "question": "What does a green light mean?",
+        "type": "blank",
+        "options": [],
+        "answer": "GO, providing junction is clear."
+      },
+      {
+        "question": "What does an amber light mean?",
+        "type": "blank",
+        "options": [],
+        "answer": "Stop, unless you are too close to stop safely."
+      },
+      {
+        "question": "Name three people in authority for whom you must stop.",
+        "type": "blank",
+        "options": [],
+        "answer": "A Garda, a school warden or a person, a person in charge of animals, a flag man."
+      },
+      {
+        "question": "If you were entering a one way street at the NO ENTRY end, what road markings would you see?",
+        "type": "blank",
+        "options": [],
+        "answer": "A continuous white line with a broken white line behind it."
+      },
+      {
+        "question": "When can you cross a continuous line?",
+        "type": "blank",
+        "options": [],
+        "answer": "To avoid an obstruction, for access, or if there is a broken white line on your side of the road."
+      },
+      {
+        "question": "a) What is the speed limit on a national primary road? b) What is the motorway speed limit?",
+        "type": "blank",
+        "options": [],
+        "answer": "a) Coach: 100 km/h, Truck: 80 km/h, Car: 100 km/h b) Coach: 100 km/h, Truck: 90km/h, Car: 120 km/h"
+      },
+      {
+        "question": "What rules apply to a junction box?",
+        "type": "blank",
+        "options": [],
+        "answer": "You cannot enter unless your way ahead is clear, with the exception of turning right."
+      },
+      {
+        "question": "If there are two sets of white lines in the centre of the road, one continuous and one broken, which one would you obey?",
+        "type": "blank",
+        "options": [],
+        "answer": "The line on my side of the road."
+      },
+      {
+        "question": "What do two sets of broken white lines in the centre of the road mean?",
+        "type": "blank",
+        "options": [],
+        "answer": "There will be one or two continuous white lines ahead."
+      },
+      {
+        "question": "What does a broken white line in the centre of the road mean?",
+        "type": "blank",
+        "options": [],
+        "answer": "You may overtake if it is safe to do so."
+      },
+      {
+        "question": "What do horizontal lines in the centre of the road mean?",
+        "type": "blank",
+        "options": [],
+        "answer": "You use them as a traffic island \u2013 you do NOT enter."
+      },
+      {
+        "question": "What is the procedure for checking your oil?",
+        "type": "blank",
+        "options": [],
+        "answer": "The car must be on a flat surface and the engine must be half an hour cold. You take out the dip stick, you wipe it clean, put it back in again, take it out again, and the level should be between minimum and maximum. (Top up if needed.)"
+      },
+      {
+        "question": "How would you check your wheels and tires?",
+        "type": "blank",
+        "options": [],
+        "answer": "Check the tire depth by squeezing your finger into the tire crease. The minimum tire depth is 1,6 millimetres. Then, we do a visual check of the tire wall to make sure there are no screws, cuts, bulges and check that all the bolts are in place. Lastly, check if there is any air in the tire."
+      },
+      {
+        "question": "How would you check if indicators and break lights are working?",
+        "type": "blank",
+        "options": [],
+        "answer": "Put everything on and walk around the car. To check the break lights, I ask someone to press the brake or reverse close to a wall, press the breaks and the wall will reflect the light."
+      }
     ]
   },
   "Chemistry": {},
